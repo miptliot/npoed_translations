@@ -1,0 +1,168 @@
+#
+msgid ""
+msgstr ""
+
+#: lms/static/js/ajax-error.js
+msgid "You have been logged out of your edX account. "
+msgstr "Вы вышли из своей учётной записи edX."
+
+#: lms/static/js/certificates/models/certificate_exception.js
+#: lms/static/js/certificates/models/certificate_invalidation.js
+msgid "Student username/email field is required and can not be empty. "
+msgstr "Имя пользователя/адрес электронной почты не могут быть пустыми."
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " records are not in correct format and not added to"
+msgstr "эти записи неправильного формата и не будут добавлены в"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " record is not in correct format and not added to the exception"
+msgstr "это запись неправильного формата и она не добавлена в исключение"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners do not exist in LMS and not added to the"
+msgstr "Учетные записи слушателей отсутствуют в LMS"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners are already white listed and not added to"
+msgstr "слушатели уже одобрены и не добавлены в"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learner is already white listed and not added to the exception "
+msgstr "слушатель уже одобрен и не добавлен в исключение"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners are not enrolled in course and not added to"
+msgstr "слушатели не записаны на курс и не добавлены в"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learner is not enrolled in course and not added to the exception"
+msgstr "слушатель не записан на курс и не добавлен в исключение"
+
+#: lms/static/js/financial-assistance/views/financial_assistance_form_view.js
+msgid "Unable to submit application"
+msgstr "Не удалось отправить заявление"
+
+#: lms/static/js/student_account/views/FormView.js
+#: lms/static/js/student_account/views/RegisterView.js
+msgid "An error occurred."
+msgstr "Произошла ошибка"
+
+#: lms/static/js/student_account/views/LoginView.js
+msgid "We couldn't sign you in."
+msgstr "Не удалось войти в систему."
+
+#: lms/static/js/student_account/views/RegisterView.js
+msgid "We couldn't create your account."
+msgstr "Не удалось создать учётную запись."
+
+#: lms/static/js/student_account/views/RegisterView.js
+msgid "You've successfully signed into %(currentProvider)s."
+msgstr "Вы успешно вошли в %(currentProvider)s."
+
+#: lms/static/js/student_account/views/RegisterView.js
+msgid ""
+"We just need a little more information before you start learning with "
+"%(platformName)s."
+msgstr "Перед началом учебы в %(platformName)s укажите некоторые данные."
+
+#: lms/templates/class_dashboard/all_section_metrics.js
+msgid "Unable to retrieve data, please try again later."
+msgstr "Не удалось получить данные.  Пожалуйста, попробуйте повторить позже."
+
+#: cms/static/js/certificates/views/certificate_details.js
+msgid ""
+"This certificate has already been activated and is live. Are you sure you "
+"want to continue editing?"
+msgstr ""
+"Этот сертификат уже активен и доступен слушателю.  Вы уверены, что хотите "
+"продолжать редактирование?"
+
+#: cms/static/js/certificates/views/signatory_editor.js
+msgid "Delete \"<%= signatoryName %>\" from the list of signatories?"
+msgstr "Удалить «<%= signatoryName %>» из списка подписей?"
+
+#: cms/static/js/certificates/views/signatory_editor.js
+msgid "Image must be in PNG format."
+msgstr "Изображение должно иметь формат PNG"
+
+#: common/static/common/templates/discussion/new-post.underscore
+msgid "Add a Post"
+msgstr "Добавить сообщение"
+
+#: common/static/common/templates/discussion/thread.underscore
+msgid "Add a response:"
+msgstr "Ответить:"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
+msgid "Discussion Home"
+msgstr "Домашняя страница"
+
+#: lms/templates/courseware/proctored-exam-status.underscore
+msgid "timed"
+msgstr "ограничен по времени"
+
+#: lms/templates/courseware/proctored-exam-status.underscore
+msgid ""
+"To receive credit for problems, you must select \"Submit\" for each problem "
+"before you select \"End My Exam\"."
+msgstr ""
+"Для того, чтобы ваши ответы были оценены, нажмите \"Отправить\" в каждом "
+"заданиидо нажатия \"Завершить сдачу экзамена\"."
+
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/certificate-editor.underscore
+msgid "Course Title Override"
+msgstr "Замещение названия курса"
+
+#: cms/templates/js/certificate-editor.underscore
+msgid ""
+"Specify an alternative to the official course title to display on "
+"certificates. Leave blank to use the official course title."
+msgstr ""
+"Укажите альтернативный вариант официального названия курса, который будет "
+"отображаться на сертификатах.  Оставьте поле пустым, чтобы на сертификатах "
+"отображалось официальное название курса."
+
+#: cms/templates/js/certificate-editor.underscore
+msgid "Add Additional Signatory"
+msgstr "Добавить подписавшего представителя"
+
+#: cms/templates/js/signatory-editor.underscore
+msgid "The name of this signatory as it should appear on certificates."
+msgstr "Имя представителя в форме, которая должна отображаться на сертификате"
+
+#: cms/templates/js/signatory-editor.underscore
+msgid ""
+"Titles more than 100 characters may prevent students from printing their "
+"certificate on a single page."
+msgstr ""
+"Заголовок длиной более 100 символов может привести к невозможности "
+"распечатывания сертификата на одной странице."
+
+#: cms/templates/js/signatory-editor.underscore
+msgid "Upload Signature Image"
+msgstr "Загрузить скан подписи"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:2
+#: openassessment/xblock/static/js/src/lms/oa_response.js:485
+msgid "File size must be 5MB or less."
+msgstr "Размер файла не должен превышать 5 Мб."
+
+#: models.py:700
+msgid "Additional Time (minutes)"
+msgstr "Дополнительное Время (минуты)"
+
+#: templates/proctored_exam/confirm-decline.html:19
+msgid "Go Back"
+msgstr "Вернуться"
+
+#: views.py:536
+msgid "timed"
+msgstr "приурочен"
+
+msgid "Show all posts"
+msgstr "Все темы"
+
+msgid "You must complete the proctoring setup before you can start the exam."
+msgstr "Необходимо выполнить настройку прокторинга перед началом экзамена."
