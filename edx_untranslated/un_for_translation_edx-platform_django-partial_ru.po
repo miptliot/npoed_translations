@@ -1,0 +1,838 @@
+#
+msgid ""
+msgstr ""
+
+#: common/lib/xmodule/xmodule/capa_base.py:190
+msgid "Dictionary with the current student score"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/course_module.py:297
+msgid ""
+"Enter discussion categories in the following format: \"CategoryName\": "
+"{\"id\": \"i4x-InstitutionName-CourseNumber-course-CourseRun\"}. For "
+"example, one discussion category may be \"Lydian Mode\": {\"id\": "
+"\"i4x-UniversityX-MUS101-course-2015_T1\"}. The \"id\" value for each "
+"category must be unique. In \"id\" values, the only special characters that "
+"are supported are underscore, hyphen, and period. You can also specify a "
+"category as the default for new posts in the Discussion page by setting its "
+"\"default\" attribute to true. For example, \"Lydian Mode\": {\"id\": "
+"\"i4x-UniversityX-MUS101-course-2015_T1\", \"default\": true}."
+msgstr ""
+
+#: common/lib/xmodule/xmodule/graders.py:274
+#, python-brace-format
+msgid "{assignment_type} = {weighted_percent:.2%} of a possible {weight:.2%}"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/seq_module.py:591
+msgid ""
+"A list summarizing what students should look forward to in this section."
+msgstr ""
+
+#: lms/djangoapps/completion/models.py:30
+#, python-brace-format
+msgid "{value} must be between 0.0 and 1.0"
+msgstr ""
+
+#: lms/djangoapps/course_goals/models.py:18
+msgid "Earn a certificate"
+msgstr ""
+
+#: lms/djangoapps/course_goals/models.py:19
+msgid "Complete the course"
+msgstr ""
+
+#: lms/djangoapps/course_goals/models.py:20
+msgid "Explore the course"
+msgstr ""
+
+#: lms/djangoapps/course_goals/models.py:21
+msgid "Not sure yet"
+msgstr ""
+
+#: lms/djangoapps/courseware/date_summary.py:248
+msgid "Don't forget to add a calendar reminder!"
+msgstr ""
+
+#: lms/djangoapps/courseware/date_summary.py:250
+#, python-brace-format
+msgid "Course starts in {time_remaining_string} on {course_start_date}."
+msgstr ""
+
+#: lms/djangoapps/courseware/date_summary.py:258
+#, python-brace-format
+msgid "Course starts in {time_remaining_string} at {course_start_time}."
+msgstr ""
+
+#: lms/djangoapps/courseware/date_summary.py:303
+#, python-brace-format
+msgid "This course is ending in {time_remaining_string} on {course_end_date}."
+msgstr ""
+
+#: lms/djangoapps/courseware/date_summary.py:312
+#, python-brace-format
+msgid "This course is ending in {time_remaining_string} at {course_end_time}."
+msgstr ""
+
+#: lms/djangoapps/courseware/date_summary.py:324
+msgid "Certificate Available"
+msgstr ""
+
+#: lms/djangoapps/courseware/date_summary.py:345
+msgid "Day certificates will become available for passing verified learners."
+msgstr ""
+
+#: lms/djangoapps/courseware/date_summary.py:370
+#, python-brace-format
+msgid ""
+"If you have earned a certificate, you will be able to access it "
+"{time_remaining_string} from now. You will also be able to view your "
+"certificates on your {learner_profile_link}."
+msgstr ""
+
+#: lms/djangoapps/courseware/date_summary.py:381
+msgid "We are working on generating course certificates."
+msgstr ""
+
+#: lms/djangoapps/courseware/date_summary.py:497
+msgid ""
+"Don't miss the opportunity to highlight your new knowledge and skills by "
+"earning a verified certificate."
+msgstr ""
+
+#. Translators: This describes the time by which the user
+#. should upgrade to the verified track. 'date' will be
+#. their personalized verified upgrade deadline formatted
+#. according to their locale.
+#: lms/djangoapps/courseware/date_summary.py:516
+#, python-brace-format
+msgid "by {date}"
+msgstr ""
+
+#: lms/djangoapps/courseware/date_summary.py:528
+#, python-brace-format
+msgid ""
+"Don't forget, you have {time_remaining_string} left to upgrade to a Verified"
+" Certificate."
+msgstr ""
+
+#: lms/djangoapps/courseware/date_summary.py:532
+#, python-brace-format
+msgid "Don't forget to upgrade to a verified certificate by {localized_date}."
+msgstr ""
+
+#: lms/djangoapps/courseware/date_summary.py:537
+#, python-brace-format
+msgid ""
+"In order to qualify for a certificate, you must meet all course grading "
+"requirements, upgrade before the course deadline, and successfully verify "
+"your identity on {platform_name} if you have not done so "
+"already.{button_panel}"
+msgstr ""
+
+#: lms/djangoapps/courseware/date_summary.py:550
+#, python-brace-format
+msgid "Upgrade ({upgrade_price})"
+msgstr ""
+
+#: lms/djangoapps/courseware/models.py:378
+#: lms/djangoapps/courseware/models.py:409
+#: lms/djangoapps/courseware/models.py:431
+msgid ""
+"Number of days a learner has to upgrade after content is made available"
+msgstr ""
+
+#: lms/djangoapps/courseware/models.py:414
+msgid "Disable the dynamic upgrade deadline for this course run."
+msgstr ""
+
+#: lms/djangoapps/courseware/models.py:436
+msgid "Disable the dynamic upgrade deadline for this organization."
+msgstr ""
+
+#: lms/djangoapps/courseware/views/views.py:149
+#: lms/djangoapps/courseware/views/views.py:170
+msgid "You've earned a certificate for this course."
+msgstr ""
+
+#: lms/djangoapps/courseware/views/views.py:493
+#, python-brace-format
+msgid "To see course content, {sign_in_link} or {register_link}."
+msgstr ""
+
+#: lms/djangoapps/courseware/views/views.py:495
+msgid "sign in"
+msgstr ""
+
+#: lms/djangoapps/courseware/views/views.py:499
+#: openedx/features/course_experience/views/course_home_messages.py:114
+msgid "register"
+msgstr ""
+
+#: lms/djangoapps/courseware/views/views.py:508
+#, python-brace-format
+msgid ""
+"You must be enrolled in the course to see course content."
+"                             {enroll_link_start}Enroll now{enroll_link_end}."
+msgstr ""
+
+#: lms/djangoapps/courseware/views/views.py:520
+#: openedx/features/course_experience/views/course_home_messages.py:118
+msgid "You must be enrolled in the course to see course content."
+msgstr ""
+
+#: lms/djangoapps/email_marketing/models.py:54
+msgid "Sailthru template to use on welcome send."
+msgstr ""
+
+#: lms/djangoapps/email_marketing/models.py:135
+msgid ""
+"Number of seconds to delay the sending of User Welcome email after user has "
+"been created"
+msgstr ""
+
+#: lms/djangoapps/email_marketing/models.py:143
+msgid ""
+"The number of seconds to delay/timeout wait to get cookie values from "
+"sailthru."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:135
+#, python-brace-format
+msgid ""
+"The {report_type} report is being created. To view the status of the report,"
+" see Pending Tasks below."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:983
+#: lms/djangoapps/instructor_task/api_helper.py:106
+msgid "problem responses"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:1217
+#: lms/djangoapps/instructor_task/api_helper.py:107
+msgid "enrolled learner profile"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:1311
+#: lms/djangoapps/instructor_task/api_helper.py:108
+msgid "enrollment"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:1406
+#: lms/djangoapps/instructor_task/api_helper.py:109
+msgid "detailed enrollment"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:1425
+#: lms/djangoapps/instructor_task/api_helper.py:110
+msgid "executive summary"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:1443
+#: lms/djangoapps/instructor_task/api_helper.py:111
+msgid "survey"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:1461
+#: lms/djangoapps/instructor_task/api_helper.py:112
+msgid "proctored exam results"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:2405
+#: lms/djangoapps/instructor_task/api_helper.py:113
+msgid "ORA data"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:2422
+#: lms/djangoapps/instructor_task/api_helper.py:114
+msgid "grade"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:2445
+#: lms/djangoapps/instructor_task/api_helper.py:105
+msgid "problem grade"
+msgstr ""
+
+#: lms/djangoapps/instructor_task/api_helper.py:29
+msgid "Requested task is already running"
+msgstr ""
+
+#: lms/djangoapps/instructor_task/api_helper.py:42
+msgid "Error occured. Please try again later."
+msgstr ""
+
+#: lms/djangoapps/instructor_task/api_helper.py:121
+#, python-brace-format
+msgid ""
+"The {report_type} report is being created. To view the status of the report,"
+" see Pending Tasks below. You will be able to download the report when it is"
+" complete."
+msgstr ""
+
+#: lms/djangoapps/instructor_task/api_helper.py:350
+msgid "This component does not support score override."
+msgstr ""
+
+#: lms/djangoapps/instructor_task/api_helper.py:354
+msgid "Scores must be between 0 and the value of the problem."
+msgstr ""
+
+#. Translators: This is a past-tense verb that is inserted into task progress
+#. messages as {action}.
+#: lms/djangoapps/instructor_task/tasks.py:90
+msgid "overridden"
+msgstr ""
+
+#: lms/djangoapps/lms_xblock/mixin.py:23
+msgid ""
+"This unit's access settings refer to deleted or invalid group "
+"configurations."
+msgstr ""
+
+#: lms/djangoapps/lms_xblock/mixin.py:28
+msgid "This unit's access settings refer to deleted or invalid groups."
+msgstr ""
+
+#: lms/djangoapps/lms_xblock/mixin.py:29
+msgid ""
+"This component's access settings contradict its parent's access settings."
+msgstr ""
+
+#: lms/envs/common.py:49
+msgid "Your Platform Name Here"
+msgstr ""
+
+#: lms/envs/common.py:50
+msgid "Your Platform Description Here"
+msgstr ""
+
+#: lms/envs/common.py:2894
+msgid "Your Platform Insights"
+msgstr ""
+
+#: lms/templates/emails/password_reset_subject.txt:3
+#, python-format
+msgid "Password reset on %(platform_name)s"
+msgstr ""
+
+#: lms/templates/registration/password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this e-mail because you requested a password reset for your"
+" user account at %(platform_name)s."
+msgstr ""
+
+#: lms/urls.py:27
+msgid "LMS Administration"
+msgstr ""
+
+#: openedx/core/djangoapps/dark_lang/views.py:52
+msgid "Preview Language Administration"
+msgstr ""
+
+#: openedx/core/djangoapps/dark_lang/views.py:91
+msgid "Language not provided"
+msgstr ""
+
+#: openedx/core/djangoapps/dark_lang/views.py:97
+#, python-brace-format
+msgid "Language set to {preview_language}"
+msgstr ""
+
+#: openedx/core/djangoapps/dark_lang/views.py:111
+msgid "Language reset to the default"
+msgstr ""
+
+#: openedx/core/djangoapps/debug/views.py:48
+msgid "This is a test message"
+msgstr ""
+
+#: openedx/core/djangoapps/debug/views.py:49
+msgid "This is a success message"
+msgstr ""
+
+#: openedx/core/djangoapps/debug/views.py:50
+msgid "This is a test warning"
+msgstr ""
+
+#: openedx/core/djangoapps/debug/views.py:51
+msgid "This is a test error"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/apps.py:7
+#: openedx/core/djangoapps/schedules/models.py:28
+msgid "Schedules"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/models.py:13
+msgid "Indicates if this schedule is actively used"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/models.py:17
+msgid "Date this schedule went into effect"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/models.py:23
+msgid "Deadline by which the learner must upgrade to a verified seat"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:59
+#, python-format
+msgid "Go to %(platform_name)s Home Page"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:92
+#, python-format
+msgid "%(platform_name)s on LinkedIn"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:100
+#, python-format
+msgid "%(platform_name)s on Twitter"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:108
+#, python-format
+msgid "%(platform_name)s on Facebook"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:116
+#, python-format
+msgid "%(platform_name)s on Google Plus"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:124
+#, python-format
+msgid "%(platform_name)s on Reddit"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:138
+msgid "Download the iOS app on the Apple Store"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:145
+msgid "Download the Android app on the Google Play Store"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:157
+msgid "View on Web"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:162
+msgid "Unsubscribe from this list"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:172
+msgid "Our mailing address is"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_head.html:7
+msgid "edX Email"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/upsell_cta.html:5
+#, python-format
+msgid ""
+"Don't miss the opportunity to highlight your new knowledge and skills by "
+"earning a verified certificate. Upgrade by "
+"%(user_schedule_upgrade_deadline_time)s."
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/upsell_cta.txt:4
+#, python-format
+msgid ""
+"Don't miss the opportunity to highlight your new knowledge and skills by "
+"earning a verified certificate. Upgrade by "
+"%(user_schedule_upgrade_deadline_time)s. Upgrade Now! <%(upsell_link)s>"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:6
+#, python-format
+msgid "Welcome to week %(week_num)s of our %(course_name)s course!"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:16
+#, python-format
+msgid "Welcome to week %(week_num)s of <strong>%(course_name)s</strong>!"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:21
+msgid "Here is what you can look forward to learning this week:"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:31
+msgid "Resume your course now"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.txt:3
+#, python-format
+msgid ""
+"Welcome to week %(week_num)s of our %(course_name)s course! Here is what you"
+" can look forward to learning this week: %(week_summary)s"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/subject.txt:3
+#, python-format
+msgid "%(course_name)s - Welcome to Week %(week_num)s "
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:6
+#, python-format
+msgid ""
+"Many %(platform_name)s learners are completing more problems every week, and"
+" participating in the discussion forums. What do you want to do to keep "
+"learning?"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:11
+#, python-format
+msgid ""
+"Many %(platform_name)s learners in %(course_name)s are completing more "
+"problems every week, and participating in the discussion forums. What do you"
+" want to do to keep learning?"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:22
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/subject.txt:2
+msgid "Keep up the momentum!"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:26
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.txt:3
+msgid ""
+"Many edX learners are completing more problems every week, and participating"
+" in the discussion forums. What do you want to do to keep learning?"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:31
+#, python-format
+msgid ""
+"Many edX learners in <strong>%(course_name)s</strong> are completing more "
+"problems every week, and participating in the discussion forums. What do you"
+" want to do to keep learning?"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:38
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.txt:7
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.txt:13
+msgid "Keep learning"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.txt:9
+#, python-format
+msgid ""
+"Many edX learners in %(course_name)s are completing more problems every "
+"week, and participating in the discussion forums. What do you want to do to "
+"keep learning?"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:6
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt:4
+#, python-format
+msgid ""
+"Remember when you enrolled in %(course_name)s, and other courses on edX.org?"
+" We do, and we’re glad to have you! Come see what everyone is learning."
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:11
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt:11
+#, python-format
+msgid ""
+"Remember when you enrolled in %(course_name)s on edX.org? We do, and we’re "
+"glad to have you! Come see what everyone is learning."
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:22
+msgid "Keep learning today"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:26
+#, python-format
+msgid ""
+"Remember when you enrolled in <strong>%(course_name)s</strong>, and other "
+"courses on edX.org? We do, and we’re glad to have you! Come see what "
+"everyone is learning."
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:31
+#, python-format
+msgid ""
+"Remember when you enrolled in <strong>%(course_name)s</strong> on edX.org? "
+"We do, and we’re glad to have you! Come see what everyone is learning."
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:38
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt:9
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt:16
+msgid "Start learning now"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/subject.txt:3
+#, python-format
+msgid "Keep learning on %(platform_name)s"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/subject.txt:5
+#, python-format
+msgid "Keep learning in %(course_name)s"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:7
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:4
+#, python-format
+msgid ""
+"We hope you are enjoying learning with us so far on %(platform_name)s! A "
+"verified certificate allows you to highlight your new knowledge and skills. "
+"An %(platform_name)s certificate is official and easily shareable. Upgrade "
+"by %(user_schedule_upgrade_deadline_time)s."
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:15
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:20
+#, python-format
+msgid ""
+"We hope you are enjoying learning with us so far in %(first_course_name)s! A"
+" verified certificate allows you to highlight your new knowledge and skills."
+" An %(platform_name)s certificate is official and easily shareable. Upgrade "
+"by %(user_schedule_upgrade_deadline_time)s."
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:29
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:103
+msgid "Upgrade now"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:33
+#, python-format
+msgid ""
+"We hope you are enjoying learning with us so far on "
+"<strong>%(platform_name)s</strong>! A verified certificate allows you to "
+"highlight your new knowledge and skills. An %(platform_name)s certificate is"
+" official and easily shareable."
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:39
+#, python-format
+msgid ""
+"We hope you are enjoying learning with us so far in "
+"<strong>%(first_course_name)s</strong>! A verified certificate allows you to"
+" highlight your new knowledge and skills. An %(platform_name)s certificate "
+"is official and easily shareable."
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:47
+#, python-format
+msgid "Upgrade by <strong>%(user_schedule_upgrade_deadline_time)s</strong>."
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:54
+msgid "You are eligible to upgrade in these courses:"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:67
+msgid "Example of a verified certificate"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:18
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:28
+msgid "Upgrade now at"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/subject.txt:4
+#, python-format
+msgid "Upgrade to earn a verified certificate on %(platform_name)s"
+msgstr ""
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/subject.txt:6
+#, python-format
+msgid "Upgrade to earn a verified certificate in %(first_course_name)s"
+msgstr ""
+
+#: openedx/core/djangoapps/theming/views.py:75
+#, python-brace-format
+msgid "Site theme changed to {site_theme}"
+msgstr ""
+
+#: openedx/core/djangoapps/theming/views.py:80
+#, python-brace-format
+msgid "Theme {site_theme} does not exist"
+msgstr ""
+
+#: openedx/core/djangoapps/theming/views.py:84
+msgid "Site theme reverted to the default"
+msgstr ""
+
+#: openedx/core/djangoapps/theming/views.py:135
+msgid "Theming Administration"
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:41
+msgid ""
+"Usernames can only contain letters (A-Z, a-z), numerals (0-9), underscores "
+"(_), and hyphens (-)."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:48
+msgid ""
+"Usernames can only contain letters, numerals, and @/./+/-/_ characters."
+msgstr ""
+
+#. Translators: This message is shown to users who attempt to create a new
+#. account using
+#. an invalid email format.
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:53
+#, python-brace-format
+msgid "\"{email}\" is not a valid email address."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:69
+#, python-brace-format
+msgid "Username must be between {min} and {max} characters long."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:74
+#, python-brace-format
+msgid "Enter a valid email address that contains at least {min} characters."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:77
+msgid "Enter a password."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:78
+msgid "Password is not long enough."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:80
+#, python-brace-format
+msgid "Password cannot be longer than {max} character."
+msgstr ""
+
+#. Translators: This message is shown to users who enter a password matching
+#. the username they enter(ed).
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:91
+msgid "Password cannot be the same as the username."
+msgstr ""
+
+#. Translators: These messages are shown to users who do not enter information
+#. into the required field or enter it incorrectly.
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:95
+msgid "Enter your full name."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:97
+msgid "Select your country or region of residence."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:98
+msgid "Select your profession."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:99
+msgid "Select your specialty."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:100
+msgid "Enter your profession."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:101
+msgid "Enter your specialty."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:102
+msgid "Enter your city."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:103
+msgid "Tell us your goals."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:104
+msgid "Select the highest level of education you have completed."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:105
+msgid "Enter your mailing address."
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/utils.py:26
+msgid ""
+" Make sure that you are providing a valid username or a URL that contains \""
+msgstr ""
+
+#. Translators: This example name is used as a placeholder in
+#. a field on the registration form meant to hold the user's name.
+#: openedx/core/djangoapps/user_api/api.py:335
+msgid "Jane Q. Learner"
+msgstr ""
+
+#. Translators: This label appears above a dropdown menu on the registration
+#. form used to select the user's profession
+#: openedx/core/djangoapps/user_api/api.py:531
+msgid "Profession"
+msgstr ""
+
+#. Translators: This label appears above a dropdown menu on the registration
+#. form used to select the user's specialty
+#: openedx/core/djangoapps/user_api/api.py:547
+msgid "Specialty"
+msgstr ""
+
+#: openedx/core/djangoapps/util/user_messages.py:99
+#, python-brace-format
+msgid "{header_open}{title}{header_close}{body}"
+msgstr ""
+
+#: openedx/core/djangoapps/util/user_messages.py:192
+#, python-brace-format
+msgid "{header_open}{title}{header_close}"
+msgstr ""
+
+#: openedx/features/course_experience/views/course_home_messages.py:107
+#, python-brace-format
+msgid "{sign_in_link} or {register_link} and then enroll in this course."
+msgstr ""
+
+#: openedx/features/course_experience/views/course_home_messages.py:124
+#, python-brace-format
+msgid ""
+"{open_enroll_link}Enroll now{close_enroll_link} to access the full course."
+msgstr ""
+
+#: openedx/features/course_experience/views/course_home_messages.py:129
+#: openedx/features/course_experience/views/course_home_messages.py:193
+#, python-brace-format
+msgid "Welcome to {course_display_name}"
+msgstr ""
+
+#: openedx/features/course_experience/views/course_home_messages.py:141
+#, python-brace-format
+msgid ""
+"To start, set a course goal by selecting the option below that best "
+"describes your learning plan. {goal_options_container}"
+msgstr ""
+
+#: openedx/features/course_experience/views/course_home_messages.py:156
+#, python-brace-format
+msgid "Set goal to: {choice}"
+msgstr ""
+
+#: openedx/features/course_experience/views/course_home_messages.py:160
+#, python-brace-format
+msgid "{choice}"
+msgstr ""
+
+#: openedx/features/course_experience/views/course_home_messages.py:179
+#, python-brace-format
+msgid "Set goal to: {goal_text}"
+msgstr ""
+
+#: openedx/features/learner_profile/views/learner_profile.py:56
+#, python-brace-format
+msgid ""
+"Welcome to the new learner profile page. Your full profile now displays more"
+" information to other learners. You can instead choose to display a limited "
+"profile. {learn_more_link_start}Learn more{learn_more_link_end}"
+msgstr ""
