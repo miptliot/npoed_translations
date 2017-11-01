@@ -24,8 +24,16 @@ class Separator(object):
             self.npoed_override_js
         ])):
             raise RuntimeError("Run .separate before save. (for {})".format(self.get_directory))
+
+
+        self.npoed_add.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
+        self.npoed_add_js.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
         self.npoed_add.save(self.save_directory + "/" + "npoed_add_" +self.get_directory +".po")
         self.npoed_add_js.save(self.save_directory + "/" + "npoed_add_" +self.get_directory +"js.po")
+
+
+        self.npoed_override.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
+        self.npoed_override_js.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
 
         self.npoed_override.save(self.save_directory + "/" + "npoed_over_" +self.get_directory +".po")
         self.npoed_override_js.save(self.save_directory + "/" + "npoed_over_" +self.get_directory +"js.po")
@@ -33,7 +41,7 @@ class Separator(object):
     def separate(self):
         self.npoed_add, self.npoed_override = self.process_js_or_py("py")
         self.npoed_add_js, self.npoed_override_js = self.process_js_or_py("js")
-    
+
     def process_js_or_py(self, potype):
         pofiles_dir = self.get_directory + "/" + potype+"/"
         files = os.listdir(pofiles_dir)
@@ -43,7 +51,7 @@ class Separator(object):
             npoed_po, edx_po = self.get_po(files, pofiles_dir)
 
         npoed_add, npoed_override, stats = self.process_pair(npoed_po, edx_po)
-        
+
         print(self.get_directory + "," + potype + ": add: {}; over: {}; passed: {}".format(*stats))
         return npoed_add, npoed_override
 
@@ -109,10 +117,10 @@ def get_proctor_po(files, pofiles_dir):
 
 
 
-def separate():    
+def separate():
     ora_sep = Separator("ora2")
     ora_sep.separate()
-    ora_sep.save() 
+    ora_sep.save()
 
     platform_sep = Separator("platform")
     platform_sep.separate()
@@ -125,7 +133,7 @@ def separate():
     npoed_total = polib.POFile()
     npoed_total.extend(platform_sep.npoed_add)
     npoed_total.extend(platform_sep.npoed_override)
-    
+
 def compile(directory="collected/"):
     files = os.listdir(directory)
     is_js_file = lambda x: ("js" in x)
@@ -147,7 +155,10 @@ def compile(directory="collected/"):
     for f, p in po_objs_js.items():
         print("\t{}:{}".format(f, len(p)))
         npoed_js.extend(p)
-    
+
+    npoed_py.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
+    npoed_js.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
+
     npoed_py.save(directory + "npoed_total.po")
     npoed_js.save(directory + "npoed_totaljs.po")
     fuzzy_py = [key for key,val in Counter([m.msgid for m in npoed_py]).items() if val>1]
@@ -168,7 +179,7 @@ def compile(directory="collected/"):
 
     if fuzzy_js:
         print("In js({}):".format(len(fuzzy_js)))
-    
+
     for key in fuzzy_js:
         print("msgid {}".format(key))
         for f,p in po_objs_js.items():
@@ -176,11 +187,50 @@ def compile(directory="collected/"):
             if found_entry:
                 print("\t {} : {}".format(f, found_entry.msgstr))
     print("="*len(fuzzy_mes))
+    """
+    empty_py = dict((key, value) for key,value in npoed_py.items() if value == "")
+    empty_js = dict((key, value) for key,value in npoed_js.items() if value == "")
+    if empty_js or empty_py:
+        print("Empty msgstrs have sneaked into the files somehow :C. It's a bug, sorry.")
+
+    if empty_py:
+        print("In py:")
+        for k, v in empty_py.items():
+            print(k,v)
+
+    if empty_js:
+        print("In js:")
+        for k, v in empty_js.items():
+            print(k,v)
+    """
     print("Total: py {}, js {}".format(
         len(npoed_py),
         len(npoed_js)
         )
     )
+
+def fix_total(directory="collected/"):
+    npoed_py = polib.pofile(directory+"npoed_total.po")
+    npoed_js = polib.pofile(directory+"npoed_totaljs.po")
+    def filter_repeatings(po_obj):
+        repeats = dict((k,v) for k,v in Counter([m.msgid for m in po_obj]).items() if v>1)
+        for k, v in  repeats.items():
+            for _ in range(v-1):
+                entry = get_entry(po_obj, k)
+                po_obj.remove(entry)
+            print("Dropped '{}': {}".format(k, v - 1))
+        return po_obj
+
+    print("Py")
+    npoed_py = filter_repeatings(npoed_py)
+    print("Js")
+    npoed_js = filter_repeatings(npoed_js)
+
+    npoed_py.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
+    npoed_js.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
+
+    npoed_py.save(directory + "npoed_total.po")
+    npoed_js.save(directory + "npoed_totaljs.po")
 
 if __name__ == "__main__":
     err = ValueError("You must give 1 arg: 'separate' or 'compile'")
@@ -190,5 +240,7 @@ if __name__ == "__main__":
         separate()
     elif sys.argv[1] == "compile":
         compile()
+    elif sys.argv[1] == "fix":
+        fix_total()
     else:
         raise err

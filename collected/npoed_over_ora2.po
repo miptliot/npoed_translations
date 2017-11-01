@@ -1,6 +1,8 @@
 #
 msgid ""
 msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"\n"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit.html:184
 msgid ""

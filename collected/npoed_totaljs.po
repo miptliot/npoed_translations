@@ -1,6 +1,8 @@
 #
 msgid ""
 msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"\n"
 
 #: lms/static/js/ajax-error.js
 msgid "You have been logged out of your edX account. "
@@ -97,10 +99,6 @@ msgstr "Ответить:"
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Discussion Home"
 msgstr "Домашняя страница"
-
-#: lms/templates/courseware/proctored-exam-status.underscore
-msgid "timed"
-msgstr "ограничен по времени"
 
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid ""
