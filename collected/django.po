@@ -1552,18 +1552,6 @@ msgstr ""
 "Прохождение данного экзамена будет доступно после того, как команда курса "
 "выберет для него прокторинговую систему"
 
-#: models.py:700
-msgid "Additional Time (minutes)"
-msgstr "Дополнительное Время (минуты)"
-
-#: templates/proctored_exam/confirm-decline.html:19
-msgid "Go Back"
-msgstr "Вернуться"
-
-#: views.py:536
-msgid "timed"
-msgstr "приурочен"
-
 #: common/djangoapps/course_modes/views.py
 msgid "Congratulations!  You are now enrolled in {course_name}"
 msgstr "Поздравляем! Вы зачислены на курс «{course_name}»"
@@ -2136,6 +2124,18 @@ msgstr ""
 "Пожалуйста проверьте папку «Спам», если нашего письма нет в ваших "
 "«Входящих». Всё ещё не получается найти письмо? Попросите помощи с помощью "
 "ссылки снизу."
+
+#: models.py:700
+msgid "Additional Time (minutes)"
+msgstr "Дополнительное Время (минуты)"
+
+#: templates/proctored_exam/confirm-decline.html:19
+msgid "Go Back"
+msgstr "Вернуться"
+
+#: views.py:536
+msgid "timed"
+msgstr "приурочен"
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit.html:184
 msgid ""

@@ -3,13 +3,20 @@ import os
 import polib
 import sys
 
+FINAL_PO_NAME = "django.po"
+FINAL_JS_PO_NAME = "djangojs.po"
+
 class Separator(object):
-    def __init__(self, get_directory, save_directory="collected",get_po=None):
+    def __init__(self, get_directory, save_directory="collected",get_po=None, name=None):
         self.get_directory = get_directory
         self.save_directory = save_directory
         self.over_po = None
         if get_po:
             self.over_po = get_po
+        if name:
+            self.name = name
+        else:
+            self.name = get_directory.split("/")[-1]
 
         self.npoed_add = None
         self.npoed_add_js = None
@@ -28,15 +35,15 @@ class Separator(object):
 
         self.npoed_add.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
         self.npoed_add_js.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
-        self.npoed_add.save(self.save_directory + "/" + "npoed_add_" +self.get_directory +".po")
-        self.npoed_add_js.save(self.save_directory + "/" + "npoed_add_" +self.get_directory +"js.po")
+        self.npoed_add.save(self.save_directory + "/" + "npoed_add_" +self.name +".po")
+        self.npoed_add_js.save(self.save_directory + "/" + "npoed_add_" +self.name +"js.po")
 
 
         self.npoed_override.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
         self.npoed_override_js.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
 
-        self.npoed_override.save(self.save_directory + "/" + "npoed_over_" +self.get_directory +".po")
-        self.npoed_override_js.save(self.save_directory + "/" + "npoed_over_" +self.get_directory +"js.po")
+        self.npoed_override.save(self.save_directory + "/" + "npoed_over_" +self.name +".po")
+        self.npoed_override_js.save(self.save_directory + "/" + "npoed_over_" +self.name +"js.po")
 
     def separate(self):
         self.npoed_add, self.npoed_override = self.process_js_or_py("py")
@@ -118,15 +125,15 @@ def get_proctor_po(files, pofiles_dir):
 
 
 def separate():
-    ora_sep = Separator("ora2")
+    ora_sep = Separator("data/ora2")
     ora_sep.separate()
     ora_sep.save()
 
-    platform_sep = Separator("platform")
+    platform_sep = Separator("data/platform")
     platform_sep.separate()
     platform_sep.save()
 
-    proctor_sep = Separator("proctoring", get_po=get_proctor_po)
+    proctor_sep = Separator("data/proctoring", get_po=get_proctor_po)
     proctor_sep.separate()
     proctor_sep.save()
 
@@ -137,7 +144,8 @@ def separate():
 def compile(directory="collected/"):
     files = os.listdir(directory)
     is_js_file = lambda x: ("js" in x)
-    files = [f for f in files if not("total" in f)]
+    final_names = (FINAL_PO_NAME, FINAL_JS_PO_NAME)
+    files = [f for f in files if f not in final_names]
 
     files_js = [f for f in files if is_js_file(f)]
     files_py = [f for f in files if not is_js_file(f)]
@@ -159,8 +167,8 @@ def compile(directory="collected/"):
     npoed_py.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
     npoed_js.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
 
-    npoed_py.save(directory + "npoed_total.po")
-    npoed_js.save(directory + "npoed_totaljs.po")
+    npoed_py.save(directory + FINAL_PO_NAME)
+    npoed_js.save(directory + FINAL_JS_PO_NAME)
     fuzzy_py = [key for key,val in Counter([m.msgid for m in npoed_py]).items() if val>1]
     fuzzy_js = [key for key,val in Counter([m.msgid for m in npoed_js]).items() if val>1]
 
@@ -210,8 +218,8 @@ def compile(directory="collected/"):
     )
 
 def fix_total(directory="collected/"):
-    npoed_py = polib.pofile(directory+"npoed_total.po")
-    npoed_js = polib.pofile(directory+"npoed_totaljs.po")
+    npoed_py = polib.pofile(directory + FINAL_PO_NAME)
+    npoed_js = polib.pofile(directory + FINAL_JS_PO_NAME)
     def filter_repeatings(po_obj):
         repeats = dict((k,v) for k,v in Counter([m.msgid for m in po_obj]).items() if v>1)
         for k, v in  repeats.items():
@@ -229,11 +237,11 @@ def fix_total(directory="collected/"):
     npoed_py.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
     npoed_js.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
 
-    npoed_py.save(directory + "npoed_total.po")
-    npoed_js.save(directory + "npoed_totaljs.po")
+    npoed_py.save(directory + FINAL_PO_NAME)
+    npoed_js.save(directory + FINAL_JS_PO_NAME)
 
 if __name__ == "__main__":
-    err = ValueError("You must give 1 arg: 'separate' or 'compile'")
+    err = ValueError("You must give 1 arg: 'separate', 'compile' or 'fix'")
     if len(sys.argv) < 2:
         raise err
     if sys.argv[1] == "separate":

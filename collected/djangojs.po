@@ -147,6 +147,12 @@ msgstr "Загрузить скан подписи"
 msgid "File size must be 5MB or less."
 msgstr "Размер файла не должен превышать 5 Мб."
 
+msgid "Show all posts"
+msgstr "Все темы"
+
+msgid "You must complete the proctoring setup before you can start the exam."
+msgstr "Необходимо выполнить настройку прокторинга перед началом экзамена."
+
 #: models.py:700
 msgid "Additional Time (minutes)"
 msgstr "Дополнительное Время (минуты)"
@@ -158,9 +164,3 @@ msgstr "Вернуться"
 #: views.py:536
 msgid "timed"
 msgstr "приурочен"
-
-msgid "Show all posts"
-msgstr "Все темы"
-
-msgid "You must complete the proctoring setup before you can start the exam."
-msgstr "Необходимо выполнить настройку прокторинга перед началом экзамена."
