@@ -141,7 +141,7 @@ def separate():
     npoed_total.extend(platform_sep.npoed_add)
     npoed_total.extend(platform_sep.npoed_override)
 
-def compile(directory="collected/"):
+def compile(directory="collected/", directory_out="ru/LC_MESSAGES/"):
     files = os.listdir(directory)
     is_js_file = lambda x: ("js" in x)
     final_names = (FINAL_PO_NAME, FINAL_JS_PO_NAME)
@@ -167,8 +167,8 @@ def compile(directory="collected/"):
     npoed_py.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
     npoed_js.metadata["Content-Type"] = "text/plain; charset=UTF-8\n"
 
-    npoed_py.save(directory + FINAL_PO_NAME)
-    npoed_js.save(directory + FINAL_JS_PO_NAME)
+    npoed_py.save(directory_out + FINAL_PO_NAME)
+    npoed_js.save(directory_out + FINAL_JS_PO_NAME)
     fuzzy_py = [key for key,val in Counter([m.msgid for m in npoed_py]).items() if val>1]
     fuzzy_js = [key for key,val in Counter([m.msgid for m in npoed_js]).items() if val>1]
 
@@ -217,7 +217,7 @@ def compile(directory="collected/"):
         )
     )
 
-def fix_total(directory="collected/"):
+def fix_total(directory="ru/LC_MESSAGES/"):
     npoed_py = polib.pofile(directory + FINAL_PO_NAME)
     npoed_js = polib.pofile(directory + FINAL_JS_PO_NAME)
     def filter_repeatings(po_obj):
