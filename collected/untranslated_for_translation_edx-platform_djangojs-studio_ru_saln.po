@@ -1,0 +1,194 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2017-11-14 09:34+0000\n"
+"PO-Revision-Date: 2017-11-14 10:17+0000\n"
+"Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
+"Language-Team: Russian (http://www.transifex.com/open-edx/edx-platform/language/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: cms/static/js/models/xblock_validation.js:23
+msgid "This unit has validation issues."
+msgstr "Этот юнит имеет ошибки валидации."
+
+#: cms/static/js/views/active_video_upload_list.js:27
+msgid "Upload Videos"
+msgstr "Загрузка видео"
+
+#: cms/static/js/views/active_video_upload_list.js:29
+msgid "Drag and drop or {spanStart}browse your computer{spanEnd}."
+msgstr "Перетащите сюда файл или {spanStart}выберите необходимый{spanEnd}."
+
+#: cms/static/js/views/active_video_upload_list.js:56
+msgid "Maximum file size: {maxFileSize} GB"
+msgstr "Максимальный размер файла: {maxFileSize} ГБ"
+
+#: cms/static/js/views/active_video_upload_list.js:62
+msgid "Supported file types: {supportedVideoTypes}"
+msgstr "Поддерживаемые форматы: {supportedVideoTypes}"
+
+#: cms/static/js/views/course_video_settings.js:25
+msgid "An error has occurred. Wait a few minutes, and then try again."
+msgstr "Возникла ошибка. Подождите пару минут и попробуйте снова."
+
+#: cms/static/js/views/course_video_settings.js:304
+msgid "Select turnaround"
+msgstr "Выберите время готовности"
+
+#: cms/static/js/views/course_video_settings.js:332
+msgid "Select fidelity"
+msgstr "Выберите качество воспроизведения"
+
+#: cms/static/js/views/course_video_settings.js:384
+#: cms/static/js/views/course_video_settings.js:420
+msgid "Select language"
+msgstr "Выберите язык"
+
+#: cms/static/js/views/course_video_settings.js:472
+msgid "Press Remove to remove language"
+msgstr "Нажмите Удалить для удаления языка"
+
+#: cms/static/js/views/course_video_settings.js:482
+msgid "Settings updated"
+msgstr "Настройки обновлены"
+
+#: cms/static/js/views/course_video_settings.js:491
+msgid "Last updated"
+msgstr "Последнее обновление"
+
+#: cms/static/js/views/course_video_settings.js:681
+msgid "Automatic transcripts are disabled."
+msgstr "Автоматические транскрипции отключены."
+
+#: cms/static/js/views/course_video_settings.js:718
+msgid "{selectedProvider} credentials saved"
+msgstr "{selectedProvider} учетные данные сохранены"
+
+#. Translators: 'count' is number of units that the group
+#. configuration is used in.
+#. Translators: 'count' is number of locations that the group
+#. configuration is used in.
+#: cms/static/js/views/group_configuration_details.js:89
+#: cms/static/js/views/partition_group_details.js:74
+msgid "Used in {count} location"
+msgid_plural "Used in {count} locations"
+msgstr[0] "Используется в {count} месте"
+msgstr[1] "Используется в {count} местах"
+msgstr[2] ""
+msgstr[3] ""
+
+#: cms/static/js/views/modals/course_outline_modals.js:233
+msgid "Highlights for {display_name}"
+msgstr "Подсветка для {display_name}"
+
+#: cms/static/js/views/video_thumbnail.js:31
+msgid "Add Thumbnail"
+msgstr "Добавить миниатюру"
+
+#: cms/static/js/views/video_thumbnail.js:35
+msgid "Edit Thumbnail"
+msgstr "Редактировать миниатюру"
+
+#. Translators: This is a 2 part text which tells the image requirements.
+#: cms/static/js/views/video_thumbnail.js:39
+msgid ""
+"{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
+"{videoImageSupportedFileFormats}{spanEnd}"
+msgstr ""
+"{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
+"{videoImageSupportedFileFormats}{spanEnd}"
+
+#: cms/static/js/views/video_thumbnail.js:52
+msgid "Image upload failed"
+msgstr "Загрузка изображения не удалась"
+
+#. Translators: This is a 3 part text which tells the image requirements.
+#: cms/static/js/views/video_thumbnail.js:64
+msgid ""
+"{ReqTextSpanStart}Requirements{spanEnd}{lineBreak}{InstructionsSpanStart}{videoImageResoultion}{lineBreak}"
+" {videoImageSupportedFileFormats}{spanEnd}"
+msgstr ""
+"{ReqTextSpanStart}Requirements{spanEnd}{lineBreak}{InstructionsSpanStart}{videoImageResoultion}{lineBreak}"
+" {videoImageSupportedFileFormats}{spanEnd}"
+
+#. Translators: message will be like 1280x720 pixels
+#: cms/static/js/views/video_thumbnail.js:130
+msgid "{maxWidth}x{maxHeight} pixels"
+msgstr "{maxWidth}x{maxHeight} пикселей"
+
+#. Translators: message will be like Thumbnail for Arrow.mp4
+#: cms/static/js/views/video_thumbnail.js:138
+msgid "Thumbnail for {videoName}"
+msgstr "Миниатюра для {videoName}"
+
+#. Translators: message will be like Add Thumbnail - Arrow.mp4
+#: cms/static/js/views/video_thumbnail.js:146
+msgid "Add Thumbnail - {videoName}"
+msgstr "Добавить миниатюру - {videoName}"
+
+#. Translators: humanizeDuration will be like 10 minutes, an hour and 20
+#. minutes etc
+#: cms/static/js/views/video_thumbnail.js:172
+msgid "Video duration is {humanizeDuration}"
+msgstr "Длительность видео: {humanizeDuration}"
+
+#: cms/static/js/views/video_thumbnail.js:189
+msgid "minute"
+msgstr "минута"
+
+#. Translators: message will be like 15 minutes, 1 minute
+#: cms/static/js/views/video_thumbnail.js:192
+msgid "{minutes} {unit}"
+msgstr "{minutes} {unit}"
+
+#: cms/static/js/views/video_thumbnail.js:198
+msgid "seconds"
+msgstr "секунд"
+
+#: cms/static/js/views/video_thumbnail.js:198
+msgid "second"
+msgstr "секунда"
+
+#. Translators: message will be like 20 seconds, 1 second
+#: cms/static/js/views/video_thumbnail.js:201
+msgid "{seconds} {unit}"
+msgstr "{seconds} {unit}"
+
+#: cms/static/js/views/video_thumbnail.js:234
+msgid "Video image upload started"
+msgstr "Загрузка видео началась"
+
+#: cms/static/js/views/video_thumbnail.js:246
+msgid "Video image upload completed"
+msgstr "Загрузка видео успешно завершена"
+
+#: cms/static/js/views/video_thumbnail.js:321
+msgid ""
+"This image file type is not supported. Supported file types are "
+"{supportedFileFormats}."
+msgstr ""
+"Данный тип файла не поддерживается. Поддерживаемые типы файлов: "
+"{supportedFileFormats}."
+#. Translators: maxFileSizeInMB will be like 2 MB.
+#: cms/static/js/views/video_thumbnail.js:330
+msgid "The selected image must be smaller than {maxFileSizeInMB}."
+msgstr "Выбранное изображение должно быть не более {maxFileSizeInMB}."
+
+#. Translators: minFileSizeInKB will be like 2 KB.
+#: cms/static/js/views/video_thumbnail.js:338
+msgid "The selected image must be larger than {minFileSizeInKB}."
+msgstr "Выбранное изображение должно быть не менее {minFileSizeInKB}."
+
+#: cms/static/js/views/video_thumbnail.js:366
+msgid "Could not upload the video image file"
+msgstr "Не могу загрузить видео"
+
+#: cms/static/js/views/video_thumbnail.js:368
+msgid "Image upload failed. "
+msgstr "Загрузка изображения не удалась."

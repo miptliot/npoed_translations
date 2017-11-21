@@ -44,3 +44,6 @@ msgid ""
 msgstr ""
 "Вы можете просмотреть распределение студентов по группа или результаты загрузки CSV "
 "файла на странице {link_start}Скачивание данных{link_end}."
+
+msgid  "There has been a problem starting your exam.\n\nPossible reasons are that your account has not been fully activated,\nyou have are experiencing a network connection problem, or there has been\na service disruption. Check your account or network connection and try again."
+msgstr "При старте экзамена произошла ошибка.\n\nЭто может произойти, если ваш аккаунт не активирован, у вас нет соединения с сетью, или сервис\n недоступен. Пожалуйтса, проверьте ваш аккаунт и соединение и попробуйте снова."
