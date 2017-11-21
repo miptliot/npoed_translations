@@ -4,6 +4,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "\n"
 
+#: templates/proctored_exam/confirm-decline.html:19
+msgid "Go Back"
+msgstr "Вернуться"
+
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:184
 msgid ""
 " learners are not enrolled in course and not added to the exception list"
@@ -218,66 +222,6 @@ msgstr "Присоединился"
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:121
 msgid "Joined Date"
 msgstr "Дата присоединения"
-
-msgid "Allowances"
-msgstr "Послабления"
-
-msgid "Add Allowance"
-msgstr "Добавить послабление"
-
-msgid "Exam Type"
-msgstr "Тип экзамена"
-
-msgid "Timed Exam"
-msgstr "Экзамен с ограничением по времени"
-
-msgid "Allowance Type"
-msgstr "Тип послабления"
-
-msgid "Value"
-msgstr "Величина"
-
-msgid "minutes"
-msgstr "минуты"
-
-msgid "Username or Email"
-msgstr "Имя или почта"
-
-msgid "Add a New Allowance"
-msgstr "Добавить новое послабление"
-
-msgid "Email"
-msgstr "Почта"
-
-msgid "First Name"
-msgstr "Имя"
-
-msgid "Last Name"
-msgstr "Фамилия"
-
-msgid "Provider Name"
-msgstr "Имя провайдера"
-
-msgid "Exam Name"
-msgstr "Название экзамена"
-
-msgid "Time Limit"
-msgstr "Длиельность"
-
-msgid "Type"
-msgstr "Тип"
-
-msgid "Started At"
-msgstr "Начат в"
-
-msgid "Completed At"
-msgstr "Завершен в"
-
-msgid "Status"
-msgstr "Статус"
-
-msgid "Actions"
-msgstr "Действия"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Show Annotations"
@@ -1793,241 +1737,6 @@ msgstr ""
 msgid "Edit the name"
 msgstr "Редактировать название"
 
-msgid ""
-"Error deleting student '<%= student_id %>'s state on problem '<%= problem_id"
-" %>'. Make sure that the problem and student identifiers are complete and "
-"correct."
-msgstr ""
-"Ошибка при удалении состояния задания '<%= problem_id %>' для слушателя'<%= "
-"student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
-
-msgid ""
-"Error getting task history for problem '<%= problem_id %>' and student '<%= "
-"student_id %>'. Make sure that the problem and student identifiers are "
-"complete and correct."
-msgstr ""
-"Ошибка при получении истории задания '<%= problem_id %>' для слушателя'<%= "
-"student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
-
-msgid "Reset attempts for all students on problem '<%= problem_id %>'?"
-msgstr ""
-"Сбросить попытки решения задания '<%= problem_id %>' для всех слушателей?"
-
-msgid ""
-"Successfully started task to reset attempts for problem '<%= problem_id %>'."
-" Click the 'Show Task Status' button to see the status of the task."
-msgstr ""
-"Задача по сбросу всех попыток решения для задания '<%= problem_id %>' "
-"успешно начата. Нажмите кнопку 'Показать статус задач' чтобы узнать статус."
-
-msgid ""
-"Error starting a task to reset attempts for all students on problem '<%= "
-"problem_id %>'. Make sure that the problem identifier is complete and "
-"correct."
-msgstr ""
-"Ошибка при старте задачи сброса всех попыток решения задания '<%= problem_id"
-" %>'. Проверьте, что идентификатор задания верен."
-
-msgid ""
-"Started rescore problem task for problem '<%= problem_id %>' and student "
-"'<%= student_id %>'. Click the 'Show Task Status' button to see the status "
-"of the task."
-msgstr ""
-"Задача по переоцениванию  задания '<%= problem_id %>' для слушателя'<%= "
-"student_id %>' успешно начата. Нажмите кнопку 'Показать статус задач' чтобы "
-"узнать статус."
-
-msgid ""
-"Error starting a task to rescore problem '<%= problem_id %>' for student "
-"'<%= student_id %>'. Make sure that the the problem and student identifiers "
-"are complete and correct."
-msgstr ""
-"Ошибка при старте задачи по переоцениванию задания '<%= problem_id %>' для "
-"слушателя'<%= student_id %>'. Проверьте, что идентификаторы слушателя и "
-"задания верны."
-
-msgid "Rescore problem '<%= problem_id %>' for all students?"
-msgstr "Переоценить задание '<%= problem_id %>' для всех слушателей?"
-
-msgid ""
-"Successfully started task to rescore problem '<%= problem_id %>' for all "
-"students. Click the 'Show Task Status' button to see the status of the task."
-msgstr ""
-"Задача по переоцениванию задания '<%= problem_id %>' для всех слушателей "
-"успешно начата. Нажмите кнопку 'Показать статус задач' чтобы узнать статус."
-
-msgid ""
-"Error starting a task to rescore problem '<%= problem_id %>'. Make sure that"
-" the problem identifier is complete and correct"
-msgstr ""
-"Ошибка при старте задачи по переоцениванию для всех слушателей задания '<%= "
-"problem_id %>'. Проверьте, что идентификатор задания верен."
-
-msgid ""
-"Success! Problem attempts reset for problem '<%= problem_id %>' and student "
-"'<%= student_id %>'."
-msgstr ""
-"Попытки слушателя '<%= student_id %>' решения задания '<%= problem_id %>' "
-"были успешно сброшены."
-
-msgid ""
-"Error resetting problem attempts for problem '<%= problem_id %>' and student"
-" '<%= student_id %>'. Make sure that the problem and student identifiers are"
-" complete and correct."
-msgstr ""
-"Ошибка при сбросе попыток решения задания '<%= problem_id %>' для "
-"слушателя'<%= student_id %>'. Проверьте, что идентификаторы слушателя и "
-"задания верны."
-
-msgid ""
-"Delete student '<%= student_id %>'s state on problem '<%= problem_id %>'?"
-msgstr ""
-"Удалить состояние задания '<%= problem_id %>' для слушателя '<%= student_id "
-"%>?"
-
-#: openassessment/xblock/static/js/openassessment-lms.min.js:2
-#: openassessment/xblock/static/js/src/lms/oa_response.js:485
-msgid "File size must be 5MB or less."
-msgstr "Размер файла не должен превышать 5 Мб."
-
-#: lms/static/js/ajax-error.js
-msgid "You have been logged out of your edX account. "
-msgstr "Вы вышли из своей учётной записи edX."
-
-#: lms/static/js/certificates/models/certificate_exception.js
-#: lms/static/js/certificates/models/certificate_invalidation.js
-msgid "Student username/email field is required and can not be empty. "
-msgstr "Имя пользователя/адрес электронной почты не могут быть пустыми."
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " records are not in correct format and not added to"
-msgstr "эти записи неправильного формата и не будут добавлены в"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " record is not in correct format and not added to the exception"
-msgstr "это запись неправильного формата и она не добавлена в исключение"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learners do not exist in LMS and not added to the"
-msgstr "Учетные записи слушателей отсутствуют в LMS"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learners are already white listed and not added to"
-msgstr "слушатели уже одобрены и не добавлены в"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learner is already white listed and not added to the exception "
-msgstr "слушатель уже одобрен и не добавлен в исключение"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learners are not enrolled in course and not added to"
-msgstr "слушатели не записаны на курс и не добавлены в"
-
-#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
-msgid " learner is not enrolled in course and not added to the exception"
-msgstr "слушатель не записан на курс и не добавлен в исключение"
-
-#: lms/static/js/financial-assistance/views/financial_assistance_form_view.js
-msgid "Unable to submit application"
-msgstr "Не удалось отправить заявление"
-
-#: lms/static/js/student_account/views/FormView.js
-#: lms/static/js/student_account/views/RegisterView.js
-msgid "An error occurred."
-msgstr "Произошла ошибка"
-
-#: lms/static/js/student_account/views/LoginView.js
-msgid "We couldn't sign you in."
-msgstr "Не удалось войти в систему."
-
-#: lms/static/js/student_account/views/RegisterView.js
-msgid "We couldn't create your account."
-msgstr "Не удалось создать учётную запись."
-
-#: lms/static/js/student_account/views/RegisterView.js
-msgid "You've successfully signed into %(currentProvider)s."
-msgstr "Вы успешно вошли в %(currentProvider)s."
-
-#: lms/static/js/student_account/views/RegisterView.js
-msgid ""
-"We just need a little more information before you start learning with "
-"%(platformName)s."
-msgstr "Перед началом учебы в %(platformName)s укажите некоторые данные."
-
-#: lms/templates/class_dashboard/all_section_metrics.js
-msgid "Unable to retrieve data, please try again later."
-msgstr "Не удалось получить данные.  Пожалуйста, попробуйте повторить позже."
-
-#: cms/static/js/certificates/views/certificate_details.js
-msgid ""
-"This certificate has already been activated and is live. Are you sure you "
-"want to continue editing?"
-msgstr ""
-"Этот сертификат уже активен и доступен слушателю.  Вы уверены, что хотите "
-"продолжать редактирование?"
-
-#: cms/static/js/certificates/views/signatory_editor.js
-msgid "Delete \"<%= signatoryName %>\" from the list of signatories?"
-msgstr "Удалить «<%= signatoryName %>» из списка подписей?"
-
-#: cms/static/js/certificates/views/signatory_editor.js
-msgid "Image must be in PNG format."
-msgstr "Изображение должно иметь формат PNG"
-
-#: common/static/common/templates/discussion/new-post.underscore
-msgid "Add a Post"
-msgstr "Добавить сообщение"
-
-#: common/static/common/templates/discussion/thread.underscore
-msgid "Add a response:"
-msgstr "Ответить:"
-
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
-msgid "Discussion Home"
-msgstr "Домашняя страница"
-
-#: lms/templates/courseware/proctored-exam-status.underscore
-msgid ""
-"To receive credit for problems, you must select \"Submit\" for each problem "
-"before you select \"End My Exam\"."
-msgstr ""
-"Для того, чтобы ваши ответы были оценены, нажмите \"Отправить\" в каждом "
-"заданиидо нажатия \"Завершить сдачу экзамена\"."
-
-#: cms/templates/js/certificate-details.underscore
-#: cms/templates/js/certificate-editor.underscore
-msgid "Course Title Override"
-msgstr "Замещение названия курса"
-
-#: cms/templates/js/certificate-editor.underscore
-msgid ""
-"Specify an alternative to the official course title to display on "
-"certificates. Leave blank to use the official course title."
-msgstr ""
-"Укажите альтернативный вариант официального названия курса, который будет "
-"отображаться на сертификатах.  Оставьте поле пустым, чтобы на сертификатах "
-"отображалось официальное название курса."
-
-#: cms/templates/js/certificate-editor.underscore
-msgid "Add Additional Signatory"
-msgstr "Добавить подписавшего представителя"
-
-#: cms/templates/js/signatory-editor.underscore
-msgid "The name of this signatory as it should appear on certificates."
-msgstr "Имя представителя в форме, которая должна отображаться на сертификате"
-
-#: cms/templates/js/signatory-editor.underscore
-msgid ""
-"Titles more than 100 characters may prevent students from printing their "
-"certificate on a single page."
-msgstr ""
-"Заголовок длиной более 100 символов может привести к невозможности "
-"распечатывания сертификата на одной странице."
-
-#: cms/templates/js/signatory-editor.underscore
-msgid "Upload Signature Image"
-msgstr "Загрузить скан подписи"
-
 msgid "Special Exam"
 msgstr "Особый экзамен"
 
@@ -2076,6 +1785,104 @@ msgstr ""
 "\n"
 "Это может произойти, если ваш аккаунт не активирован, у вас нет соединения с сетью, или сервис\n"
 " недоступен. Пожалуйтса, проверьте ваш аккаунт и соединение и попробуйте снова."
+
+msgid ""
+"Error deleting student '<%= student_id %>'s state on problem '<%= problem_id"
+" %>'. Make sure that the problem and student identifiers are complete and "
+"correct."
+msgstr ""
+"Ошибка при удалении состояния задания '<%= problem_id %>' для слушателя '<%="
+" student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
+
+msgid ""
+"Error getting task history for problem '<%= problem_id %>' and student '<%= "
+"student_id %>'. Make sure that the problem and student identifiers are "
+"complete and correct."
+msgstr ""
+"Ошибка при получении истории задания '<%= problem_id %>' для слушателя '<%= "
+"student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
+
+msgid "Reset attempts for all students on problem '<%= problem_id %>'?"
+msgstr ""
+"Сбросить попытки решения задания '<%= problem_id %>' для всех слушателей?"
+
+msgid ""
+"Successfully started task to reset attempts for problem '<%= problem_id %>'."
+" Click the 'Show Task Status' button to see the status of the task."
+msgstr ""
+"Задача по сбросу всех попыток решения для задания '<%= problem_id %>' "
+"успешно начата. Нажмите кнопку 'Показать статус задач' чтобы узнать статус."
+
+msgid ""
+"Error starting a task to reset attempts for all students on problem '<%= "
+"problem_id %>'. Make sure that the problem identifier is complete and "
+"correct."
+msgstr ""
+"Ошибка при старте задачи сброса всех попыток решения задания '<%= problem_id"
+" %>'. Проверьте, что идентификатор задания верен."
+
+msgid ""
+"Started rescore problem task for problem '<%= problem_id %>' and student "
+"'<%= student_id %>'. Click the 'Show Task Status' button to see the status "
+"of the task."
+msgstr ""
+"Задача по переоцениванию  задания '<%= problem_id %>' для слушателя '<%= "
+"student_id %>' успешно начата. Нажмите кнопку 'Показать статус задач' чтобы "
+"узнать статус."
+
+msgid ""
+"Error starting a task to rescore problem '<%= problem_id %>' for student "
+"'<%= student_id %>'. Make sure that the the problem and student identifiers "
+"are complete and correct."
+msgstr ""
+"Ошибка при старте задачи по переоцениванию задания '<%= problem_id %>' для "
+"слушателя '<%= student_id %>'. Проверьте, что идентификаторы слушателя и "
+"задания верны."
+
+msgid "Rescore problem '<%= problem_id %>' for all students?"
+msgstr "Переоценить задание '<%= problem_id %>' для всех слушателей?"
+
+msgid ""
+"Successfully started task to rescore problem '<%= problem_id %>' for all "
+"students. Click the 'Show Task Status' button to see the status of the task."
+msgstr ""
+"Задача по переоцениванию задания '<%= problem_id %>' для всех слушателей "
+"успешно начата. Нажмите кнопку 'Показать статус задач' чтобы узнать статус."
+
+msgid ""
+"Error starting a task to rescore problem '<%= problem_id %>'. Make sure that"
+" the problem identifier is complete and correct"
+msgstr ""
+"Ошибка при старте задачи по переоцениванию для всех слушателей задания '<%= "
+"problem_id %>'. Проверьте, что идентификатор задания верен."
+
+msgid ""
+"Success! Problem attempts reset for problem '<%= problem_id %>' and student "
+"'<%= student_id %>'."
+msgstr ""
+"Попытки слушателя '<%= student_id %>' решения задания '<%= problem_id %>' "
+"были успешно сброшены."
+
+msgid ""
+"Error resetting problem attempts for problem '<%= problem_id %>' and student"
+" '<%= student_id %>'. Make sure that the problem and student identifiers are"
+" complete and correct."
+msgstr ""
+"Ошибка при сбросе попыток решения задания '<%= problem_id %>' для слушателя "
+"'<%= student_id %>'. Проверьте, что идентификаторы слушателя и задания "
+"верны."
+
+msgid ""
+"Delete student '<%= student_id %>'s state on problem '<%= problem_id %>'?"
+msgstr ""
+"Удалить состояние задания '<%= problem_id %>' для слушателя '<%= student_id "
+"%>?"
+
+msgid "Show all posts"
+msgstr "Все темы"
+
+msgid "You must complete the proctoring setup before you can start the exam."
+msgstr "Необходимо выполнить настройку прокторинга перед началом экзамена."
 
 #: cms/static/js/models/xblock_validation.js:23
 msgid "This unit has validation issues."
@@ -2258,20 +2065,212 @@ msgstr "Не могу загрузить видео"
 msgid "Image upload failed. "
 msgstr "Загрузка изображения не удалась."
 
-msgid "Show all posts"
-msgstr "Все темы"
+#: lms/static/js/ajax-error.js
+msgid "You have been logged out of your edX account. "
+msgstr "Вы вышли из своей учётной записи edX."
 
-msgid "You must complete the proctoring setup before you can start the exam."
-msgstr "Необходимо выполнить настройку прокторинга перед началом экзамена."
+#: lms/static/js/certificates/models/certificate_exception.js
+#: lms/static/js/certificates/models/certificate_invalidation.js
+msgid "Student username/email field is required and can not be empty. "
+msgstr "Имя пользователя/адрес электронной почты не могут быть пустыми."
 
-#: models.py:700
-msgid "Additional Time (minutes)"
-msgstr "Дополнительное Время (минуты)"
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " records are not in correct format and not added to"
+msgstr "эти записи неправильного формата и не будут добавлены в"
 
-#: templates/proctored_exam/confirm-decline.html:19
-msgid "Go Back"
-msgstr "Вернуться"
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " record is not in correct format and not added to the exception"
+msgstr "это запись неправильного формата и она не добавлена в исключение"
 
-#: views.py:536
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners do not exist in LMS and not added to the"
+msgstr "Учетные записи слушателей отсутствуют в LMS"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners are already white listed and not added to"
+msgstr "слушатели уже одобрены и не добавлены в"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learner is already white listed and not added to the exception "
+msgstr "слушатель уже одобрен и не добавлен в исключение"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learners are not enrolled in course and not added to"
+msgstr "слушатели не записаны на курс и не добавлены в"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js
+msgid " learner is not enrolled in course and not added to the exception"
+msgstr "слушатель не записан на курс и не добавлен в исключение"
+
+#: lms/static/js/financial-assistance/views/financial_assistance_form_view.js
+msgid "Unable to submit application"
+msgstr "Не удалось отправить заявление"
+
+#: lms/static/js/student_account/views/FormView.js
+#: lms/static/js/student_account/views/RegisterView.js
+msgid "An error occurred."
+msgstr "Произошла ошибка"
+
+#: lms/static/js/student_account/views/LoginView.js
+msgid "We couldn't sign you in."
+msgstr "Не удалось войти в систему."
+
+#: lms/static/js/student_account/views/RegisterView.js
+msgid "We couldn't create your account."
+msgstr "Не удалось создать учётную запись."
+
+#: lms/static/js/student_account/views/RegisterView.js
+msgid "You've successfully signed into %(currentProvider)s."
+msgstr "Вы успешно вошли в %(currentProvider)s."
+
+#: lms/static/js/student_account/views/RegisterView.js
+msgid ""
+"We just need a little more information before you start learning with "
+"%(platformName)s."
+msgstr "Перед началом учебы в %(platformName)s укажите некоторые данные."
+
+#: lms/templates/class_dashboard/all_section_metrics.js
+msgid "Unable to retrieve data, please try again later."
+msgstr "Не удалось получить данные.  Пожалуйста, попробуйте повторить позже."
+
+#: cms/static/js/certificates/views/certificate_details.js
+msgid ""
+"This certificate has already been activated and is live. Are you sure you "
+"want to continue editing?"
+msgstr ""
+"Этот сертификат уже активен и доступен слушателю.  Вы уверены, что хотите "
+"продолжать редактирование?"
+
+#: cms/static/js/certificates/views/signatory_editor.js
+msgid "Delete \"<%= signatoryName %>\" from the list of signatories?"
+msgstr "Удалить «<%= signatoryName %>» из списка подписей?"
+
+#: cms/static/js/certificates/views/signatory_editor.js
+msgid "Image must be in PNG format."
+msgstr "Изображение должно иметь формат PNG"
+
+#: common/static/common/templates/discussion/new-post.underscore
+msgid "Add a Post"
+msgstr "Добавить сообщение"
+
+#: common/static/common/templates/discussion/thread.underscore
+msgid "Add a response:"
+msgstr "Ответить:"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
+msgid "Discussion Home"
+msgstr "Домашняя страница"
+
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "timed"
-msgstr "приурочен"
+msgstr "ограничен по времени"
+
+#: lms/templates/courseware/proctored-exam-status.underscore
+msgid ""
+"To receive credit for problems, you must select \"Submit\" for each problem "
+"before you select \"End My Exam\"."
+msgstr ""
+"Для того, чтобы ваши ответы были оценены, нажмите \"Отправить\" в каждом "
+"заданиидо нажатия \"Завершить сдачу экзамена\"."
+
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/certificate-editor.underscore
+msgid "Course Title Override"
+msgstr "Замещение названия курса"
+
+#: cms/templates/js/certificate-editor.underscore
+msgid ""
+"Specify an alternative to the official course title to display on "
+"certificates. Leave blank to use the official course title."
+msgstr ""
+"Укажите альтернативный вариант официального названия курса, который будет "
+"отображаться на сертификатах.  Оставьте поле пустым, чтобы на сертификатах "
+"отображалось официальное название курса."
+
+#: cms/templates/js/certificate-editor.underscore
+msgid "Add Additional Signatory"
+msgstr "Добавить подписавшего представителя"
+
+#: cms/templates/js/signatory-editor.underscore
+msgid "The name of this signatory as it should appear on certificates."
+msgstr "Имя представителя в форме, которая должна отображаться на сертификате"
+
+#: cms/templates/js/signatory-editor.underscore
+msgid ""
+"Titles more than 100 characters may prevent students from printing their "
+"certificate on a single page."
+msgstr ""
+"Заголовок длиной более 100 символов может привести к невозможности "
+"распечатывания сертификата на одной странице."
+
+#: cms/templates/js/signatory-editor.underscore
+msgid "Upload Signature Image"
+msgstr "Загрузить скан подписи"
+
+msgid "Allowances"
+msgstr "Послабления"
+
+msgid "Add Allowance"
+msgstr "Добавить послабление"
+
+msgid "Exam Type"
+msgstr "Тип экзамена"
+
+msgid "Timed Exam"
+msgstr "Экзамен с ограничением по времени"
+
+msgid "Allowance Type"
+msgstr "Тип послабления"
+
+msgid "Additional Time (minutes)"
+msgstr "Дополнительное время (мин)"
+
+msgid "Value"
+msgstr "Величина"
+
+msgid "minutes"
+msgstr "минуты"
+
+msgid "Username or Email"
+msgstr "Имя или почта"
+
+msgid "Add a New Allowance"
+msgstr "Добавить новое послабление"
+
+msgid "Email"
+msgstr "Почта"
+
+msgid "First Name"
+msgstr "Имя"
+
+msgid "Last Name"
+msgstr "Фамилия"
+
+msgid "Provider Name"
+msgstr "Имя провайдера"
+
+msgid "Exam Name"
+msgstr "Название экзамена"
+
+msgid "Time Limit"
+msgstr "Длиельность"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Started At"
+msgstr "Начат в"
+
+msgid "Completed At"
+msgstr "Завершен в"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Actions"
+msgstr "Действия"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:2
+#: openassessment/xblock/static/js/src/lms/oa_response.js:485
+msgid "File size must be 5MB or less."
+msgstr "Размер файла не должен превышать 5 Мб."

@@ -1,9 +1,9 @@
 
 msgid "Error deleting student '<%= student_id %>'s state on problem '<%= problem_id %>'. Make sure that the problem and student identifiers are complete and correct."
-msgstr "Ошибка при удалении состояния задания '<%= problem_id %>' для слушателя'<%= student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
+msgstr "Ошибка при удалении состояния задания '<%= problem_id %>' для слушателя '<%= student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
 
 msgid "Error getting task history for problem '<%= problem_id %>' and student '<%= student_id %>'. Make sure that the problem and student identifiers are complete and correct."
-msgstr "Ошибка при получении истории задания '<%= problem_id %>' для слушателя'<%= student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
+msgstr "Ошибка при получении истории задания '<%= problem_id %>' для слушателя '<%= student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
 
 msgid "Reset attempts for all students on problem '<%= problem_id %>'?"
 msgstr "Сбросить попытки решения задания '<%= problem_id %>' для всех слушателей?"
@@ -15,10 +15,10 @@ msgid "Error starting a task to reset attempts for all students on problem '<%= 
 msgstr "Ошибка при старте задачи сброса всех попыток решения задания '<%= problem_id %>'. Проверьте, что идентификатор задания верен."
 
 msgid "Started rescore problem task for problem '<%= problem_id %>' and student '<%= student_id %>'. Click the 'Show Task Status' button to see the status of the task."
-msgstr "Задача по переоцениванию  задания '<%= problem_id %>' для слушателя'<%= student_id %>' успешно начата. Нажмите кнопку 'Показать статус задач' чтобы узнать статус."
+msgstr "Задача по переоцениванию  задания '<%= problem_id %>' для слушателя '<%= student_id %>' успешно начата. Нажмите кнопку 'Показать статус задач' чтобы узнать статус."
 
 msgid "Error starting a task to rescore problem '<%= problem_id %>' for student '<%= student_id %>'. Make sure that the the problem and student identifiers are complete and correct."
-msgstr "Ошибка при старте задачи по переоцениванию задания '<%= problem_id %>' для слушателя'<%= student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
+msgstr "Ошибка при старте задачи по переоцениванию задания '<%= problem_id %>' для слушателя '<%= student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
 
 msgid "Rescore problem '<%= problem_id %>' for all students?"
 msgstr "Переоценить задание '<%= problem_id %>' для всех слушателей?"
@@ -33,7 +33,7 @@ msgid "Success! Problem attempts reset for problem '<%= problem_id %>' and stude
 msgstr "Попытки слушателя '<%= student_id %>' решения задания '<%= problem_id %>' были успешно сброшены."
 
 msgid "Error resetting problem attempts for problem '<%= problem_id %>' and student '<%= student_id %>'. Make sure that the problem and student identifiers are complete and correct."
-msgstr "Ошибка при сбросе попыток решения задания '<%= problem_id %>' для слушателя'<%= student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
+msgstr "Ошибка при сбросе попыток решения задания '<%= problem_id %>' для слушателя '<%= student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
 
 msgid "Delete student '<%= student_id %>'s state on problem '<%= problem_id %>'?"
 msgstr "Удалить состояние задания '<%= problem_id %>' для слушателя '<%= student_id %>?"

@@ -4,11 +4,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "\n"
 
-msgid "Avg"
-msgstr "Срд"
+msgid "{short_label} Avg"
+msgstr "{short_label} cрд"
 
-msgid "Average"
-msgstr "Среднее"
+msgid "{section_type} Average = {percent:.0%}"
+msgstr "{section_type} среднее = {percent:.0%}"
 
 msgid "{0} = {1:.2%} of a possible {2:.2%}"
 msgstr "{0} = {1:.2%} из возможных {2:.2%}"

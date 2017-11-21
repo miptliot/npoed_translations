@@ -1550,8 +1550,8 @@ msgstr "Пользователя нельзя заблокировать"
 msgid "user is not enrolled on course"
 msgstr "Пользователь не записан на курс"
 
-msgid " (forbidden by PLP: {plp_reason})"
-msgstr " (запрещено PLP: {plp_reason})"
+msgid " (forbidden by PLP: {})"
+msgstr " (запрещено PLP: {})"
 
 msgid ""
 "Course team have to specified Proctoring Service before you will have "
