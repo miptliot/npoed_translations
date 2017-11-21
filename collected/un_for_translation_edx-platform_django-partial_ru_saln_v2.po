@@ -530,7 +530,7 @@ msgid ""
 " participating in the discussion forums. What do you want to do to keep "
 "learning?"
 msgstr ""
-"Многие из наших слушателей решают больше заданий каждую неделю и принимают участие "
+"Многие из слушателей %(platform_name)s решают больше заданий каждую неделю и принимают участие "
 " в обсуждениях на форуме. А что Вы собираетесь делать, чтобы продолжать "
 "учиться?"
 
@@ -541,7 +541,7 @@ msgid ""
 "problems every week, and participating in the discussion forums. What do you"
 " want to do to keep learning?"
 msgstr ""
-"Многие из наших слушателей на онлайн-курсе %(course_name)s решают больше заданий каждую неделю "
+"Многие из слушателей платформы %(platform_name)s на онлайн-курсе %(course_name)s решают больше заданий каждую неделю "
 "и принимают участие в обсуждениях на форуме. А что Вы собираетесь делать, "
 " чтобы продолжать учиться?"
 
@@ -656,9 +656,9 @@ msgid ""
 "An %(platform_name)s certificate is official and easily shareable. Upgrade "
 "by %(user_schedule_upgrade_deadline_time)s."
 msgstr ""
-"Надеемся Вам понравилось учиться вместе с нами! "
+"Надеемся Вам понравилось учиться вместе с нами на платформе %(platform_name)s! "
 "Используйте подтвержденные сертификаты для подтверждения ваших новых знаний и навыков. "
-"Подтвержденный сертификат - официальный документ. Перейдите на обучение с сертификатом до "
+"Подтвержденный сертификат платформ - официальный документ. Перейдите на обучение с сертификатом до "
 " %(user_schedule_upgrade_deadline_time)s."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:15
@@ -672,7 +672,7 @@ msgid ""
 msgstr ""
 "Надеемся Вам понравилось учиться вместе с нами на %(first_course_name)s! "
 "Используйте подтвержденные сертификаты для подтверждения ваших новых знаний и навыков. "
-"Подтвержденный сертификат - официальный документ. Перейдите на обучение с сертификатом до "
+"Подтвержденный сертификат платформы %(platform_name)s - официальный документ. Перейдите на обучение с сертификатом до "
 " %(user_schedule_upgrade_deadline_time)s."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:29
@@ -688,7 +688,7 @@ msgid ""
 "highlight your new knowledge and skills. An %(platform_name)s certificate is"
 " official and easily shareable."
 msgstr ""
-"Надеемся Вам понравилось учиться вместе с нами! "
+"Надеемся Вам понравилось учиться вместе с нами на платформе %(platform_name)s! "
 "Используйте подтвержденные сертификаты для подтверждения "
 "ваших новых знаний и навыков. "
 "Подтвержденный сертификат - официальный документ."
@@ -703,7 +703,7 @@ msgid ""
 msgstr ""
 "Надеемся Вам понравилось учиться вместе с нами на "
 "<strong>%(first_course_name)s</strong>! Используйте подтвержденные сертификаты для подтверждения"
-" ваших новых знаний и навыков. Подтвержденный сертификат - "
+" ваших новых знаний и навыков. Подтвержденный сертификат - платформы %(platform_name)s "
 "официальный документ."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:47
@@ -727,7 +727,7 @@ msgstr "Перейти сейчас на"
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/subject.txt:4
 #, python-format
 msgid "Upgrade to earn a verified certificate on %(platform_name)s"
-msgstr "Перейти на обучение с сертификатом"
+msgstr "Перейти на обучение с сертификатом от платформы %(platform_name)s"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/subject.txt:6
 #, python-format
