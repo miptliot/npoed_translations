@@ -10,11 +10,18 @@ msgstr "Срд"
 msgid "Average"
 msgstr "Среднее"
 
-msgid "of a possible"
-msgstr "из возможных"
+msgid "{0} = {1:.2%} of a possible {2:.2%}"
+msgstr "{0} = {1:.2%} из возможных {2:.2%}"
 
 msgid "Enter your response to the question."
 msgstr "Введите свой ответ на вопрос."
 
 msgid "Enter your response to the question above."
 msgstr "Введите свой ответ на приведённый выше вопрос."
+
+msgid ""
+"After the subsection\\'s due date has passed, learners can no longer access "
+"its content. The subsection remains included in grade calculations."
+msgstr ""
+"По истечении срока сдачи подраздела у слушателей нет доступа к его "
+"содержимому.  Подраздел учитывается при выводе итоговой оценки."
