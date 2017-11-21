@@ -4,6 +4,1833 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "\n"
 
+#: templates/proctored_exam/confirm-decline.html:19
+msgid "Go Back"
+msgstr "Вернуться"
+
+#: common/lib/xmodule/xmodule/capa_base.py:190
+msgid "Dictionary with the current student score"
+msgstr "Словарь с текущим количеством баллов слушателя"
+
+#: common/lib/xmodule/xmodule/course_module.py:297
+msgid ""
+"Enter discussion categories in the following format: \"CategoryName\": "
+"{\"id\": \"i4x-InstitutionName-CourseNumber-course-CourseRun\"}. For "
+"example, one discussion category may be \"Lydian Mode\": {\"id\": "
+"\"i4x-UniversityX-MUS101-course-2015_T1\"}. The \"id\" value for each "
+"category must be unique. In \"id\" values, the only special characters that "
+"are supported are underscore, hyphen, and period. You can also specify a "
+"category as the default for new posts in the Discussion page by setting its "
+"\"default\" attribute to true. For example, \"Lydian Mode\": {\"id\": "
+"\"i4x-UniversityX-MUS101-course-2015_T1\", \"default\": true}."
+msgstr ""
+"Введите категории обсуждений в следующем виде: \"НазваниеКатегории\": "
+"{\"id\": \"i4x-НазваниеВуза-НомерКурса-курс-СессияКурса\"}. Например, "
+"назовем категорию обсуждения \"Лидийский лад\": {\"id\": \"i4x-UniversityX-"
+"MUS101-course-2015_T1\"}. Значение поля \"id\" для каждой категории должно "
+"быть уникальным. В знаениях \"id\" допускаются только следующие специальные "
+"символы: подчеркивание, дефис и точка. Вы также можете указать категорию как"
+" категорию по умолчанию для новых публикаций на странице обсуждений "
+"установив настройку \"default\" в значение true. Например, \"Лидийский "
+"лад\": {\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\", \"default\": "
+"true}."
+
+#: common/lib/xmodule/xmodule/graders.py:274
+#, python-brace-format
+msgid "{assignment_type} = {weighted_percent:.2%} of a possible {weight:.2%}"
+msgstr "{assignment_type} = {weighted_percent:.2%} из возможных {weight:.2%}"
+
+#: common/lib/xmodule/xmodule/seq_module.py:591
+msgid ""
+"A list summarizing what students should look forward to in this section."
+msgstr ""
+"Список, кратко описывающий то, что ожидает слушателей в данной секции."
+
+#: lms/djangoapps/completion/models.py:30
+#, python-brace-format
+msgid "{value} must be between 0.0 and 1.0"
+msgstr "{value} должно быть между 0.0 и 1.0"
+
+#: lms/djangoapps/course_goals/models.py:18
+msgid "Earn a certificate"
+msgstr "Получить сертификат"
+
+#: lms/djangoapps/course_goals/models.py:19
+msgid "Complete the course"
+msgstr "Окончить онлайн-курс"
+
+#: lms/djangoapps/course_goals/models.py:20
+msgid "Explore the course"
+msgstr "Изучить онлайн-курс"
+
+#: lms/djangoapps/course_goals/models.py:21
+msgid "Not sure yet"
+msgstr "Пока не уверен"
+
+#: lms/djangoapps/courseware/date_summary.py:248
+msgid "Don't forget to add a calendar reminder!"
+msgstr "Не забудьте добавить напоминание в Ваш календарь!"
+
+#: lms/djangoapps/courseware/date_summary.py:250
+#, python-brace-format
+msgid "Course starts in {time_remaining_string} on {course_start_date}."
+msgstr "Старт через {time_remaining_string}, {course_start_date}."
+
+#: lms/djangoapps/courseware/date_summary.py:258
+#, python-brace-format
+msgid "Course starts in {time_remaining_string} at {course_start_time}."
+msgstr "Старт через {time_remaining_string}, в {course_start_time}."
+
+#: lms/djangoapps/courseware/date_summary.py:303
+#, python-brace-format
+msgid "This course is ending in {time_remaining_string} on {course_end_date}."
+msgstr "Окончание через {time_remaining_string}, {course_end_date}."
+
+#: lms/djangoapps/courseware/date_summary.py:312
+#, python-brace-format
+msgid "This course is ending in {time_remaining_string} at {course_end_time}."
+msgstr "Окончание через {time_remaining_string}, в {course_end_time}."
+
+#: lms/djangoapps/courseware/date_summary.py:324
+msgid "Certificate Available"
+msgstr "Доступен сертификат"
+
+#: lms/djangoapps/courseware/date_summary.py:345
+msgid "Day certificates will become available for passing verified learners."
+msgstr "Дата доступности сертификатов для подтверженных слушателей."
+
+#: lms/djangoapps/courseware/date_summary.py:370
+#, python-brace-format
+msgid ""
+"If you have earned a certificate, you will be able to access it "
+"{time_remaining_string} from now. You will also be able to view your "
+"certificates on your {learner_profile_link}."
+msgstr ""
+"Если Вы получили сертификат, он будет доступен в течение "
+"{time_remaining_string} с настоящего момента. Вы также можете посмотреть "
+"Ваши сертификата по ссылке {learner_profile_link}."
+
+#: lms/djangoapps/courseware/date_summary.py:381
+msgid "We are working on generating course certificates."
+msgstr "Идет создание сертификатов по онлайн-курсу."
+
+#: lms/djangoapps/courseware/date_summary.py:497
+msgid ""
+"Don't miss the opportunity to highlight your new knowledge and skills by "
+"earning a verified certificate."
+msgstr ""
+"Не пропустите возможность подтвердить новые знания и навыки получением "
+"подтвержденного сертификата."
+
+#. Переводчикам: Здесь описывается промежуток времени, в течение которого
+#. пользователь
+#. имеет возможность перейти на обучение с сертификацией. 'date' будет
+#. подставлена
+#. автоматически значением персонального дедлайна для такого перехода в
+#. формате
+#. согласно пользовательских настроек.
+#: lms/djangoapps/courseware/date_summary.py:516
+#, python-brace-format
+msgid "by {date}"
+msgstr "до {date}"
+
+#: lms/djangoapps/courseware/date_summary.py:528
+#, python-brace-format
+msgid ""
+"Don't forget, you have {time_remaining_string} left to upgrade to a Verified"
+" Certificate."
+msgstr ""
+"Помните, у Вас осталось всего {time_remaining_string} для перехода на "
+"обучение  с подтвержденным сертификатом."
+
+#: lms/djangoapps/courseware/date_summary.py:532
+#, python-brace-format
+msgid "Don't forget to upgrade to a verified certificate by {localized_date}."
+msgstr ""
+"Вы можете перейти на обучение с подтвержденным сертификатом до "
+"{localized_date}."
+
+#: lms/djangoapps/courseware/date_summary.py:537
+#, python-brace-format
+msgid ""
+"In order to qualify for a certificate, you must meet all course grading "
+"requirements, upgrade before the course deadline, and successfully verify "
+"your identity on {platform_name} if you have not done so "
+"already.{button_panel}"
+msgstr ""
+"Для сдачи экзамена с сертификатом Вы должны соответствовать всем требованиям"
+" оценивания онлайн-курса, перевестись до указанной конечной даты и успешно "
+"подтвердить свою личность на {platform_name} если это еще не "
+"сделано.{button_panel}"
+
+#: lms/djangoapps/courseware/date_summary.py:550
+#, python-brace-format
+msgid "Upgrade ({upgrade_price})"
+msgstr "Перейти ({upgrade_price})"
+
+#: lms/djangoapps/courseware/models.py:378
+#: lms/djangoapps/courseware/models.py:409
+#: lms/djangoapps/courseware/models.py:431
+msgid ""
+"Number of days a learner has to upgrade after content is made available"
+msgstr ""
+"Количество дней для перехода после предоставления доступа к контенту курса"
+
+#: lms/djangoapps/courseware/models.py:414
+msgid "Disable the dynamic upgrade deadline for this course run."
+msgstr "Отключить динамическую дату окончания перехода для этой сессии курса."
+
+#: lms/djangoapps/courseware/models.py:436
+msgid "Disable the dynamic upgrade deadline for this organization."
+msgstr "Отключить динамическую дату окончания перехода для этой организации."
+
+#: lms/djangoapps/courseware/views/views.py:149
+#: lms/djangoapps/courseware/views/views.py:170
+msgid "You've earned a certificate for this course."
+msgstr "Вы получили сертификат по данному курсу."
+
+#: lms/djangoapps/courseware/views/views.py:493
+#, python-brace-format
+msgid "To see course content, {sign_in_link} or {register_link}."
+msgstr "Для просмотра контента {sign_in_link} или {register_link}."
+
+#: lms/djangoapps/courseware/views/views.py:495
+msgid "sign in"
+msgstr "Войти"
+
+#: lms/djangoapps/courseware/views/views.py:499
+#: openedx/features/course_experience/views/course_home_messages.py:114
+msgid "register"
+msgstr "Регистрация"
+
+#: lms/djangoapps/courseware/views/views.py:508
+#, python-brace-format
+msgid ""
+"You must be enrolled in the course to see course content."
+"                             {enroll_link_start}Enroll now{enroll_link_end}."
+msgstr ""
+"Для просмотра контента курса на него необходимо записаться."
+"                             {enroll_link_start}Записаться "
+"сейчас{enroll_link_end}."
+
+#: lms/djangoapps/courseware/views/views.py:520
+#: openedx/features/course_experience/views/course_home_messages.py:118
+msgid "You must be enrolled in the course to see course content."
+msgstr "Для просмотра контента курса на него необходимо записаться."
+
+#: lms/djangoapps/email_marketing/models.py:54
+msgid "Sailthru template to use on welcome send."
+msgstr "Шаблон письма при регистрации."
+
+#: lms/djangoapps/email_marketing/models.py:135
+msgid ""
+"Number of seconds to delay the sending of User Welcome email after user has "
+"been created"
+msgstr ""
+"Задежка в секундах после регистрации пользователя перед отправкой письма"
+
+#: lms/djangoapps/email_marketing/models.py:143
+msgid ""
+"The number of seconds to delay/timeout wait to get cookie values from "
+"sailthru."
+msgstr "Задежка/таймаут в секундах для получения значений cookie от sailthru."
+
+#: lms/djangoapps/instructor/views/api.py:135
+#, python-brace-format
+msgid ""
+"The {report_type} report is being created. To view the status of the report,"
+" see Pending Tasks below."
+msgstr ""
+"Отчет {report_type} в процессе создания. Для просмотра его статуса  "
+"используйте пункт Задачи в ожидании."
+
+#: lms/djangoapps/instructor/views/api.py:983
+#: lms/djangoapps/instructor_task/api_helper.py:106
+msgid "problem responses"
+msgstr "ответы на задание"
+
+#: lms/djangoapps/instructor/views/api.py:1217
+#: lms/djangoapps/instructor_task/api_helper.py:107
+msgid "enrolled learner profile"
+msgstr "профиль слушателя онлайн-курса"
+
+#: lms/djangoapps/instructor/views/api.py:1311
+#: lms/djangoapps/instructor_task/api_helper.py:108
+msgid "enrollment"
+msgstr "запись"
+
+#: lms/djangoapps/instructor/views/api.py:1406
+#: lms/djangoapps/instructor_task/api_helper.py:109
+msgid "detailed enrollment"
+msgstr "детализированная запись"
+
+#: lms/djangoapps/instructor/views/api.py:1425
+#: lms/djangoapps/instructor_task/api_helper.py:110
+msgid "executive summary"
+msgstr "краткий итог"
+
+#: lms/djangoapps/instructor/views/api.py:1443
+#: lms/djangoapps/instructor_task/api_helper.py:111
+msgid "survey"
+msgstr "опрос"
+
+#: lms/djangoapps/instructor/views/api.py:1461
+#: lms/djangoapps/instructor_task/api_helper.py:112
+msgid "proctored exam results"
+msgstr "результаты экзамена с прокторингом"
+
+#: lms/djangoapps/instructor/views/api.py:2405
+#: lms/djangoapps/instructor_task/api_helper.py:113
+msgid "ORA data"
+msgstr "данные ORA-заданий"
+
+#: lms/djangoapps/instructor/views/api.py:2422
+#: lms/djangoapps/instructor_task/api_helper.py:114
+msgid "grade"
+msgstr "оценка"
+
+#: lms/djangoapps/instructor/views/api.py:2445
+#: lms/djangoapps/instructor_task/api_helper.py:105
+msgid "problem grade"
+msgstr "оценка задания"
+
+#: lms/djangoapps/instructor_task/api_helper.py:29
+msgid "Requested task is already running"
+msgstr "Задача уже в исполнении"
+
+#: lms/djangoapps/instructor_task/api_helper.py:42
+msgid "Error occured. Please try again later."
+msgstr "Ошибка. Попробуйте еще раз."
+
+#: lms/djangoapps/instructor_task/api_helper.py:121
+#, python-brace-format
+msgid ""
+"The {report_type} report is being created. To view the status of the report,"
+" see Pending Tasks below. You will be able to download the report when it is"
+" complete."
+msgstr ""
+"Отчет {report_type} в процессе создания. Для просмотра его статуса, "
+"используйте Задачи в ожидании. Вы сможете скачать отчет как только он будет "
+"готов."
+
+#: lms/djangoapps/instructor_task/api_helper.py:350
+msgid "This component does not support score override."
+msgstr "Этот компонент не поддерживает переопределение баллов."
+
+#: lms/djangoapps/instructor_task/api_helper.py:354
+msgid "Scores must be between 0 and the value of the problem."
+msgstr "Балл должен быть между 0 и значением за задание."
+
+#. Переводчикам: Это глагол в прошедшем времени, используемый в отображении
+#. сообщении прогресса как {action}.
+#: lms/djangoapps/instructor_task/tasks.py:90
+msgid "overridden"
+msgstr "переопределен"
+
+#: lms/djangoapps/lms_xblock/mixin.py:23
+msgid ""
+"This unit's access settings refer to deleted or invalid group "
+"configurations."
+msgstr ""
+"Настройки доступа данного пункта ссылаются на удаленные или неверные  "
+"настройки группы."
+
+#: lms/djangoapps/lms_xblock/mixin.py:28
+msgid "This unit's access settings refer to deleted or invalid groups."
+msgstr ""
+"Настройки доступа данного пункта ссылаются на удаленные или неверные группы."
+
+#: lms/djangoapps/lms_xblock/mixin.py:29
+msgid ""
+"This component's access settings contradict its parent's access settings."
+msgstr "Настройки доступа данного компонента противоречат родительским."
+
+#: lms/envs/common.py:49
+msgid "Your Platform Name Here"
+msgstr "Название Платформы"
+
+#: lms/envs/common.py:50
+msgid "Your Platform Description Here"
+msgstr "Описание Платформы"
+
+#: lms/envs/common.py:2894
+msgid "Your Platform Insights"
+msgstr "Идеи Платформы"
+
+#: lms/templates/emails/password_reset_subject.txt:3
+#, python-format
+msgid "Password reset on %(platform_name)s"
+msgstr "Сброс пароля, %(platform_name)s"
+
+#: lms/templates/registration/password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this e-mail because you requested a password reset for your"
+" user account at %(platform_name)s."
+msgstr ""
+"Вы получили данное письмо в связи с запросом на сброс пароля Вашего  "
+"аккаунта на Платформе %(platform_name)s."
+
+#: lms/urls.py:27
+msgid "LMS Administration"
+msgstr "Управление LMS"
+
+#: openedx/core/djangoapps/dark_lang/views.py:52
+msgid "Preview Language Administration"
+msgstr "Управление языками предпросмотра"
+
+#: openedx/core/djangoapps/dark_lang/views.py:91
+msgid "Language not provided"
+msgstr "Язык недоступен"
+
+#: openedx/core/djangoapps/dark_lang/views.py:97
+#, python-brace-format
+msgid "Language set to {preview_language}"
+msgstr "Язык установлен как {preview_language}"
+
+#: openedx/core/djangoapps/dark_lang/views.py:111
+msgid "Language reset to the default"
+msgstr "Язык возвращен в вариант по умолчанию"
+
+#: openedx/core/djangoapps/debug/views.py:48
+msgid "This is a test message"
+msgstr "Тестовое сообщение"
+
+#: openedx/core/djangoapps/debug/views.py:49
+msgid "This is a success message"
+msgstr "Успешное сообщение"
+
+#: openedx/core/djangoapps/debug/views.py:50
+msgid "This is a test warning"
+msgstr "Тестовое предупреждение"
+
+#: openedx/core/djangoapps/debug/views.py:51
+msgid "This is a test error"
+msgstr "Тестовая ошибка"
+
+#: openedx/core/djangoapps/schedules/apps.py:7
+#: openedx/core/djangoapps/schedules/models.py:28
+msgid "Schedules"
+msgstr "Расписания"
+
+#: openedx/core/djangoapps/schedules/models.py:13
+msgid "Indicates if this schedule is actively used"
+msgstr "Указывает если данное расписание активно используется"
+
+#: openedx/core/djangoapps/schedules/models.py:17
+msgid "Date this schedule went into effect"
+msgstr "Дата данного расписания вступила в силу"
+
+#: openedx/core/djangoapps/schedules/models.py:23
+msgid "Deadline by which the learner must upgrade to a verified seat"
+msgstr ""
+"Дата, до которой слушателю необходимо перейти на обучение с сертификатом"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:59
+#, python-format
+msgid "Go to %(platform_name)s Home Page"
+msgstr "Перейти на страницу Платформы %(platform_name)s"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:92
+#, python-format
+msgid "%(platform_name)s on LinkedIn"
+msgstr "%(platform_name)s в LinkedIn"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:100
+#, python-format
+msgid "%(platform_name)s on Twitter"
+msgstr "%(platform_name)s в Twitter"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:108
+#, python-format
+msgid "%(platform_name)s on Facebook"
+msgstr "%(platform_name)s в Facebook"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:116
+#, python-format
+msgid "%(platform_name)s on Google Plus"
+msgstr "%(platform_name)s в Google+"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:124
+#, python-format
+msgid "%(platform_name)s on Reddit"
+msgstr "%(platform_name)s в Reddit"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:138
+msgid "Download the iOS app on the Apple Store"
+msgstr "Скачать приложение под iOS в Apple Store"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:145
+msgid "Download the Android app on the Google Play Store"
+msgstr "Скачать приложение под Android в Google Play"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:157
+msgid "View on Web"
+msgstr "Посмотреть в браузере"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:162
+msgid "Unsubscribe from this list"
+msgstr "Отписаться от рассылки"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:172
+msgid "Our mailing address is"
+msgstr "Лист рассылки"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_head.html:7
+msgid "edX Email"
+msgstr "Электронная почта edX"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/upsell_cta.html:5
+#, python-format
+msgid ""
+"Don't miss the opportunity to highlight your new knowledge and skills by "
+"earning a verified certificate. Upgrade by "
+"%(user_schedule_upgrade_deadline_time)s."
+msgstr ""
+"Не пропустите возможность подтвердить новые знания и навыки получением "
+"подтвержденного сертификата. Переход доступен до "
+"%(user_schedule_upgrade_deadline_time)s."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/upsell_cta.txt:4
+#, python-format
+msgid ""
+"Don't miss the opportunity to highlight your new knowledge and skills by "
+"earning a verified certificate. Upgrade by "
+"%(user_schedule_upgrade_deadline_time)s. Upgrade Now! <%(upsell_link)s>"
+msgstr ""
+"Не пропустите возможность подтвердить новые знания и навыки получением "
+"подтвержденного сертификата. Переход доступен до "
+"%(user_schedule_upgrade_deadline_time)s. Перейти сейчас! <%(upsell_link)s>"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:6
+#, python-format
+msgid "Welcome to week %(week_num)s of our %(course_name)s course!"
+msgstr ""
+"Добро пожаловать на неделю  %(week_num)s нашего онлайн-курса "
+"%(course_name)s!"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:16
+#, python-format
+msgid "Welcome to week %(week_num)s of <strong>%(course_name)s</strong>!"
+msgstr ""
+"Добро пожаловать на неделю %(week_num)s онлайн-курса "
+"<strong>%(course_name)s</strong>!"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:21
+msgid "Here is what you can look forward to learning this week:"
+msgstr "На этой неделе будет изучаться:"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:31
+msgid "Resume your course now"
+msgstr "Возобновите ваш курс сейчас"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.txt:3
+#, python-format
+msgid ""
+"Welcome to week %(week_num)s of our %(course_name)s course! Here is what you"
+" can look forward to learning this week: %(week_summary)s"
+msgstr ""
+"Добро пожаловать на неделю %(week_num)s нашего онлайн-курса %(course_name)s!"
+" На этой неделе будет изучаться: %(week_summary)s"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/subject.txt:3
+#, python-format
+msgid "%(course_name)s - Welcome to Week %(week_num)s "
+msgstr "%(course_name)s - Добро пожаловать на неделю %(week_num)s "
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:6
+#, python-format
+msgid ""
+"Many %(platform_name)s learners are completing more problems every week, and"
+" participating in the discussion forums. What do you want to do to keep "
+"learning?"
+msgstr ""
+"Многие из наших слушателей решают больше заданий каждую неделю и принимают "
+"участие  в обсуждениях на форуме. А что Вы собираетесь делать, чтобы "
+"продолжать учиться?"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:11
+#, python-format
+msgid ""
+"Many %(platform_name)s learners in %(course_name)s are completing more "
+"problems every week, and participating in the discussion forums. What do you"
+" want to do to keep learning?"
+msgstr ""
+"Многие из наших слушателей на онлайн-курсе %(course_name)s решают больше "
+"заданий каждую неделю и принимают участие в обсуждениях на форуме. А что Вы "
+"собираетесь делать,  чтобы продолжать учиться?"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:22
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/subject.txt:2
+msgid "Keep up the momentum!"
+msgstr "Держи темп!"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:26
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.txt:3
+msgid ""
+"Many edX learners are completing more problems every week, and participating"
+" in the discussion forums. What do you want to do to keep learning?"
+msgstr ""
+"Многие из наших слушателей решают больше заданий каждую неделю и принимают "
+"участие в обсуждениях на форуме. А что Вы собираетесь делать, чтобы "
+"продолжать учиться?"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:31
+#, python-format
+msgid ""
+"Many edX learners in <strong>%(course_name)s</strong> are completing more "
+"problems every week, and participating in the discussion forums. What do you"
+" want to do to keep learning?"
+msgstr ""
+"Многие из наших слушателей на онлайн-курсе <strong>%(course_name)s</strong> "
+"решают больше заданий каждую неделю и принимают участие в обсуждениях на "
+"форуме. А что Вы собираетесь делать,  чтобы продолжать учиться?"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:38
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.txt:7
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.txt:13
+msgid "Keep learning"
+msgstr "Продолжай учиться"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.txt:9
+#, python-format
+msgid ""
+"Many edX learners in %(course_name)s are completing more problems every "
+"week, and participating in the discussion forums. What do you want to do to "
+"keep learning?"
+msgstr ""
+"Многие из наших слушателей на онлайн-курсе %(course_name)s решают больше "
+"заданий каждую неделю и принимают участие в обсуждениях на форуме. А что Вы "
+"собираетесь делать,  чтобы продолжать учиться?"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:6
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt:4
+#, python-format
+msgid ""
+"Remember when you enrolled in %(course_name)s, and other courses on edX.org?"
+" We do, and we’re glad to have you! Come see what everyone is learning."
+msgstr ""
+"Помните, когда Вы записались на %(course_name)s и другие наши курсы? Мы "
+"помним и рады, что Вы с нами! Давайте посмотрим, что изучают другие."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:11
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt:11
+#, python-format
+msgid ""
+"Remember when you enrolled in %(course_name)s on edX.org? We do, and we’re "
+"glad to have you! Come see what everyone is learning."
+msgstr ""
+"Помните, когда Вы записались на онлайн-курс %(course_name)s? Мы помним и "
+"рады, что Вы с нами! Давайте посмотрим, что изучают другие."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:22
+msgid "Keep learning today"
+msgstr "Продолжайте учебу"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:26
+#, python-format
+msgid ""
+"Remember when you enrolled in <strong>%(course_name)s</strong>, and other "
+"courses on edX.org? We do, and we’re glad to have you! Come see what "
+"everyone is learning."
+msgstr ""
+"Помните, когда Вы записались на <strong>%(course_name)s</strong> и другие "
+"наши курсы?Мы помним и рады, что Вы с нами!  Давайте посмотрим, что изучают "
+"другие."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:31
+#, python-format
+msgid ""
+"Remember when you enrolled in <strong>%(course_name)s</strong> on edX.org? "
+"We do, and we’re glad to have you! Come see what everyone is learning."
+msgstr ""
+"Помните, когда Вы записались на онлайн-курс "
+"<strong>%(course_name)s</strong>? Мы помним и рады, что Вы с нами! Давайте "
+"посмотрим, что изучают другие."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:38
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt:9
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt:16
+msgid "Start learning now"
+msgstr "Начни учиться сейчас"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/subject.txt:3
+#, python-format
+msgid "Keep learning on %(platform_name)s"
+msgstr "Продолжай учиться на Платформе %(platform_name)s"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/subject.txt:5
+#, python-format
+msgid "Keep learning in %(course_name)s"
+msgstr "Продолжай учиться на онлайн-курсе %(course_name)s"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:7
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:4
+#, python-format
+msgid ""
+"We hope you are enjoying learning with us so far on %(platform_name)s! A "
+"verified certificate allows you to highlight your new knowledge and skills. "
+"An %(platform_name)s certificate is official and easily shareable. Upgrade "
+"by %(user_schedule_upgrade_deadline_time)s."
+msgstr ""
+"Надеемся Вам понравилось учиться вместе с нами! Используйте подтвержденные "
+"сертификаты для подтверждения ваших новых знаний и навыков. Подтвержденный "
+"сертификат - официальный документ. Перейдите на обучение с сертификатом до  "
+"%(user_schedule_upgrade_deadline_time)s."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:15
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:20
+#, python-format
+msgid ""
+"We hope you are enjoying learning with us so far in %(first_course_name)s! A"
+" verified certificate allows you to highlight your new knowledge and skills."
+" An %(platform_name)s certificate is official and easily shareable. Upgrade "
+"by %(user_schedule_upgrade_deadline_time)s."
+msgstr ""
+"Надеемся Вам понравилось учиться вместе с нами на %(first_course_name)s! "
+"Используйте подтвержденные сертификаты для подтверждения ваших новых знаний "
+"и навыков. Подтвержденный сертификат - официальный документ. Перейдите на "
+"обучение с сертификатом до  %(user_schedule_upgrade_deadline_time)s."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:29
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:103
+msgid "Upgrade now"
+msgstr "Перейти сейчас"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:33
+#, python-format
+msgid ""
+"We hope you are enjoying learning with us so far on "
+"<strong>%(platform_name)s</strong>! A verified certificate allows you to "
+"highlight your new knowledge and skills. An %(platform_name)s certificate is"
+" official and easily shareable."
+msgstr ""
+"Надеемся Вам понравилось учиться вместе с нами! Используйте подтвержденные "
+"сертификаты для подтверждения ваших новых знаний и навыков. Подтвержденный "
+"сертификат - официальный документ."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:39
+#, python-format
+msgid ""
+"We hope you are enjoying learning with us so far in "
+"<strong>%(first_course_name)s</strong>! A verified certificate allows you to"
+" highlight your new knowledge and skills. An %(platform_name)s certificate "
+"is official and easily shareable."
+msgstr ""
+"Надеемся Вам понравилось учиться вместе с нами на "
+"<strong>%(first_course_name)s</strong>! Используйте подтвержденные "
+"сертификаты для подтверждения ваших новых знаний и навыков. Подтвержденный "
+"сертификат - официальный документ."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:47
+#, python-format
+msgid "Upgrade by <strong>%(user_schedule_upgrade_deadline_time)s</strong>."
+msgstr "Перейти до <strong>%(user_schedule_upgrade_deadline_time)s</strong>."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:54
+msgid "You are eligible to upgrade in these courses:"
+msgstr ""
+"Вы можете перейти на обучение с сертификатом по следующим онлайн-курсам:"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:67
+msgid "Example of a verified certificate"
+msgstr "Пример сертификата"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:18
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:28
+msgid "Upgrade now at"
+msgstr "Перейти сейчас на"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/subject.txt:4
+#, python-format
+msgid "Upgrade to earn a verified certificate on %(platform_name)s"
+msgstr "Перейти на обучение с сертификатом"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/subject.txt:6
+#, python-format
+msgid "Upgrade to earn a verified certificate in %(first_course_name)s"
+msgstr ""
+"Перейти на обучение с сертификатом на онлайн-курс %(first_course_name)s"
+
+#: openedx/core/djangoapps/theming/views.py:75
+#, python-brace-format
+msgid "Site theme changed to {site_theme}"
+msgstr "Тема сайта изменена на {site_theme}"
+
+#: openedx/core/djangoapps/theming/views.py:80
+#, python-brace-format
+msgid "Theme {site_theme} does not exist"
+msgstr "Тема {site_theme} не существует"
+
+#: openedx/core/djangoapps/theming/views.py:84
+msgid "Site theme reverted to the default"
+msgstr "Тема сайта возвращена на вариант по умолчанию"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:41
+msgid ""
+"Usernames can only contain letters (A-Z, a-z), numerals (0-9), underscores "
+"(_), and hyphens (-)."
+msgstr ""
+"Имя пользователя может содержать только латинские буквы (A-Z, a-z), цифры "
+"(0-9), подчеркивание (_) и дефис (-)."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:48
+msgid ""
+"Usernames can only contain letters, numerals, and @/./+/-/_ characters."
+msgstr ""
+"Имя пользователя может содержать только латинские буквы, цифры и знаки "
+"@/./+/-/_ ."
+
+#. Переводчикам: Сообщение показывается при попытке
+#. создать аккаунт
+#. с неверным форматом почтового адреса.
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:53
+#, python-brace-format
+msgid "\"{email}\" is not a valid email address."
+msgstr "\"{email}\" не является корректным адресом электронной почты."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:69
+#, python-brace-format
+msgid "Username must be between {min} and {max} characters long."
+msgstr "Имя пользователя должно быть от {min} до {max} символов."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:74
+#, python-brace-format
+msgid "Enter a valid email address that contains at least {min} characters."
+msgstr "Введите корректный адрес почты длиной от {min} знаков."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:77
+msgid "Enter a password."
+msgstr "Введите пароль."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:78
+msgid "Password is not long enough."
+msgstr "Пароль слишком короткий."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:80
+#, python-brace-format
+msgid "Password cannot be longer than {max} character."
+msgstr "Пароль должен быть не более {max} знаков."
+
+#. Translators: This message is shown to users who enter a password matching
+#. the username they enter(ed).
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:91
+msgid "Password cannot be the same as the username."
+msgstr "Пароль и имя пользователя должны различаться."
+
+#. Переводчикам: Эти сообщения показываются пользователям, кто не ввел
+#. или заполнил некорректно обязательные поля.
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:95
+msgid "Enter your full name."
+msgstr "Введите Ваше ФИО."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:97
+msgid "Select your country or region of residence."
+msgstr "Укажите страну проживания."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:98
+msgid "Select your profession."
+msgstr "Выберите профессию."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:99
+msgid "Select your specialty."
+msgstr "Выберите специальность."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:100
+msgid "Enter your profession."
+msgstr "Укажите свой вариант профессии."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:101
+msgid "Enter your specialty."
+msgstr "Укажите свой вариант специальности."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:102
+msgid "Enter your city."
+msgstr "Введите ваш город."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:103
+msgid "Tell us your goals."
+msgstr "Каковы Ваши цели?"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:104
+msgid "Select the highest level of education you have completed."
+msgstr "Укажите уровень образования."
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:105
+msgid "Enter your mailing address."
+msgstr "Ваш почтовый адрес."
+
+#: openedx/core/djangoapps/user_api/accounts/utils.py:26
+msgid ""
+" Make sure that you are providing a valid username or a URL that contains \""
+msgstr ""
+" Убедитесь, что вводите корректное имя пользователя или URL, содержащий \""
+
+#. Переводчикам: Это тестовое имя используется для заполнения поля
+#. на регистрационной форме.
+#: openedx/core/djangoapps/user_api/api.py:335
+msgid "Jane Q. Learner"
+msgstr "Петров Иван Сергеевич"
+
+#. Переводчикам: Эта метка появляется над выпадающим списком профессий
+#. на форме регистрации
+#: openedx/core/djangoapps/user_api/api.py:531
+msgid "Profession"
+msgstr "Профессия"
+
+#. Переводчикам: Эта метка появляется над выпадающим списком специальностей
+#. на форме регистрации
+#: openedx/core/djangoapps/user_api/api.py:547
+msgid "Specialty"
+msgstr "Специальность"
+
+#: openedx/core/djangoapps/util/user_messages.py:99
+#, python-brace-format
+msgid "{header_open}{title}{header_close}{body}"
+msgstr "{header_open}{title}{header_close}{body}"
+
+#: openedx/core/djangoapps/util/user_messages.py:192
+#, python-brace-format
+msgid "{header_open}{title}{header_close}"
+msgstr "{header_open}{title}{header_close}"
+
+#: openedx/features/course_experience/views/course_home_messages.py:107
+#, python-brace-format
+msgid "{sign_in_link} or {register_link} and then enroll in this course."
+msgstr "{sign_in_link} или {register_link} и затем запишитесь на онлайн-курс."
+
+#: openedx/features/course_experience/views/course_home_messages.py:124
+#, python-brace-format
+msgid ""
+"{open_enroll_link}Enroll now{close_enroll_link} to access the full course."
+msgstr ""
+"{open_enroll_link}Запишитесь сейчас{close_enroll_link} для доступа к полному"
+" онлайн-курсу."
+
+#: openedx/features/course_experience/views/course_home_messages.py:129
+#: openedx/features/course_experience/views/course_home_messages.py:193
+#, python-brace-format
+msgid "Welcome to {course_display_name}"
+msgstr "Добро пожалоать на онлайн-курс {course_display_name}"
+
+#: openedx/features/course_experience/views/course_home_messages.py:141
+#, python-brace-format
+msgid ""
+"To start, set a course goal by selecting the option below that best "
+"describes your learning plan. {goal_options_container}"
+msgstr ""
+"Для начала выберите вашу цель на этот курс из опций ниже, которая бы "
+"наилучшим образом описала ваш план подготовки. {goal_options_container}"
+
+#: openedx/features/course_experience/views/course_home_messages.py:156
+#, python-brace-format
+msgid "Set goal to: {choice}"
+msgstr "Моя цель: {choice}"
+
+#: openedx/features/course_experience/views/course_home_messages.py:160
+#, python-brace-format
+msgid "{choice}"
+msgstr "{choice}"
+
+#: openedx/features/course_experience/views/course_home_messages.py:179
+#, python-brace-format
+msgid "Set goal to: {goal_text}"
+msgstr "Моя цель: {goal_text}"
+
+#: openedx/features/learner_profile/views/learner_profile.py:56
+#, python-brace-format
+msgid ""
+"Welcome to the new learner profile page. Your full profile now displays more"
+" information to other learners. You can instead choose to display a limited "
+"profile. {learn_more_link_start}Learn more{learn_more_link_end}"
+msgstr ""
+"Добро пожаловать на страницу профиля. Ваш полный профиль покажет больше "
+"информации  для других слушателей. Вы также можете выбрать сокращенный  "
+"профиль. {learn_more_link_start}Узнать больше{learn_more_link_end}"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:184
+msgid ""
+"In this assignment, you can include learner training, peer assessment, self "
+"assessment, and staff assessment steps. Select the steps that you want "
+"below, and then drag them into the order you want. If you include a learner "
+"training step, it must precede all other steps. If you include a staff "
+"assessment step, it must be the final step. After you release an ORA "
+"assignment, you cannot change the type and number of assessment steps."
+msgstr ""
+"В этом задании вы можете использовать «Обучение слушателей», «Взаимное "
+"оценивание», «Самооценивание», «Автоматизированное оценивание» и «Оценивание"
+" командой курса». Выберите действия, которые вы хотите, а затем перетащите "
+"их в нужном порядке. Если включить «Обучение слушателей», оно должно "
+"предшествовать всем другим шагам. Если включить «Оценивание командой курса»,"
+" оно должно быть последним шагом. После того, как вы выпустите задание, вы "
+"не сможете изменить тип и количество шагов оценки."
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:60
+msgid ""
+"Before you begin to assess your peers' responses, you'll learn how to "
+"complete peer assessments by reviewing responses that instructors have "
+"already assessed. If you select the same options for the response that the "
+"instructor selected, you'll move to the next step. If you don't select the "
+"same options, you'll review the response and try again."
+msgstr ""
+"Перед тем как начать оценивать работы своих однокурсников, вам необходимо "
+"научиться ставить оценки на примере ответов, уже оцененных преподавателями. "
+"Если вы выберете те же варианты оценок ответа, которые выбрал преподаватель,"
+" вы перейдёте к следующему ответу. Если вы выберете другие варианты, вам "
+"придётся перечитать ответ и попробовать снова."
+
+#: lms/templates/staff_problem_info.html:71
+msgid "Score (for override only)"
+msgstr "Балл (только для переопределенных)"
+
+#: lms/templates/staff_problem_info.html:92
+msgid "Override Score"
+msgstr "Переопределенные баллы"
+
+#: lms/templates/certificates/_edx-accomplishment-print-help.html:10
+msgid ""
+"For tips and tricks on printing your certificate, view the {link_start}Web "
+"Certificates help documentation{link_end}."
+msgstr ""
+"Для просмотра подсказок по тому, как распечатать сертификат, перейдите по "
+"ссылке {link_start} Документация по сертификатам{link_end}."
+
+#: lms/templates/courseware/course_navigation.html:47
+msgid "current location"
+msgstr "текущее местоположение"
+
+#: lms/templates/courseware/program_marketing.html:110
+msgid "Frequenty Asked Questions"
+msgstr "Частые вопросы и ответы"
+
+#: lms/templates/courseware/program_marketing.html:138
+msgid "Real Career Impact"
+msgstr "Влияние на карьеру"
+
+#: lms/templates/courseware/program_marketing.html:174
+msgid "{weeks_to_complete} weeks per course"
+msgstr "Недель в курсе: {weeks_to_complete}"
+
+#: lms/templates/courseware/program_marketing.html:185
+msgid ""
+"{min_hours_effort_per_week}-{max_hours_effort_per_week} hours per week, per "
+"course"
+msgstr ""
+"Часов в неделю: {min_hours_effort_per_week}-{max_hours_effort_per_week} в "
+"течение онлайн-курса"
+
+#: lms/templates/courseware/program_marketing.html:211
+msgid "${oldPrice}"
+msgstr "${oldPrice}"
+
+#: lms/templates/courseware/program_marketing.html:245
+msgid "Courses in the {}"
+msgstr "Онлайн-курсов в {}"
+
+#: lms/templates/courseware/program_marketing.html:273
+msgid "Starts on {}"
+msgstr "Начинается {}"
+
+#: lms/templates/courseware/progress.html:189
+msgid "Section grade has been overridden."
+msgstr "Оценка раздела была переопределена."
+
+#: lms/templates/dashboard/_dashboard_certificate_information.html:39
+msgid "Your certificate will be available on or before {date}"
+msgstr "Ваш сертификат будет доступен до {date}"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html:169
+msgid "I'm taking {course_name} online with {facebook_brand}. Check it out!"
+msgstr ""
+"Я прохожу онлайн-курс {course_name} вместе с {facebook_brand}. Зацени!"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html:190
+msgid "I'm taking {course_name} online with {twitter_brand}. Check it out!"
+msgstr "Я прохожу онлайн-курс {course_name} вместе с {twitter_brand}. Зацени!"
+
+#: lms/templates/dashboard/_reason_survey.html:31
+msgid "Browse Courses"
+msgstr "Просмотр онлайн-курсов"
+
+#: lms/templates/header/navbar-authenticated.html:42
+msgid "Discover New"
+msgstr "Изучить новые"
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:98
+msgid ""
+"If this option is {em_start}checked{em_end}, users who have not enrolled in "
+"your course will be automatically enrolled."
+msgstr ""
+"Если данная опция {em_start}включена{em_end}, слушатели, не записанные на "
+"онлайн-курс, будут автоматически записаны."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:21
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:40
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:114
+msgid "Learner's {platform_name} email address or username"
+msgstr ""
+"Адрес электронной почты или имя пользователя слушателя {platform_name}"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:48
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:176
+msgid "Location of problem in course"
+msgstr "Расположение задачи в онлайн-курсе"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:75
+msgid "Score Override"
+msgstr "Баллы переопределены"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:76
+msgid "For the specified problem, override the learner's score."
+msgstr "Для определенной задачи переопределите балл слушателя."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:79
+msgid ""
+"New score for problem, out of the total points available for the problem"
+msgstr "Новый балл для задачи из числа возможных доступных для задачи"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:85
+msgid "Override Learner's Score"
+msgstr "Переопределенный балл слушателя"
+
+#: lms/templates/ux/reference/bootstrap/course-skeleton.html:39
+msgid "Skeleton Page"
+msgstr "Страница на Skeleton"
+
+#: lms/templates/widgets/cookie-consent.html:20
+msgid ""
+"This website uses cookies to ensure you get the best experience on our "
+"website. If you continue browsing this site, we understand that you accept "
+"the use of cookies."
+msgstr ""
+"Наш веб-сайт использует cookie для обеспечения наиболее эффевтивного и "
+"удобного взаимодействия с ним. Если Вы остаетесь на сайте, значит Вы "
+"соглашаетесь  с использованием механизма cookie."
+
+#: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html:27
+msgid "e.g. en for English"
+msgstr "например, ru для русского языка"
+
+#: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:17
+msgid "Theming Administration"
+msgstr "Управление темами"
+
+#: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:25
+msgid "Preview Theme"
+msgstr "Предпросмотр темы"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:69
+msgid "Show/Hide"
+msgstr "Показать/Убрать"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:70
+msgid "Show less"
+msgstr "Свернуть"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:75
+msgid ""
+"Sample verified certificate with your name, the course title, the logo of "
+"the institution and the signatures of the instructors for this course."
+msgstr ""
+"Пример подтвержденного сертификата с Вашим именем, названием онлайн-курса, "
+"логотипом университета и подписью уполномоченного лица."
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:79
+msgid "Official proof of completion"
+msgstr "Официальное подтверждение успешного завершения"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:80
+msgid "Easily shareable certificate"
+msgstr "Сертификат с возможностью легкого распространения"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:81
+msgid "Proven motivator to complete the course"
+msgstr "Серьезная мотивация для успешного завершения онлайн-курса"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:82
+msgid "Certificate purchases help us continue to offer free courses"
+msgstr ""
+"Покупка сертификата помогает нам продолжать развитие бесплатных онлайн-"
+"курсов"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:89
+msgid "Upgrade ({price})"
+msgstr "Перейти ({price})"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:114
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:116
+msgid "Goal: "
+msgstr "Цель: "
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:127
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:129
+msgid "Edit your course goal:"
+msgstr "Измените Вашу цель на данный курс:"
+
+#: openedx/features/course_experience/templates/course_experience/latest-update-fragment.html:19
+msgid "Latest Update"
+msgstr "Последнее обновление:"
+
+#: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:21
+msgid "Completed {completion_date_html}"
+msgstr "Завершен {completion_date_html}"
+
+#: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:42
+#: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:58
+msgid "{course_mode} certificate"
+msgstr "{course_mode} сертификат"
+
+#: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:33
+msgid ""
+"Build out your profile to personalize your identity on {platform_name}."
+msgstr ""
+"Заполните Ваш профиль для персонификации на платформе {platform_name}."
+
+#: themes/edx.org/lms/templates/certificates/_about-accomplishments.html:7
+msgid "About edX Verified Certificates"
+msgstr "О подтвержденных сертификатах edX"
+
+#: themes/edx.org/lms/templates/certificates/_about-accomplishments.html:8
+msgid ""
+"An edX Verified Certificate signifies that the learner has agreed to abide "
+"by the edX honor code and completed all of the required tasks of this course"
+" under its guidelines, as well as having their photo ID checked to verify "
+"their identity."
+msgstr ""
+"Подтвержденный сертификат edX подтверждает, что слушатель согласился "
+"придерживаться кодекса чести edX и завершил все необходимые задачи онлайн-"
+"курса с соблюдением их норм, а также предоставил информацию по "
+"удостоверяющему документу для подтверждения своей личности."
+
+#: themes/edx.org/lms/templates/certificates/_about-edx.html:9
+msgid ""
+"{link_start}edX{link_end} offers interactive online classes and MOOCs from "
+"the world's best universities, including MIT, Harvard, Berkeley, University "
+"of Texas, and many others. edX is a non-profit online initiative created by "
+"founding partners Harvard and MIT."
+msgstr ""
+"{link_start}edX{link_end} предлагает интерактивные онлайн-курсы и МООКи от "
+"лучших мировых университетов, включая Масачуссетский Технологический "
+"Институт, Гарвард, Беркли, Университет Техаса и др. edX - некоммерческая "
+"инициатива, созданная при участии Гарварда and МТИ."
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:17
+msgid "Congratulations, {user_name}!"
+msgstr "Поздравляем, {user_name}!"
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:22
+msgid ""
+"You worked hard to earn your certificate from "
+"{accomplishment_copy_course_org} {dash} share it with colleagues, friends, "
+"and family to get the word out about what you mastered in "
+"{accomplishment_course_title}."
+msgstr ""
+"Это было непросто - получить сертификат от {accomplishment_copy_course_org} "
+"{dash} поделитесь им с коллегами, друзьями и близкими, чтобы все узнали ваши"
+" успехи в освоение онлайн-курса {accomplishment_course_title}."
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:35
+msgid "Share this certificate on Facebook (opens a new tab/window)"
+msgstr "Поделиться сертификатом на Facebook (откроется в новом окне)"
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:42
+msgid "Tweet this certificate (opens a new tab/window)"
+msgstr "Поделиться сертификатом в Twitter (откроется в новом окне)"
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:48
+msgid "Add this certificate to your LinkedIn profile (opens a new tab/window)"
+msgstr "Добавить сертификат в профиль LinkedIn (откроется в новом окне)"
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:53
+msgid "Print this certificate"
+msgstr "Распечатать сертификат"
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-footer.html:22
+msgid "edX Inc."
+msgstr "edX Inc."
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-footer.html:24
+msgid ""
+"All rights reserved except where noted. edX, Open edX and the edX and Open "
+"edX logos are registered trademarks or trademarks of edX Inc."
+msgstr ""
+"Все права защищены за исключением отмеченных пунктов. edX, Open edX, "
+"логотипы edX и Open edX - зарегистрированные торговые марки компании edX "
+"Inc."
+
+#: common/djangoapps/course_modes/views.py
+msgid "Congratulations!  You are now enrolled in {course_name}"
+msgstr "Поздравляем! Вы зачислены на курс «{course_name}»"
+
+#: common/lib/capa/capa/capa_problem.py
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Incorrect"
+msgstr "Неверно"
+
+#: common/lib/capa/capa/capa_problem.py
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Correct"
+msgstr "Верно"
+
+#: common/lib/capa/capa/inputtypes.py
+msgid "{programming_language} editor"
+msgstr "Редактор {programming_language}"
+
+#: common/lib/capa/capa/responsetypes.py
+msgid "Correct:"
+msgstr "Верно:"
+
+#: common/lib/capa/capa/responsetypes.py
+msgid "Incorrect:"
+msgstr "Неверно:"
+
+#: common/lib/capa/capa/responsetypes.py
+msgid "Answer"
+msgstr "Ответ"
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid ""
+"Your answers were previously saved. Click '{button_name}' to grade them."
+msgstr "Ваш ответ был сохранён ранее. Нажмите '{button_name}' для его оценки."
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Partially Correct"
+msgstr "Частично верно"
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Problem must be reset before it can be submitted again."
+msgstr "Необходимо сбросить попытку перед повторной отправкой."
+
+#: common/lib/xmodule/xmodule/course_module.py
+msgid ""
+"Enter the heading that you want students to see above your course handouts "
+"on the Course Home page. Your course handouts appear in the right panel of "
+"the page."
+msgstr ""
+"Введите заголовок раздела «Дополнительные материалы». Эти материалы "
+"отображаются на домашней странице курса в правой панели."
+
+#: common/lib/xmodule/xmodule/course_module.py
+msgid "Certificate Web/HTML View Enabled"
+msgstr "Разрешить просмотр HTML-версии сертификата"
+
+#: common/lib/xmodule/xmodule/course_module.py
+msgid "Social Media Sharing URL"
+msgstr "Ссылки на соцсети"
+
+#: common/lib/xmodule/xmodule/course_module.py
+msgid "Bypass Course Home"
+msgstr "Пропускать домашнюю страницу курса"
+
+#: common/lib/xmodule/xmodule/course_module.py
+msgid ""
+"Bypass the course home tab when students arrive from the dashboard, sending "
+"them directly to course content."
+msgstr ""
+"При переходе слушателя из панели управления не показывать домашнюю страницу "
+"курса, а перенаправлять сразу на содержимое курса."
+
+#: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
+msgid "{exception_message}: Can't find uploaded transcripts: {user_filename}"
+msgstr ""
+"{exception_message}: Не удалось найти загруженные стенограммы: "
+"{user_filename}"
+
+#: common/lib/xmodule/xmodule/video_module/video_handlers.py
+msgid "Invalid encoding type, transcripts should be UTF-8 encoded."
+msgstr ""
+"Неверная кодировка, для стенограмм должна использоваться кодировка UTF-8."
+
+#. Translators:  This text is bound to the HTML 'title' element of the page
+#. and appears in the browser title bar
+#: lms/djangoapps/certificates/views/webview.py
+msgid "{partner_short_name} {course_number} Certificate | {platform_name}"
+msgstr "{partner_short_name} {course_number} сертификат | {platform_name}"
+
+#: lms/djangoapps/courseware/views/views.py
+msgid "Your certificate is available"
+msgstr "Ваш сертификат доступен"
+
+#: lms/djangoapps/courseware/views/views.py
+msgid ""
+"You can keep working for a higher grade, or request your certificate now."
+msgstr ""
+"Вы можете продолжать заниматься для лучшей оценки или запросить свой "
+"сертификат сразу."
+
+#: lms/djangoapps/courseware/views/views.py
+msgid "We're working on it..."
+msgstr "Мы работаем над этим..."
+
+#: lms/djangoapps/courseware/views/views.py
+msgid ""
+"We're creating your certificate. You can keep working in your courses and a "
+"link to it will appear here and on your Dashboard when it is ready."
+msgstr ""
+"Мы создали ваш сертификат. Продолжайте обучение, и ссылка на сертификат "
+"появится на панели управления, когда он будет готов."
+
+#: lms/djangoapps/courseware/views/views.py
+msgid "Congratulations, you qualified for a certificate!"
+msgstr "Поздравляем, вы аттестованы для получения сертификата!"
+
+#: lms/djangoapps/instructor/views/api.py
+msgid "Student (username/email={user}) already in certificate exception list."
+msgstr ""
+"Обучающийся (username/email={user}) исключён из списка владельцев "
+"сертификатов."
+
+#: lms/djangoapps/instructor/views/instructor_dashboard.py
+msgid "Open Responses"
+msgstr "Взаимное оценивание"
+
+#: lms/djangoapps/instructor_task/tasks_helper.py
+#: openedx/core/djangoapps/api_admin/forms.py
+#: lms/templates/shoppingcart/receipt.html
+msgid "Company Name"
+msgstr "Наименование компании"
+
+#: lms/djangoapps/support/views/index.py
+msgid "View and regenerate certificates."
+msgstr "Просмотреть и повторно создать сертификаты."
+
+#: lms/templates/bookmark_button.html
+msgid "Bookmark this page"
+msgstr "Добавить в закладки"
+
+#: lms/templates/conditional_module.html
+msgid "You do not have access to this dependency module."
+msgstr "У вас нет прав доступа к элементу"
+
+#: lms/templates/course.html
+msgid "Starts: {date}"
+msgstr "Начало: {date}"
+
+#: lms/templates/email_change_failed.html lms/templates/email_exists.html
+#: lms/templates/invalid_email_key.html
+msgid "Go back to the {link_start}home page{link_end}."
+msgstr "Вернуться на {link_start}домашнюю страницу{link_end}."
+
+#. Translators: 'Open edX' is a registered trademark, please keep this
+#. untranslated. See http://open.edx.org for more information.
+#: lms/templates/index.html
+msgid "It works! This is the default homepage for this Open edX instance."
+msgstr "Работает!  Перед вами образец домашней страницы Open edX."
+
+#: lms/templates/preview_menu.html
+msgid "Learner"
+msgstr "Слушатель"
+
+#: lms/templates/preview_menu.html
+msgid "Specific learner"
+msgstr "Конкретный слушатель"
+
+#: lms/templates/preview_menu.html
+msgid "Learner in {content_group}"
+msgstr "Слушатель из {content_group}"
+
+#: lms/templates/register-form.html lms/templates/register-shib.html
+#: themes/stanford-style/lms/templates/register-form.html
+#: themes/stanford-style/lms/templates/register-shib.html
+msgid "The following errors occurred while processing your registration:"
+msgstr "При обработки вашей заявки на регистрацию произошли следующие ошибки:"
+
+#: lms/templates/register-sidebar.html
+msgid ""
+"Registering with {platform_name} gives you access to all of our current and "
+"future free courses. Not ready to take a course just yet? Registering puts "
+"you on our mailing list - we will update you as courses are added."
+msgstr ""
+"Регистрация в {platform_name} даёт вам доступ ко всем нашим текущим и "
+"будущим бесплатным курсам. Пока не готовы поучаствовать в курсе? Регистрация"
+" подпишет вас на нашу рассылку — мы сообщим вам о добавлении новых курсов."
+
+#: lms/templates/staff_problem_info.html
+msgid "Reset Learner's Attempts to Zero"
+msgstr "Сбросить использованные попытки слушателя"
+
+#: lms/templates/staff_problem_info.html
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Delete Learner's State"
+msgstr "Удалить состояния слушателя"
+
+#: lms/templates/staff_problem_info.html
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Rescore Learner's Submission"
+msgstr "Пересчитать поданный слушателем материал для проверки"
+
+#: lms/templates/staff_problem_info.html
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Rescore Only If Score Improves"
+msgstr "Пересчитать если оценка улучшится"
+
+#: lms/templates/certificates/server-error.html
+msgid "The institution&#39;s logo."
+msgstr "Логотип&#39;s образовательной организации."
+
+#: lms/templates/courseware/accordion.html
+msgid "This content is graded"
+msgstr "Этот элемент курса оценивается"
+
+#: lms/templates/courseware/info.html
+msgid "Today is {date}"
+msgstr "Сегодня {date}"
+
+#: lms/templates/courseware/progress.html
+msgid "Request Certificate"
+msgstr "Запросить Сертификат"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "{course_number} {course_name} Home Page"
+msgstr "Домашняя страница {course_number} {course_name}"
+
+#: lms/templates/discussion/_discussion_inline.html
+msgid "Topic:"
+msgstr "Тема:"
+
+#: lms/templates/discussion/_filter_dropdown.html
+msgid "Discussion topics list"
+msgstr "Список тем"
+
+#. Translators: This is a menu option for showing all forum threads unfiltered
+#: lms/templates/discussion/_thread_list_template.html
+msgid "Show all posts"
+msgstr "Все темы"
+
+#. Translators: This is a menu option for showing only unread forum threads
+#: lms/templates/discussion/_thread_list_template.html
+msgid "Unread posts"
+msgstr "Непроочитанные темы"
+
+#. Translators: This is a menu option for showing only unanswered forum
+#. question threads
+#: lms/templates/discussion/_thread_list_template.html
+msgid "Unanswered posts"
+msgstr "Темы без ответа"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html
+msgid "Disable Student-Generated Certificates"
+msgstr "Запретить выпуск сертификатов обучающимися"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html
+msgid "Enable Student-Generated Certificates"
+msgstr "Разрешить выпуск сертификатов обучающимися"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html
+msgid "Generate Certificates"
+msgstr "Создать сертификаты"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html
+msgid ""
+"Course certificate generation requires an activated web certificate "
+"configuration."
+msgstr ""
+"Для создания сертификатов об окончании курса необходимо активировать "
+"настройки сертификатов."
+
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html
+msgid "Regenerate Certificates"
+msgstr "Повторно создать сертификаты"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html
+msgid ""
+"Set exceptions to generate certificates for learners who did not qualify for"
+" a certificate but have been given an exception by the course team. After "
+"you add learners to the exception list, click Generate Exception "
+"Certificates below."
+msgstr ""
+"Выставить исключения, чтобы создать сертификаты для слушателей, не "
+"получивших проходной балл, но заслуживших сертификат в виде исключения по "
+"запросу команды курса. После добавления слушателей в список исключений, "
+"нажмите «Создать сертификаты для исключительных случаев»."
+
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html
+msgid "No end date set"
+msgstr "Дата окончания не задана"
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html
+msgid "View Certificates Issued"
+msgstr "Посмотреть список выпущенных сертификатов"
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html
+msgid "Download CSV of Certificates Issued"
+msgstr "Загрузить CSV-файл со списком выпущенных сертификатов"
+
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html
+msgid "Learners in the {track_name} Track"
+msgstr "Слушатели, обучающиеся по форме '{track_name}'"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "View gradebook for enrolled learners"
+msgstr "Просмотр оценок записанных слушателей"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid ""
+"Note: This feature is available only to courses with a small number of "
+"enrolled learners."
+msgstr ""
+"Примечание: Эта опция доступна только для курсов с небольшим количеством "
+"записанных слушателей."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "View a specific learner's grades and progress"
+msgstr "Просмотр оценок и прогресса конкретного слушателя"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Learner's {platform_name} email address or username *"
+msgstr "Электронная почта или имя пользователя слушателя {platform_name} *"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Learner email address or username"
+msgstr "Электронная почта или имя пользователя"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "View Progress Page"
+msgstr "Посмотреть страницу прогресса"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Adjust a learner's grade for a specific problem"
+msgstr "Изменить оценку слушателя за конкретное задание "
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Location of problem in course *"
+msgstr "Местонахождение задания в курсе *"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Example"
+msgstr "Пример"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Attempts"
+msgstr "Попытки"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid ""
+"Allow a learner who has used up all attempts to work on the problem again."
+msgstr ""
+"Разрешить слушателю, который использовал все свои попытки, снова работать "
+"над заданием."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Reset Attempts to Zero"
+msgstr "Сбросить попытки до нуля"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Rescore"
+msgstr "Пересчёт оценок"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid ""
+"For the specified problem, rescore the learner's responses. The 'Rescore "
+"Only If Score Improves' option updates the learner's score only if it "
+"improves in the learner's favor."
+msgstr ""
+"Пересчитать оценку слушателя для конкретного задания. Опция 'Пересчитать "
+"если оценка улучшится' обновляет оценку пользователя только если оценка "
+"слушателя после пересчёта станет выше."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Problem History"
+msgstr "История задания"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid ""
+"For the specified problem, permanently and completely delete the learner's "
+"answers and scores from the database."
+msgstr ""
+"Для указанного задания полностью и безвозвратно удалит ответы и оценки "
+"слушателя."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Task Status"
+msgstr "Статус задач"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid ""
+"Show the status for the rescoring tasks that you submitted for this learner "
+"and problem."
+msgstr ""
+"Показать статус отправленных вами задач пересчёта оценок для данного "
+"слушателя и задания."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Show Task Status"
+msgstr "Показать статус задач"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Adjust a learner's entrance exam results"
+msgstr "Изменить результаты вступительного экзамена для слушателя"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Allow the learner to take the exam again."
+msgstr "Разрешить слушателю сдать экзамен повторно."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Allow Skip"
+msgstr "Разрешить пропустить"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Waive the requirement for the learner to take the exam."
+msgstr "Убрать требование сдачи экзамена для слушателя."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Let Learner Skip Entrance Exam"
+msgstr "Разрешить слушателю пропустить вступительный экзамен"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid ""
+"Rescore any responses that have been submitted. The 'Rescore All Problems "
+"Only If Score Improves' option updates the learner's scores only if it "
+"improves in the learner's favor."
+msgstr ""
+"Пересчитать все ответы которые были отправлены. Опция 'Пересчитать все "
+"задания если оценка улучшится' обновляет оценки слушателя только если "
+"онистановятся выше."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Rescore All Problems Only If Score Improves"
+msgstr "Пересчитать все задания если оценка улучшится"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Entrance Exam History"
+msgstr "История входных экзаменов"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid ""
+"For the entire entrance exam, permanently and completely delete the "
+"learner's answers and scores from the database."
+msgstr ""
+"Полностью и безвозвратно удалит результаты всего входного экзаменаслушателя."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid ""
+"Show the status for the rescoring tasks that you submitted for this learner "
+"and entrance exam."
+msgstr ""
+"Показать статус отправленных вами задач пересчёта оценок входного экзамена "
+"слушателя."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Adjust all enrolled learners' grades for a specific problem"
+msgstr ""
+"Изменить оценку всех зачисленных на курс слушателей для конкретного задания"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Allows all learners to work on the problem again."
+msgstr "Разрешить всем слушателям работать над заданием снова."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid ""
+"Rescore submitted responses. The 'Rescore Only If Scores Improve' option "
+"updates a learner's score only if it improves in the learner's favor."
+msgstr ""
+"Пересчитать отправленные ответы. Опция 'Пересчитать если оценка улучшится' "
+"обновляет оценку пользователя только если оценка слушателя после пересчёта "
+"станет выше."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Rescore All Learners' Submissions"
+msgstr "Пересчитать все поданные на проверку материалы"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Rescore Only If Scores Improve"
+msgstr "Пересчитать если оценка улучшится"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Show the status for the tasks that you submitted for this problem."
+msgstr "Показать статус отправленных вами задач для этого задания."
+
+#: lms/templates/widgets/cookie-consent.html
+msgid "Got it!"
+msgstr "Понятно"
+
+#: lms/templates/widgets/cookie-consent.html
+msgid "Learn more"
+msgstr "Узнать больше"
+
+#: themes/edx.org/lms/templates/dashboard.html
+msgid ""
+"Browse recently launched courses and see what's new in your favorite "
+"subjects."
+msgstr ""
+"Посмотреть недавно запущенные курсы и узнать что нового по вашим любимым "
+"предметам."
+
+#: themes/stanford-style/lms/templates/emails/activation_email.txt
+msgid "Thank you for signing up for {platform_name}."
+msgstr "Спасибо за регистрацию на {platform_name}."
+
+#: themes/stanford-style/lms/templates/emails/activation_email.txt
+msgid ""
+"Change your life and start learning today by activating your {platform_name}"
+" account. Click on the link below or copy and paste it into your browser's "
+"address bar."
+msgstr ""
+"Чтобы начать обучение на курсах {platform_name}, активируйте свою учётную "
+"запись, перейдя по ссылке ниже или скопировав её в адресную строку своего "
+"браузера."
+
+#: cms/templates/activation_invalid.html
+msgid ""
+"If you still have issues, contact {platform_name} Support. In the meantime, "
+"you can also return to {link_start}the {studio_name} homepage.{link_end}"
+msgstr ""
+"Если у вас остались вопросы, свяжитесь с техподдержкой {platform_name}. А "
+"пока вы можете вернуться к {link_start} домашней странице "
+"{studio_name}.{link_end}"
+
+#: cms/templates/certificates.html
+msgid "Course Certificates"
+msgstr "Сертификаты курсов"
+
+#: cms/templates/certificates.html
+msgid ""
+"Specify a course title to use on the certificate if the course's official "
+"title is too long to be displayed well."
+msgstr ""
+"Укажите название курса, которое будет отображаться на сертификатах, если "
+"официальное название курса окажется слишком длинным."
+
+#: cms/templates/certificates.html
+msgid ""
+"For verified certificates, specify between one and four signatories and "
+"upload the associated images."
+msgstr ""
+"Для подтверждённых сертификатов, укажите от одной до четырёх подписей и "
+"загрузите соответствующие изображения."
+
+#: cms/templates/certificates.html
+msgid ""
+"To edit or delete a certificate before it is activated, hover over the top "
+"right corner of the form and select {em_start}Edit{em_end} or the delete "
+"icon."
+msgstr ""
+"Чтобы отредактировать или удалить сертификат, пока он не активен, наведите "
+"указатель мыши на верхний правый угол формы и выберите "
+"{em_start}«Редактировать»{em_end} или значок «Удалить»."
+
+#: cms/templates/certificates.html
+msgid ""
+"To view a sample certificate, choose a course mode and select "
+"{em_start}Preview Certificate{em_end}."
+msgstr ""
+"Чтобы увидеть пример сертификата, выберите режим прохождения курса и нажмите"
+" {em_start}Просмотреть сертификат{em_end}"
+
+#: cms/templates/index.html cms/templates/widgets/user_dropdown.html
+msgid "{studio_name} Home"
+msgstr "Домашняя страница {studio_name}"
+
+#: cms/templates/index.html
+msgid ""
+"Please check your Junk or Spam folders in case our email isn't in your "
+"INBOX. Still can't find the verification email? Request help via the link "
+"below."
+msgstr ""
+"Пожалуйста проверьте папку «Спам», если нашего письма нет в ваших "
+"«Входящих». Всё ещё не получается найти письмо? Попросите помощи с помощью "
+"ссылки снизу."
+
 #: lms/templates/courseware/info.html
 msgid "Welcome to '{course_name}'!"
 msgstr "Добро пожаловать на курс '{course_name}'!"
@@ -106,6 +1933,10 @@ msgstr "одобрено"
 msgid "unsatisfactory"
 msgstr "отклонено"
 
+#: edx_proctoring/models.py:590
+msgid "Additional Time (minutes)"
+msgstr "Дополнительное время (в минутах)"
+
 #: edx_proctoring/models.py:591
 msgid "Review Policy Exception"
 msgstr "Исключения из правил проверки"
@@ -145,6 +1976,10 @@ msgstr "у вас осталось менее минуты"
 #: edx_proctoring/views.py:505
 msgid "proctored"
 msgstr "с прокторингом"
+
+#: edx_proctoring/views.py:505
+msgid "timed"
+msgstr "ограниченный по времени"
 
 #: edx_proctoring/templates/emails/proctoring_attempt_status_email.html:3
 #, python-format
@@ -1551,619 +3386,3 @@ msgid ""
 msgstr ""
 "Прохождение данного экзамена будет доступно после того, как команда курса "
 "выберет для него прокторинговую систему"
-
-#: common/djangoapps/course_modes/views.py
-msgid "Congratulations!  You are now enrolled in {course_name}"
-msgstr "Поздравляем! Вы зачислены на курс «{course_name}»"
-
-#: common/lib/capa/capa/capa_problem.py
-#: common/lib/xmodule/xmodule/capa_base.py
-msgid "Incorrect"
-msgstr "Неверно"
-
-#: common/lib/capa/capa/capa_problem.py
-#: common/lib/xmodule/xmodule/capa_base.py
-msgid "Correct"
-msgstr "Верно"
-
-#: common/lib/capa/capa/inputtypes.py
-msgid "{programming_language} editor"
-msgstr "Редактор {programming_language}"
-
-#: common/lib/capa/capa/responsetypes.py
-msgid "Correct:"
-msgstr "Верно:"
-
-#: common/lib/capa/capa/responsetypes.py
-msgid "Incorrect:"
-msgstr "Неверно:"
-
-#: common/lib/capa/capa/responsetypes.py
-msgid "Answer"
-msgstr "Ответ"
-
-#: common/lib/xmodule/xmodule/capa_base.py
-msgid ""
-"Your answers were previously saved. Click '{button_name}' to grade them."
-msgstr "Ваш ответ был сохранён ранее. Нажмите '{button_name}' для его оценки."
-
-#: common/lib/xmodule/xmodule/capa_base.py
-msgid "Partially Correct"
-msgstr "Частично верно"
-
-#: common/lib/xmodule/xmodule/capa_base.py
-msgid "Problem must be reset before it can be submitted again."
-msgstr "Необходимо сбросить попытку перед повторной отправкой."
-
-#: common/lib/xmodule/xmodule/course_module.py
-msgid ""
-"Enter the heading that you want students to see above your course handouts "
-"on the Course Home page. Your course handouts appear in the right panel of "
-"the page."
-msgstr ""
-"Введите заголовок раздела «Дополнительные материалы». Эти материалы "
-"отображаются на домашней странице курса в правой панели."
-
-#: common/lib/xmodule/xmodule/course_module.py
-msgid "Certificate Web/HTML View Enabled"
-msgstr "Разрешить просмотр HTML-версии сертификата"
-
-#: common/lib/xmodule/xmodule/course_module.py
-msgid "Social Media Sharing URL"
-msgstr "Ссылки на соцсети"
-
-#: common/lib/xmodule/xmodule/course_module.py
-msgid "Bypass Course Home"
-msgstr "Пропускать домашнюю страницу курса"
-
-#: common/lib/xmodule/xmodule/course_module.py
-msgid ""
-"Bypass the course home tab when students arrive from the dashboard, sending "
-"them directly to course content."
-msgstr ""
-"При переходе слушателя из панели управления не показывать домашнюю страницу "
-"курса, а перенаправлять сразу на содержимое курса."
-
-#: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
-msgid "{exception_message}: Can't find uploaded transcripts: {user_filename}"
-msgstr ""
-"{exception_message}: Не удалось найти загруженные стенограммы: "
-"{user_filename}"
-
-#: common/lib/xmodule/xmodule/video_module/video_handlers.py
-msgid "Invalid encoding type, transcripts should be UTF-8 encoded."
-msgstr ""
-"Неверная кодировка, для стенограмм должна использоваться кодировка UTF-8."
-
-#. Translators:  This text is bound to the HTML 'title' element of the page
-#. and appears in the browser title bar
-#: lms/djangoapps/certificates/views/webview.py
-msgid "{partner_short_name} {course_number} Certificate | {platform_name}"
-msgstr "{partner_short_name} {course_number} сертификат | {platform_name}"
-
-#: lms/djangoapps/courseware/views/views.py
-msgid "Your certificate is available"
-msgstr "Ваш сертификат доступен"
-
-#: lms/djangoapps/courseware/views/views.py
-msgid ""
-"You can keep working for a higher grade, or request your certificate now."
-msgstr ""
-"Вы можете продолжать заниматься для лучшей оценки или запросить свой "
-"сертификат сразу."
-
-#: lms/djangoapps/courseware/views/views.py
-msgid "We're working on it..."
-msgstr "Мы работаем над этим..."
-
-#: lms/djangoapps/courseware/views/views.py
-msgid ""
-"We're creating your certificate. You can keep working in your courses and a "
-"link to it will appear here and on your Dashboard when it is ready."
-msgstr ""
-"Мы создали ваш сертификат. Продолжайте обучение, и ссылка на сертификат "
-"появится на панели управления, когда он будет готов."
-
-#: lms/djangoapps/courseware/views/views.py
-msgid "Congratulations, you qualified for a certificate!"
-msgstr "Поздравляем, вы аттестованы для получения сертификата!"
-
-#: lms/djangoapps/instructor/views/api.py
-msgid "Student (username/email={user}) already in certificate exception list."
-msgstr ""
-"Обучающийся (username/email={user}) исключён из списка владельцев "
-"сертификатов."
-
-#: lms/djangoapps/instructor/views/instructor_dashboard.py
-msgid "Open Responses"
-msgstr "Взаимное оценивание"
-
-#: lms/djangoapps/instructor_task/tasks_helper.py
-#: openedx/core/djangoapps/api_admin/forms.py
-#: lms/templates/shoppingcart/receipt.html
-msgid "Company Name"
-msgstr "Наименование компании"
-
-#: lms/djangoapps/support/views/index.py
-msgid "View and regenerate certificates."
-msgstr "Просмотреть и повторно создать сертификаты."
-
-#: lms/templates/bookmark_button.html
-msgid "Bookmark this page"
-msgstr "Добавить в закладки"
-
-#: lms/templates/conditional_module.html
-msgid "You do not have access to this dependency module."
-msgstr "У вас нет прав доступа к элементу"
-
-#: lms/templates/course.html
-msgid "Starts: {date}"
-msgstr "Начало: {date}"
-
-#: lms/templates/email_change_failed.html lms/templates/email_exists.html
-#: lms/templates/invalid_email_key.html
-msgid "Go back to the {link_start}home page{link_end}."
-msgstr "Вернуться на {link_start}домашнюю страницу{link_end}."
-
-#. Translators: 'Open edX' is a registered trademark, please keep this
-#. untranslated. See http://open.edx.org for more information.
-#: lms/templates/index.html
-msgid "It works! This is the default homepage for this Open edX instance."
-msgstr "Работает!  Перед вами образец домашней страницы Open edX."
-
-#: lms/templates/preview_menu.html
-msgid "Learner"
-msgstr "Слушатель"
-
-#: lms/templates/preview_menu.html
-msgid "Specific learner"
-msgstr "Конкретный слушатель"
-
-#: lms/templates/preview_menu.html
-msgid "Learner in {content_group}"
-msgstr "Слушатель из {content_group}"
-
-#: lms/templates/register-form.html lms/templates/register-shib.html
-#: themes/stanford-style/lms/templates/register-form.html
-#: themes/stanford-style/lms/templates/register-shib.html
-msgid "The following errors occurred while processing your registration:"
-msgstr "При обработки вашей заявки на регистрацию произошли следующие ошибки:"
-
-#: lms/templates/register-sidebar.html
-msgid ""
-"Registering with {platform_name} gives you access to all of our current and "
-"future free courses. Not ready to take a course just yet? Registering puts "
-"you on our mailing list - we will update you as courses are added."
-msgstr ""
-"Регистрация в {platform_name} даёт вам доступ ко всем нашим текущим и "
-"будущим бесплатным курсам. Пока не готовы поучаствовать в курсе? Регистрация"
-" подпишет вас на нашу рассылку — мы сообщим вам о добавлении новых курсов."
-
-#: lms/templates/staff_problem_info.html
-msgid "Reset Learner's Attempts to Zero"
-msgstr "Сбросить использованные попытки слушателя"
-
-#: lms/templates/staff_problem_info.html
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Delete Learner's State"
-msgstr "Удалить состояния слушателя"
-
-#: lms/templates/staff_problem_info.html
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Rescore Learner's Submission"
-msgstr "Пересчитать поданный слушателем материал для проверки"
-
-#: lms/templates/staff_problem_info.html
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Rescore Only If Score Improves"
-msgstr "Пересчитать если оценка улучшится"
-
-#: lms/templates/certificates/server-error.html
-msgid "The institution&#39;s logo."
-msgstr "Логотип&#39;s образовательной организации."
-
-#: lms/templates/courseware/accordion.html
-msgid "This content is graded"
-msgstr "Этот элемент курса оценивается"
-
-#: lms/templates/courseware/info.html
-msgid "Today is {date}"
-msgstr "Сегодня {date}"
-
-#: lms/templates/courseware/progress.html
-msgid "Request Certificate"
-msgstr "Запросить Сертификат"
-
-#: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "{course_number} {course_name} Home Page"
-msgstr "Домашняя страница {course_number} {course_name}"
-
-#: lms/templates/discussion/_discussion_inline.html
-msgid "Topic:"
-msgstr "Тема:"
-
-#: lms/templates/discussion/_filter_dropdown.html
-msgid "Discussion topics list"
-msgstr "Список тем"
-
-#. Translators: This is a menu option for showing all forum threads unfiltered
-#: lms/templates/discussion/_thread_list_template.html
-msgid "Show all posts"
-msgstr "Все темы"
-
-#. Translators: This is a menu option for showing only unread forum threads
-#: lms/templates/discussion/_thread_list_template.html
-msgid "Unread posts"
-msgstr "Непроочитанные темы"
-
-#. Translators: This is a menu option for showing only unanswered forum
-#. question threads
-#: lms/templates/discussion/_thread_list_template.html
-msgid "Unanswered posts"
-msgstr "Темы без ответа"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificates.html
-msgid "Disable Student-Generated Certificates"
-msgstr "Запретить выпуск сертификатов обучающимися"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificates.html
-msgid "Enable Student-Generated Certificates"
-msgstr "Разрешить выпуск сертификатов обучающимися"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificates.html
-msgid "Generate Certificates"
-msgstr "Создать сертификаты"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificates.html
-msgid ""
-"Course certificate generation requires an activated web certificate "
-"configuration."
-msgstr ""
-"Для создания сертификатов об окончании курса необходимо активировать "
-"настройки сертификатов."
-
-#: lms/templates/instructor/instructor_dashboard_2/certificates.html
-msgid "Regenerate Certificates"
-msgstr "Повторно создать сертификаты"
-
-#: lms/templates/instructor/instructor_dashboard_2/certificates.html
-msgid ""
-"Set exceptions to generate certificates for learners who did not qualify for"
-" a certificate but have been given an exception by the course team. After "
-"you add learners to the exception list, click Generate Exception "
-"Certificates below."
-msgstr ""
-"Выставить исключения, чтобы создать сертификаты для слушателей, не "
-"получивших проходной балл, но заслуживших сертификат в виде исключения по "
-"запросу команды курса. После добавления слушателей в список исключений, "
-"нажмите «Создать сертификаты для исключительных случаев»."
-
-#: lms/templates/instructor/instructor_dashboard_2/course_info.html
-msgid "No end date set"
-msgstr "Дата окончания не задана"
-
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html
-msgid "View Certificates Issued"
-msgstr "Посмотреть список выпущенных сертификатов"
-
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html
-msgid "Download CSV of Certificates Issued"
-msgstr "Загрузить CSV-файл со списком выпущенных сертификатов"
-
-#: lms/templates/instructor/instructor_dashboard_2/send_email.html
-msgid "Learners in the {track_name} Track"
-msgstr "Слушатели, обучающиеся по форме '{track_name}'"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "View gradebook for enrolled learners"
-msgstr "Просмотр оценок записанных слушателей"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid ""
-"Note: This feature is available only to courses with a small number of "
-"enrolled learners."
-msgstr ""
-"Примечание: Эта опция доступна только для курсов с небольшим количеством "
-"записанных слушателей."
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "View a specific learner's grades and progress"
-msgstr "Просмотр оценок и прогресса конкретного слушателя"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Learner's {platform_name} email address or username *"
-msgstr "Электронная почта или имя пользователя слушателя {platform_name} *"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Learner email address or username"
-msgstr "Электронная почта или имя пользователя"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "View Progress Page"
-msgstr "Посмотреть страницу прогресса"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Adjust a learner's grade for a specific problem"
-msgstr "Изменить оценку слушателя за конкретное задание "
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Location of problem in course *"
-msgstr "Местонахождение задания в курсе *"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Example"
-msgstr "Пример"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Attempts"
-msgstr "Попытки"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid ""
-"Allow a learner who has used up all attempts to work on the problem again."
-msgstr ""
-"Разрешить слушателю, который использовал все свои попытки, снова работать "
-"над заданием."
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Reset Attempts to Zero"
-msgstr "Сбросить попытки до нуля"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Rescore"
-msgstr "Пересчёт оценок"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid ""
-"For the specified problem, rescore the learner's responses. The 'Rescore "
-"Only If Score Improves' option updates the learner's score only if it "
-"improves in the learner's favor."
-msgstr ""
-"Пересчитать оценку слушателя для конкретного задания. Опция 'Пересчитать "
-"если оценка улучшится' обновляет оценку пользователя только если оценка "
-"слушателя после пересчёта станет выше."
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Problem History"
-msgstr "История задания"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid ""
-"For the specified problem, permanently and completely delete the learner's "
-"answers and scores from the database."
-msgstr ""
-"Для указанного задания полностью и безвозвратно удалит ответы и оценки "
-"слушателя."
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Task Status"
-msgstr "Статус задач"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid ""
-"Show the status for the rescoring tasks that you submitted for this learner "
-"and problem."
-msgstr ""
-"Показать статус отправленных вами задач пересчёта оценок для данного "
-"слушателя и задания."
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Show Task Status"
-msgstr "Показать статус задач"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Adjust a learner's entrance exam results"
-msgstr "Изменить результаты вступительного экзамена для слушателя"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Allow the learner to take the exam again."
-msgstr "Разрешить слушателю сдать экзамен повторно."
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Allow Skip"
-msgstr "Разрешить пропустить"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Waive the requirement for the learner to take the exam."
-msgstr "Убрать требование сдачи экзамена для слушателя."
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Let Learner Skip Entrance Exam"
-msgstr "Разрешить слушателю пропустить вступительный экзамен"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid ""
-"Rescore any responses that have been submitted. The 'Rescore All Problems "
-"Only If Score Improves' option updates the learner's scores only if it "
-"improves in the learner's favor."
-msgstr ""
-"Пересчитать все ответы которые были отправлены. Опция 'Пересчитать все "
-"задания если оценка улучшится' обновляет оценки слушателя только если "
-"онистановятся выше."
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Rescore All Problems Only If Score Improves"
-msgstr "Пересчитать все задания если оценка улучшится"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Entrance Exam History"
-msgstr "История входных экзаменов"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid ""
-"For the entire entrance exam, permanently and completely delete the "
-"learner's answers and scores from the database."
-msgstr ""
-"Полностью и безвозвратно удалит результаты всего входного экзаменаслушателя."
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid ""
-"Show the status for the rescoring tasks that you submitted for this learner "
-"and entrance exam."
-msgstr ""
-"Показать статус отправленных вами задач пересчёта оценок входного экзамена "
-"слушателя."
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Adjust all enrolled learners' grades for a specific problem"
-msgstr ""
-"Изменить оценку всех зачисленных на курс слушателей для конкретного задания"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Allows all learners to work on the problem again."
-msgstr "Разрешить всем слушателям работать над заданием снова."
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid ""
-"Rescore submitted responses. The 'Rescore Only If Scores Improve' option "
-"updates a learner's score only if it improves in the learner's favor."
-msgstr ""
-"Пересчитать отправленные ответы. Опция 'Пересчитать если оценка улучшится' "
-"обновляет оценку пользователя только если оценка слушателя после пересчёта "
-"станет выше."
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Rescore All Learners' Submissions"
-msgstr "Пересчитать все поданные на проверку материалы"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Rescore Only If Scores Improve"
-msgstr "Пересчитать если оценка улучшится"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
-msgid "Show the status for the tasks that you submitted for this problem."
-msgstr "Показать статус отправленных вами задач для этого задания."
-
-#: lms/templates/widgets/cookie-consent.html
-msgid "Got it!"
-msgstr "Понятно"
-
-#: lms/templates/widgets/cookie-consent.html
-msgid "Learn more"
-msgstr "Узнать больше"
-
-#: themes/edx.org/lms/templates/dashboard.html
-msgid ""
-"Browse recently launched courses and see what's new in your favorite "
-"subjects."
-msgstr ""
-"Посмотреть недавно запущенные курсы и узнать что нового по вашим любимым "
-"предметам."
-
-#: themes/stanford-style/lms/templates/emails/activation_email.txt
-msgid "Thank you for signing up for {platform_name}."
-msgstr "Спасибо за регистрацию на {platform_name}."
-
-#: themes/stanford-style/lms/templates/emails/activation_email.txt
-msgid ""
-"Change your life and start learning today by activating your {platform_name}"
-" account. Click on the link below or copy and paste it into your browser's "
-"address bar."
-msgstr ""
-"Чтобы начать обучение на курсах {platform_name}, активируйте свою учётную "
-"запись, перейдя по ссылке ниже или скопировав её в адресную строку своего "
-"браузера."
-
-#: cms/templates/activation_invalid.html
-msgid ""
-"If you still have issues, contact {platform_name} Support. In the meantime, "
-"you can also return to {link_start}the {studio_name} homepage.{link_end}"
-msgstr ""
-"Если у вас остались вопросы, свяжитесь с техподдержкой {platform_name}. А "
-"пока вы можете вернуться к {link_start} домашней странице "
-"{studio_name}.{link_end}"
-
-#: cms/templates/certificates.html
-msgid "Course Certificates"
-msgstr "Сертификаты курсов"
-
-#: cms/templates/certificates.html
-msgid ""
-"Specify a course title to use on the certificate if the course's official "
-"title is too long to be displayed well."
-msgstr ""
-"Укажите название курса, которое будет отображаться на сертификатах, если "
-"официальное название курса окажется слишком длинным."
-
-#: cms/templates/certificates.html
-msgid ""
-"For verified certificates, specify between one and four signatories and "
-"upload the associated images."
-msgstr ""
-"Для подтверждённых сертификатов, укажите от одной до четырёх подписей и "
-"загрузите соответствующие изображения."
-
-#: cms/templates/certificates.html
-msgid ""
-"To edit or delete a certificate before it is activated, hover over the top "
-"right corner of the form and select {em_start}Edit{em_end} or the delete "
-"icon."
-msgstr ""
-"Чтобы отредактировать или удалить сертификат, пока он не активен, наведите "
-"указатель мыши на верхний правый угол формы и выберите "
-"{em_start}«Редактировать»{em_end} или значок «Удалить»."
-
-#: cms/templates/certificates.html
-msgid ""
-"To view a sample certificate, choose a course mode and select "
-"{em_start}Preview Certificate{em_end}."
-msgstr ""
-"Чтобы увидеть пример сертификата, выберите режим прохождения курса и нажмите"
-" {em_start}Просмотреть сертификат{em_end}"
-
-#: cms/templates/index.html cms/templates/widgets/user_dropdown.html
-msgid "{studio_name} Home"
-msgstr "Домашняя страница {studio_name}"
-
-#: cms/templates/index.html
-msgid ""
-"Please check your Junk or Spam folders in case our email isn't in your "
-"INBOX. Still can't find the verification email? Request help via the link "
-"below."
-msgstr ""
-"Пожалуйста проверьте папку «Спам», если нашего письма нет в ваших "
-"«Входящих». Всё ещё не получается найти письмо? Попросите помощи с помощью "
-"ссылки снизу."
-
-#: models.py:700
-msgid "Additional Time (minutes)"
-msgstr "Дополнительное Время (минуты)"
-
-#: templates/proctored_exam/confirm-decline.html:19
-msgid "Go Back"
-msgstr "Вернуться"
-
-#: views.py:536
-msgid "timed"
-msgstr "приурочен"
-
-#: openassessment/templates/openassessmentblock/edit/oa_edit.html:184
-msgid ""
-"In this assignment, you can include learner training, peer assessment, self "
-"assessment, and staff assessment steps. Select the steps that you want "
-"below, and then drag them into the order you want. If you include a learner "
-"training step, it must precede all other steps. If you include a staff "
-"assessment step, it must be the final step. After you release an ORA "
-"assignment, you cannot change the type and number of assessment steps."
-msgstr ""
-"В этом задании вы можете использовать «Обучение слушателей», «Взаимное "
-"оценивание», «Самооценивание», «Автоматизированное оценивание» и «Оценивание"
-" командой курса». Выберите действия, которые вы хотите, а затем перетащите "
-"их в нужном порядке. Если включить «Обучение слушателей», оно должно "
-"предшествовать всем другим шагам. Если включить «Оценивание командой курса»,"
-" оно должно быть последним шагом. После того, как вы выпустите задание, вы "
-"не сможете изменить тип и количество шагов оценки."
-
-#: openassessment/templates/openassessmentblock/student_training/student_training.html:60
-msgid ""
-"Before you begin to assess your peers' responses, you'll learn how to "
-"complete peer assessments by reviewing responses that instructors have "
-"already assessed. If you select the same options for the response that the "
-"instructor selected, you'll move to the next step. If you don't select the "
-"same options, you'll review the response and try again."
-msgstr ""
-"Перед тем как начать оценивать работы своих однокурсников, вам необходимо "
-"научиться ставить оценки на примере ответов, уже оцененных преподавателями. "
-"Если вы выберете те же варианты оценок ответа, которые выбрал преподаватель,"
-" вы перейдёте к следующему ответу. Если вы выберете другие варианты, вам "
-"придётся перечитать ответ и попробовать снова."
