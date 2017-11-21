@@ -1,0 +1,68 @@
+#
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"\n"
+
+msgid "Allowances"
+msgstr "Послабления"
+
+msgid "Add Allowance"
+msgstr "Добавить послабление"
+
+msgid "Exam Type"
+msgstr "Тип экзамена"
+
+msgid "Timed Exam"
+msgstr "Экзамен с ограничением по времени"
+
+msgid "Allowance Type"
+msgstr "Тип послабления"
+
+msgid "Additional Time (minutes)"
+msgstr "Дополнительное время (мин)"
+
+msgid "Value"
+msgstr "Величина"
+
+msgid "minutes"
+msgstr "минуты"
+
+msgid "Username or Email"
+msgstr "Имя или почта"
+
+msgid "Add a New Allowance"
+msgstr "Добавить новое послабление"
+
+msgid "Email"
+msgstr "Почта"
+
+msgid "First Name"
+msgstr "Имя"
+
+msgid "Last Name"
+msgstr "Фамилия"
+
+msgid "Provider Name"
+msgstr "Имя провайдера"
+
+msgid "Exam Name"
+msgstr "Название экзамена"
+
+msgid "Time Limit"
+msgstr "Длиельность"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Started At"
+msgstr "Начат в"
+
+msgid "Completed At"
+msgstr "Завершен в"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Actions"
+msgstr "Действия"
