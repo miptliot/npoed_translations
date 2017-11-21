@@ -1,0 +1,42 @@
+#
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"\n"
+
+#:
+msgid "Show all posts"
+msgstr "Все темы"
+
+#:
+msgid "You must complete the proctoring setup before you can start the exam."
+msgstr "Необходимо выполнить настройку прокторинга перед началом экзамена."
+
+msgid "There was an error enrolling:"
+msgstr "При записи на курс произошла ошибка:"
+
+msgid "There was an error unenrolling:"
+msgstr "При отписке с курса произошла ошибка"
+
+msgid "There was an error processing:"
+msgstr "При обработке произошла ошибка"
+
+msgid  "You are taking \"{exam_link}\" as a {exam_type} exam. The timer on the right shows the time remaining in the exam."
+msgstr "Вы проходите \"{exam_link}\" как {exam_type}. Справа отображается оставшееся время док конца экзамена"
+
+msgid "discussion posted %(time_ago)s by %(author)s'"
+msgstr "опубликовано %(time_ago)s пользователем %(author)s'"
+
+msgid "(contains %(student_count)s students)"
+msgstr[0] "(%(student_count)s слушатель)"
+msgstr[1] "(%(student_count)s слушателя)"
+msgstr[2] "(%(student_count)s слушателей)"
+msgstr[3] "(%(student_count)s слушателей)"
+
+msgid ""
+"To review student cohort assignments or see the results of uploading a CSV "
+"file, download course profile information or cohort results on the "
+"{link_start}Data Download{link_end} page."
+msgstr ""
+"Вы можете просмотреть распределение студентов по группа или результаты загрузки CSV "
+"файла на странице {link_start}Скачивание данных{link_end}."

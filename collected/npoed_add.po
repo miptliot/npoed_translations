@@ -1,0 +1,14 @@
+#
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"\n"
+
+msgid "Avg"
+msgstr "Срд"
+
+msgid "Average"
+msgstr "Среднее"
+
+msgid "of a possible"
+msgstr "из возможных"
