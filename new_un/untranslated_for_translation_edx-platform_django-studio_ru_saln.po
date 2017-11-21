@@ -1,0 +1,110 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2017-11-14 09:30+0000\n"
+"PO-Revision-Date: 2017-11-14 09:38+0000\n"
+"Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
+"Language-Team: Russian (http://www.transifex.com/open-edx/edx-platform/language/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: cms/djangoapps/contentstore/views/assets.py:442
+#, python-brace-format
+msgid ""
+"File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
+msgstr ""
+"Файл {filename} максимально допустимый размер в {maximum_size_in_megabytes} МБ."
+
+#: cms/djangoapps/contentstore/views/transcript_settings.py:106
+msgid "The information you entered is incorrect."
+msgstr "Введенная информация некорректна"
+
+#. Translators: This is the status for a video that is having its
+#. transcription in progress on servers
+#: cms/djangoapps/contentstore/views/videos.py:115
+msgid "Transcription in Progress"
+msgstr "Транскрипция в процессе"
+
+#. Translators: This is the status for a video whose transcription is complete
+#: cms/djangoapps/contentstore/views/videos.py:117
+msgid "Transcript Ready"
+msgstr "Транскрипция готова"
+
+#: cms/djangoapps/contentstore/views/videos.py:198
+msgid "The image must have name, content type, and size information."
+msgstr "Изображение должно иметь имя, тип содержимого и размер о размере."
+
+#: cms/djangoapps/contentstore/views/videos.py:200
+#, python-brace-format
+msgid ""
+"This image file type is not supported. Supported file types are "
+"{supported_file_formats}."
+msgstr ""
+"Данный тип изображения не поддерживается. Поддерживаемые типы изображений:"
+"{supported_file_formats}."
+
+
+#: cms/djangoapps/contentstore/views/videos.py:204
+#, python-brace-format
+msgid "This image file must be smaller than {image_max_size}."
+msgstr "Это изображение должно быть не более чем {image_max_size}."
+
+#: cms/djangoapps/contentstore/views/videos.py:208
+#, python-brace-format
+msgid "This image file must be larger than {image_min_size}."
+msgstr "Это изображение должно быть не менее чем {image_min_size}."
+
+#: cms/djangoapps/contentstore/views/videos.py:215
+msgid ""
+"There is a problem with this image file. Try to upload a different file."
+msgstr ""
+"Проблема с файлом изображения. Попробуйте загрузить другой файл."
+
+#: cms/djangoapps/contentstore/views/videos.py:218
+#, python-brace-format
+msgid ""
+"Recommended image resolution is "
+"{image_file_max_width}x{image_file_max_height}. The minimum resolution is "
+"{image_file_min_width}x{image_file_min_height}."
+msgstr ""
+"Рекомендованное разрешение изображения: "
+"{image_file_max_width}x{image_file_max_height}. Минимальное разрешение: "
+"{image_file_min_width}x{image_file_min_height}."
+
+#: cms/djangoapps/contentstore/views/videos.py:226
+#, python-brace-format
+msgid ""
+"This image file must have an aspect ratio of "
+"{video_image_aspect_ratio_text}."
+msgstr ""
+"Это изображение должно быть с соотношением сторон: "
+"{video_image_aspect_ratio_text}."
+
+#: cms/djangoapps/contentstore/views/videos.py:233
+msgid ""
+"The image file name can only contain letters, numbers, hyphens (-), and "
+"underscores (_)."
+msgstr ""
+"Имя файла должно содержать буквы, цифры, дефисы (-) "
+"и подчеркивания (_)."
+
+#: cms/djangoapps/contentstore/views/videos.py:247
+msgid "An image file is required."
+msgstr "Необходим файл изображения."
+
+#: cms/envs/common.py:144
+msgid "Your Platform Studio"
+msgstr "Studio вашей платформы"
+
+#: cms/envs/common.py:145
+msgid "Studio"
+msgstr "Studio"
+
+#: cms/urls.py:17
+msgid "Studio Administration"
+msgstr "Управление Studio"

@@ -12,3 +12,9 @@ msgstr "Среднее"
 
 msgid "of a possible"
 msgstr "из возможных"
+
+msgid "Enter your response to the question."
+msgstr "Введите свой ответ на вопрос."
+
+msgid "Enter your response to the question above."
+msgstr "Введите свой ответ на приведённый выше вопрос."
