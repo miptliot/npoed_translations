@@ -4,6 +4,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "\n"
 
+msgid "Special Exam"
+msgstr "Особый экзамен"
+
 #:
 msgid "Show all posts"
 msgstr "Все темы"
@@ -28,6 +31,7 @@ msgid "discussion posted %(time_ago)s by %(author)s'"
 msgstr "опубликовано %(time_ago)s пользователем %(author)s'"
 
 msgid "(contains %(student_count)s students)"
+msgid_plural "(contains %(student_count)s students)"
 msgstr[0] "(%(student_count)s слушатель)"
 msgstr[1] "(%(student_count)s слушателя)"
 msgstr[2] "(%(student_count)s слушателей)"
