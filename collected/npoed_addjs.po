@@ -47,3 +47,45 @@ msgstr ""
 
 msgid  "There has been a problem starting your exam.\n\nPossible reasons are that your account has not been fully activated,\nyou have are experiencing a network connection problem, or there has been\na service disruption. Check your account or network connection and try again."
 msgstr "При старте экзамена произошла ошибка.\n\nЭто может произойти, если ваш аккаунт не активирован, у вас нет соединения с сетью, или сервис\n недоступен. Пожалуйтса, проверьте ваш аккаунт и соединение и попробуйте снова."
+
+#: lms/static/js/groups/views/cohort_editor.js
+msgid "{numUsersAdded} students have been added to this cohort"
+msgid_plural "{numUsersAdded} students have been added to this cohort"
+msgstr[0] "{numUsersAdded} обучающийся добавлен в группу"
+msgstr[1] "{numUsersAdded} обучающихся добавлены в группу"
+msgstr[2] "{numUsersAdded} обучающихся добавлено в группу"
+msgstr[3] "{numUsersAdded} обучающихся добавлено в группу"
+
+#: lms/static/js/groups/views/cohort_editor.js
+msgid "{numMoved} students were removed from {oldCohort}"
+msgid_plural "{numMoved} students were removed from {oldCohort}"
+msgstr[0] "{numMoved} обучающийся был исключен из группы {oldCohort}"
+msgstr[1] "{numMoved} обучающихся были исключены из группы {oldCohort}"
+msgstr[2] "{numMoved} обучающихся были исключены из группы {oldCohort}"
+msgstr[3] "{numMoved} обучающихся были исключены из группы {oldCohort}"
+
+#: lms/static/js/groups/views/cohort_editor.js
+msgid "{numPresent} students were already in the cohort"
+msgid_plural "{numPresent} students were already in the cohort"
+msgstr[0] "{numPresent} обучающийся уже в группе"
+msgstr[1] "{numPresent} обучающихся уже в группе"
+msgstr[2] "{numPresent} обучающихся уже в группе"
+msgstr[3] "{numPresent} обучающихся уже в группе"
+
+#: lms/static/js/groups/views/cohort_editor.js
+msgid "There were {numErrors} errors when trying to add students:"
+msgid_plural "There were {numErrors} errors when trying to add students:"
+msgstr[0] "Произошла ошибка при попытке добавить обучающегося:"
+msgstr[1] "Произошли {numErrors} ошибки при попытке добавить обучающихся:"
+msgstr[2] "Произошло {numErrors} ошибок при попытке добавить обучающихся:"
+msgstr[3] "Произошло {numErrors} ошибок при попытке добавить обучающихся:"
+
+msgid "Additional Time"
+msgstr "Дополнительное время"
+
+msgid ""
+"After the subsection's due date has passed, learners can no longer access "
+"its content. The subsection remains included in grade calculations."
+msgstr ""
+"По истечении срока сдачи подраздела у слушателей нет доступа к его "
+"содержимому.  Подраздел учитывается при выводе итоговой оценки."
