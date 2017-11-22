@@ -4,99 +4,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "\n"
 
-#: cms/djangoapps/contentstore/views/assets.py:442
-#, python-brace-format
-msgid ""
-"File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
-msgstr ""
-"Файл {filename} максимально допустимый размер в {maximum_size_in_megabytes} "
-"МБ."
-
-#: cms/djangoapps/contentstore/views/transcript_settings.py:106
-msgid "The information you entered is incorrect."
-msgstr "Введенная информация некорректна"
-
-#. Translators: This is the status for a video that is having its
-#. transcription in progress on servers
-#: cms/djangoapps/contentstore/views/videos.py:115
-msgid "Transcription in Progress"
-msgstr "Транскрипция в процессе"
-
-#. Translators: This is the status for a video whose transcription is complete
-#: cms/djangoapps/contentstore/views/videos.py:117
-msgid "Transcript Ready"
-msgstr "Транскрипция готова"
-
-#: cms/djangoapps/contentstore/views/videos.py:198
-msgid "The image must have name, content type, and size information."
-msgstr "Изображение должно иметь имя, тип содержимого и размер о размере."
-
-#: cms/djangoapps/contentstore/views/videos.py:200
-#, python-brace-format
-msgid ""
-"This image file type is not supported. Supported file types are "
-"{supported_file_formats}."
-msgstr ""
-"Данный тип изображения не поддерживается. Поддерживаемые типы "
-"изображений:{supported_file_formats}."
-
-#: cms/djangoapps/contentstore/views/videos.py:204
-#, python-brace-format
-msgid "This image file must be smaller than {image_max_size}."
-msgstr "Это изображение должно быть не более чем {image_max_size}."
-
-#: cms/djangoapps/contentstore/views/videos.py:208
-#, python-brace-format
-msgid "This image file must be larger than {image_min_size}."
-msgstr "Это изображение должно быть не менее чем {image_min_size}."
-
-#: cms/djangoapps/contentstore/views/videos.py:215
-msgid ""
-"There is a problem with this image file. Try to upload a different file."
-msgstr "Проблема с файлом изображения. Попробуйте загрузить другой файл."
-
-#: cms/djangoapps/contentstore/views/videos.py:218
-#, python-brace-format
-msgid ""
-"Recommended image resolution is "
-"{image_file_max_width}x{image_file_max_height}. The minimum resolution is "
-"{image_file_min_width}x{image_file_min_height}."
-msgstr ""
-"Рекомендованное разрешение изображения: "
-"{image_file_max_width}x{image_file_max_height}. Минимальное разрешение: "
-"{image_file_min_width}x{image_file_min_height}."
-
-#: cms/djangoapps/contentstore/views/videos.py:226
-#, python-brace-format
-msgid ""
-"This image file must have an aspect ratio of "
-"{video_image_aspect_ratio_text}."
-msgstr ""
-"Это изображение должно быть с соотношением сторон: "
-"{video_image_aspect_ratio_text}."
-
-#: cms/djangoapps/contentstore/views/videos.py:233
-msgid ""
-"The image file name can only contain letters, numbers, hyphens (-), and "
-"underscores (_)."
-msgstr ""
-"Имя файла должно содержать буквы, цифры, дефисы (-) и подчеркивания (_)."
-
-#: cms/djangoapps/contentstore/views/videos.py:247
-msgid "An image file is required."
-msgstr "Необходим файл изображения."
-
-#: cms/envs/common.py:144
-msgid "Your Platform Studio"
-msgstr "Studio вашей платформы"
-
-#: cms/envs/common.py:145
-msgid "Studio"
-msgstr "Studio"
-
-#: cms/urls.py:17
-msgid "Studio Administration"
-msgstr "Управление Studio"
+#: templates/proctored_exam/confirm-decline.html:19
+msgid "Go Back"
+msgstr "Вернуться"
 
 #: common/djangoapps/course_modes/views.py
 msgid "Congratulations!  You are now enrolled in {course_name}"
@@ -670,124 +580,6 @@ msgstr ""
 "Пожалуйста проверьте папку «Спам», если нашего письма нет в ваших "
 "«Входящих». Всё ещё не получается найти письмо? Попросите помощи с помощью "
 "ссылки снизу."
-
-#: cms/templates/js/course-outline.underscore:208
-#: cms/templates/js/highlights-editor.underscore:2
-msgid "Section Highlights"
-msgstr "Краткая сводка раздела"
-
-#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:3
-msgid "Press discard changes to discard your changes."
-msgstr "Нажмите Отменить изменения для отмены ваших изменений."
-
-#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:6
-#: cms/templates/js/course-video-settings-update-settings-footer.underscore:6
-msgid "Update Settings"
-msgstr "Обновление настроек"
-
-#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:7
-msgid "Press update settings to update the information for your organization."
-msgstr ""
-"Нажмите Обновить настройки для обновления информации о вашей организации."
-
-#: cms/templates/js/course-video-settings-update-settings-footer.underscore:3
-msgid "Press discard changes to discard changes."
-msgstr "Нажмите Отменить изменения для отмены изменений."
-
-#: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
-msgid "Press update settings to update course video settings"
-msgstr ""
-"Нажмите Обновить настройки для обновления настроек видео в онлайн-курсе"
-
-#: cms/templates/js/course-video-settings-update-settings-footer.underscore:11
-msgid "Last updated"
-msgstr "Последнее обновление"
-
-#: cms/templates/js/course-video-settings.underscore:7
-msgid "Press close to hide course video settings"
-msgstr "Нажмите Закрыть, чтобы убрать настройки видео в онлайн-курсе"
-
-#: cms/templates/js/course-video-transcript-preferences.underscore:3
-msgid "Transcript Turnaround"
-msgstr "Время готовности транскрипций"
-
-#: cms/templates/js/course-video-transcript-preferences.underscore:8
-msgid "Transcript Fidelity"
-msgstr "Качество транскрипции"
-
-#: cms/templates/js/course-video-transcript-preferences.underscore:13
-msgid "Video Source Language"
-msgstr "Язык исходного видео"
-
-#: cms/templates/js/course-video-transcript-preferences.underscore:25
-msgid "Press Add to language"
-msgstr "Нажмите Добавить для добавки языка"
-
-#: cms/templates/js/course-video-transcript-provider-empty.underscore:1
-msgid "Automated Transcripts"
-msgstr "Автоматические транскрипции"
-
-#: cms/templates/js/course-video-transcript-provider-selected.underscore:1
-msgid "Transcript Provider"
-msgstr "Провайдер транскрипций"
-
-#: cms/templates/js/course-video-transcript-provider-selected.underscore:6
-msgid "Press change to change selected transcript provider."
-msgstr "Нажмите Изменить для замены выбранных провадеров транскрипций."
-
-#: cms/templates/js/highlights-editor.underscore:7
-msgid ""
-"This feature is currently in testing. Course teams can enter highlights, but"
-" learners will not receive email messages."
-msgstr ""
-"Данная возможность в настоящее время на тестировании. Команда курса может "
-"посмотреть краткую сводку,  но слушатели не получат email-оповещений."
-
-#: cms/templates/js/highlights-editor.underscore:11
-msgid ""
-"Enter 3-5 highlights to include in the email message that learners receive "
-"for this section (250 character limit)."
-msgstr ""
-"Введите 3-5 основных моментов для включения в письмо по данному разделу для "
-"слушателей   (лимит - 250 знаков)."
-
-#: cms/templates/js/highlights-editor.underscore:39
-#: cms/templates/js/highlights-editor.underscore:52
-msgid "Highlight {highlight_index}"
-msgstr "Основной момент {highlight_index}"
-
-#: cms/templates/js/highlights-editor.underscore:58
-msgid "A highlight to look forward to this week."
-msgstr "Основное на этой неделе."
-
-#: cms/templates/js/timed-examination-preference-editor.underscore:58
-msgid ""
-"Specify any rules or rule exceptions that the proctoring review team should "
-"enforce when reviewing the videos. For example, you could specify that "
-"calculators are allowed. These specified rules are visible to learners "
-"before the learners start the exam."
-msgstr ""
-"Укажите правила и исключения для команды прокторинга.Например, можно "
-"указать, что можно использовать калькуляторы. Данные правила доступны "
-"слушателям до запуска экзамена."
-
-#: cms/templates/js/transcript-organization-credentials.underscore:5
-msgid ""
-"This action updates the {provider} information for your entire organization."
-msgstr ""
-"Данное действие обновит {provider} информации для всей вашей организации."
-
-#: cms/templates/js/transcript-organization-credentials.underscore:7
-msgid "Enter the account information for your organization."
-msgstr "Введите информацию про аккаунт вашей организации."
-
-#: cms/templates/js/transcript-organization-credentials.underscore:11
-msgid "API Key"
-msgstr "Ключ API"
-
-#: cms/templates/js/transcript-organization-credentials.underscore:22
-msgid "API Secret"
-msgstr "Секрет API"
 
 #: common/lib/xmodule/xmodule/capa_base.py:190
 msgid "Dictionary with the current student score"
@@ -1732,367 +1524,6 @@ msgstr ""
 "Добро пожаловать на страницу профиля. Ваш полный профиль покажет больше "
 "информации  для других слушателей. Вы также можете выбрать сокращенный  "
 "профиль. {learn_more_link_start}Узнать больше{learn_more_link_end}"
-
-#: lms/templates/staff_problem_info.html:71
-msgid "Score (for override only)"
-msgstr "Балл (только для переопределенных)"
-
-#: lms/templates/staff_problem_info.html:92
-msgid "Override Score"
-msgstr "Переопределенные баллы"
-
-#: lms/templates/certificates/_edx-accomplishment-print-help.html:10
-msgid ""
-"For tips and tricks on printing your certificate, view the {link_start}Web "
-"Certificates help documentation{link_end}."
-msgstr ""
-"Для просмотра подсказок по тому, как распечатать сертификат, перейдите по "
-"ссылке {link_start} Документация по сертификатам{link_end}."
-
-#: lms/templates/courseware/course_navigation.html:47
-msgid "current location"
-msgstr "текущее местоположение"
-
-#: lms/templates/courseware/program_marketing.html:110
-msgid "Frequenty Asked Questions"
-msgstr "Частые вопросы и ответы"
-
-#: lms/templates/courseware/program_marketing.html:138
-msgid "Real Career Impact"
-msgstr "Влияние на карьеру"
-
-#: lms/templates/courseware/program_marketing.html:174
-msgid "{weeks_to_complete} weeks per course"
-msgstr "Недель в курсе: {weeks_to_complete}"
-
-#: lms/templates/courseware/program_marketing.html:185
-msgid ""
-"{min_hours_effort_per_week}-{max_hours_effort_per_week} hours per week, per "
-"course"
-msgstr ""
-"Часов в неделю: {min_hours_effort_per_week}-{max_hours_effort_per_week} в "
-"течение онлайн-курса"
-
-#: lms/templates/courseware/program_marketing.html:211
-msgid "${oldPrice}"
-msgstr "${oldPrice}"
-
-#: lms/templates/courseware/program_marketing.html:245
-msgid "Courses in the {}"
-msgstr "Онлайн-курсов в {}"
-
-#: lms/templates/courseware/program_marketing.html:273
-msgid "Starts on {}"
-msgstr "Начинается {}"
-
-#: lms/templates/courseware/progress.html:189
-msgid "Section grade has been overridden."
-msgstr "Оценка раздела была переопределена."
-
-#: lms/templates/dashboard/_dashboard_certificate_information.html:39
-msgid "Your certificate will be available on or before {date}"
-msgstr "Ваш сертификат будет доступен до {date}"
-
-#: lms/templates/dashboard/_dashboard_course_listing.html:169
-msgid "I'm taking {course_name} online with {facebook_brand}. Check it out!"
-msgstr ""
-"Я прохожу онлайн-курс {course_name} вместе с {facebook_brand}. Зацени!"
-
-#: lms/templates/dashboard/_dashboard_course_listing.html:190
-msgid "I'm taking {course_name} online with {twitter_brand}. Check it out!"
-msgstr "Я прохожу онлайн-курс {course_name} вместе с {twitter_brand}. Зацени!"
-
-#: lms/templates/dashboard/_reason_survey.html:31
-msgid "Browse Courses"
-msgstr "Просмотр онлайн-курсов"
-
-#: lms/templates/header/navbar-authenticated.html:42
-msgid "Discover New"
-msgstr "Изучить новые"
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:98
-msgid ""
-"If this option is {em_start}checked{em_end}, users who have not enrolled in "
-"your course will be automatically enrolled."
-msgstr ""
-"Если данная опция {em_start}включена{em_end}, слушатели, не записанные на "
-"онлайн-курс, будут автоматически записаны."
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:21
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:40
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:114
-msgid "Learner's {platform_name} email address or username"
-msgstr ""
-"Адрес электронной почты или имя пользователя слушателя {platform_name}"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:48
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:176
-msgid "Location of problem in course"
-msgstr "Расположение задачи в онлайн-курсе"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:75
-msgid "Score Override"
-msgstr "Баллы переопределены"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:76
-msgid "For the specified problem, override the learner's score."
-msgstr "Для определенной задачи переопределите балл слушателя."
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:79
-msgid ""
-"New score for problem, out of the total points available for the problem"
-msgstr "Новый балл для задачи из числа возможных доступных для задачи"
-
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:85
-msgid "Override Learner's Score"
-msgstr "Переопределенный балл слушателя"
-
-#: lms/templates/ux/reference/bootstrap/course-skeleton.html:39
-msgid "Skeleton Page"
-msgstr "Страница на Skeleton"
-
-#: lms/templates/widgets/cookie-consent.html:20
-msgid ""
-"This website uses cookies to ensure you get the best experience on our "
-"website. If you continue browsing this site, we understand that you accept "
-"the use of cookies."
-msgstr ""
-"Наш веб-сайт использует cookie для обеспечения наиболее эффевтивного и "
-"удобного взаимодействия с ним. Если Вы остаетесь на сайте, значит Вы "
-"соглашаетесь  с использованием механизма cookie."
-
-#: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html:27
-msgid "e.g. en for English"
-msgstr "например, ru для русского языка"
-
-#: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:17
-msgid "Theming Administration"
-msgstr "Управление темами"
-
-#: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:25
-msgid "Preview Theme"
-msgstr "Предпросмотр темы"
-
-#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:69
-msgid "Show/Hide"
-msgstr "Показать/Убрать"
-
-#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:70
-msgid "Show less"
-msgstr "Свернуть"
-
-#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:75
-msgid ""
-"Sample verified certificate with your name, the course title, the logo of "
-"the institution and the signatures of the instructors for this course."
-msgstr ""
-"Пример подтвержденного сертификата с Вашим именем, названием онлайн-курса, "
-"логотипом университета и подписью уполномоченного лица."
-
-#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:79
-msgid "Official proof of completion"
-msgstr "Официальное подтверждение успешного завершения"
-
-#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:80
-msgid "Easily shareable certificate"
-msgstr "Сертификат с возможностью легкого распространения"
-
-#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:81
-msgid "Proven motivator to complete the course"
-msgstr "Серьезная мотивация для успешного завершения онлайн-курса"
-
-#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:82
-msgid "Certificate purchases help us continue to offer free courses"
-msgstr ""
-"Покупка сертификата помогает нам продолжать развитие бесплатных онлайн-"
-"курсов"
-
-#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:89
-msgid "Upgrade ({price})"
-msgstr "Перейти ({price})"
-
-#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:114
-#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:116
-msgid "Goal: "
-msgstr "Цель: "
-
-#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:127
-#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:129
-msgid "Edit your course goal:"
-msgstr "Измените Вашу цель на данный курс:"
-
-#: openedx/features/course_experience/templates/course_experience/latest-update-fragment.html:19
-msgid "Latest Update"
-msgstr "Последнее обновление:"
-
-#: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:21
-msgid "Completed {completion_date_html}"
-msgstr "Завершен {completion_date_html}"
-
-#: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:42
-#: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:58
-msgid "{course_mode} certificate"
-msgstr "{course_mode} сертификат"
-
-#: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:33
-msgid ""
-"Build out your profile to personalize your identity on {platform_name}."
-msgstr ""
-"Заполните Ваш профиль для персонификации на платформе {platform_name}."
-
-#: themes/edx.org/lms/templates/certificates/_about-accomplishments.html:7
-msgid "About edX Verified Certificates"
-msgstr "О подтвержденных сертификатах edX"
-
-#: themes/edx.org/lms/templates/certificates/_about-accomplishments.html:8
-msgid ""
-"An edX Verified Certificate signifies that the learner has agreed to abide "
-"by the edX honor code and completed all of the required tasks of this course"
-" under its guidelines, as well as having their photo ID checked to verify "
-"their identity."
-msgstr ""
-"Подтвержденный сертификат edX подтверждает, что слушатель согласился "
-"придерживаться кодекса чести edX и завершил все необходимые задачи онлайн-"
-"курса с соблюдением их норм, а также предоставил информацию по "
-"удостоверяющему документу для подтверждения своей личности."
-
-#: themes/edx.org/lms/templates/certificates/_about-edx.html:9
-msgid ""
-"{link_start}edX{link_end} offers interactive online classes and MOOCs from "
-"the world's best universities, including MIT, Harvard, Berkeley, University "
-"of Texas, and many others. edX is a non-profit online initiative created by "
-"founding partners Harvard and MIT."
-msgstr ""
-"{link_start}edX{link_end} предлагает интерактивные онлайн-курсы и МООКи от "
-"лучших мировых университетов, включая Масачуссетский Технологический "
-"Институт, Гарвард, Беркли, Университет Техаса и др. edX - некоммерческая "
-"инициатива, созданная при участии Гарварда and МТИ."
-
-#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:17
-msgid "Congratulations, {user_name}!"
-msgstr "Поздравляем, {user_name}!"
-
-#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:22
-msgid ""
-"You worked hard to earn your certificate from "
-"{accomplishment_copy_course_org} {dash} share it with colleagues, friends, "
-"and family to get the word out about what you mastered in "
-"{accomplishment_course_title}."
-msgstr ""
-"Это было непросто - получить сертификат от {accomplishment_copy_course_org} "
-"{dash} поделитесь им с коллегами, друзьями и близкими, чтобы все узнали ваши"
-" успехи в освоение онлайн-курса {accomplishment_course_title}."
-
-#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:35
-msgid "Share this certificate on Facebook (opens a new tab/window)"
-msgstr "Поделиться сертификатом на Facebook (откроется в новом окне)"
-
-#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:42
-msgid "Tweet this certificate (opens a new tab/window)"
-msgstr "Поделиться сертификатом в Twitter (откроется в новом окне)"
-
-#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:48
-msgid "Add this certificate to your LinkedIn profile (opens a new tab/window)"
-msgstr "Добавить сертификат в профиль LinkedIn (откроется в новом окне)"
-
-#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:53
-msgid "Print this certificate"
-msgstr "Распечатать сертификат"
-
-#: themes/edx.org/lms/templates/certificates/_accomplishment-footer.html:22
-msgid "edX Inc."
-msgstr "edX Inc."
-
-#: themes/edx.org/lms/templates/certificates/_accomplishment-footer.html:24
-msgid ""
-"All rights reserved except where noted. edX, Open edX and the edX and Open "
-"edX logos are registered trademarks or trademarks of edX Inc."
-msgstr ""
-"Все права защищены за исключением отмеченных пунктов. edX, Open edX, "
-"логотипы edX и Open edX - зарегистрированные торговые марки компании edX "
-"Inc."
-
-#: cms/templates/asset_index.html:78
-msgid "Help adding Files and Uploads"
-msgstr "Помощь по загрузке и добавлению файлов"
-
-#: cms/templates/index.html:318
-msgid "Archived Courses"
-msgstr "Онлайн-курсы в архиве"
-
-#: cms/templates/settings.html:224
-msgid "By default, 48 hours after course end date"
-msgstr "По умолчанию, 48ч после даты окончания онлайн-курса"
-
-#: cms/templates/videos_index.html:64
-msgid "Course Video Settings"
-msgstr "Настройки видео в онлайн-курсе"
-
-#: cms/templates/visibility_editor.html:23
-msgid ""
-"Access to this unit is not restricted, but visibility might be affected by "
-"inherited settings."
-msgstr ""
-"Доступ к данному онлайн-курсу не ограничен, но на его видимость могут "
-"повлиять унаследованные настройки."
-
-#: cms/templates/visibility_editor.html:29
-msgid ""
-"You can restrict access to this unit to learners in specific enrollment "
-"tracks or content groups."
-msgstr ""
-"Вы можете ограничить доступ к данному юниту для слушателей в определенном "
-"зачислении или группах контента."
-
-#: cms/templates/visibility_editor.html:35
-msgid ""
-"You can restrict access to this unit to learners in specific content groups."
-msgstr ""
-"Вы можете ограничить доступ к данному юниту для слушателей в определенном "
-"группах контента."
-
-#: cms/templates/visibility_editor.html:115
-msgid ""
-"This group no longer exists.  Choose another group or remove the access "
-"restriction."
-msgstr ""
-"Данная группа больше не существует. Выберите другую или уберите настройки "
-"ограничения доступа."
-
-#: templates/proctored_exam/confirm-decline.html:19
-msgid "Go Back"
-msgstr "Вернуться"
-
-#: openassessment/templates/openassessmentblock/edit/oa_edit.html:184
-msgid ""
-"In this assignment, you can include learner training, peer assessment, self "
-"assessment, and staff assessment steps. Select the steps that you want "
-"below, and then drag them into the order you want. If you include a learner "
-"training step, it must precede all other steps. If you include a staff "
-"assessment step, it must be the final step. After you release an ORA "
-"assignment, you cannot change the type and number of assessment steps."
-msgstr ""
-"В этом задании вы можете использовать «Обучение слушателей», «Взаимное "
-"оценивание», «Самооценивание», «Автоматизированное оценивание» и «Оценивание"
-" командой курса». Выберите действия, которые вы хотите, а затем перетащите "
-"их в нужном порядке. Если включить «Обучение слушателей», оно должно "
-"предшествовать всем другим шагам. Если включить «Оценивание командой курса»,"
-" оно должно быть последним шагом. После того, как вы выпустите задание, вы "
-"не сможете изменить тип и количество шагов оценки."
-
-#: openassessment/templates/openassessmentblock/student_training/student_training.html:60
-msgid ""
-"Before you begin to assess your peers' responses, you'll learn how to "
-"complete peer assessments by reviewing responses that instructors have "
-"already assessed. If you select the same options for the response that the "
-"instructor selected, you'll move to the next step. If you don't select the "
-"same options, you'll review the response and try again."
-msgstr ""
-"Перед тем как начать оценивать работы своих однокурсников, вам необходимо "
-"научиться ставить оценки на примере ответов, уже оцененных преподавателями. "
-"Если вы выберете те же варианты оценок ответа, которые выбрал преподаватель,"
-" вы перейдёте к следующему ответу. Если вы выберете другие варианты, вам "
-"придётся перечитать ответ и попробовать снова."
 
 #: lms/templates/courseware/info.html
 msgid "Welcome to '{course_name}'!"
@@ -3650,6 +3081,240 @@ msgstr ""
 "Прохождение данного экзамена будет доступно после того, как команда курса "
 "выберет для него прокторинговую систему"
 
+#: cms/djangoapps/contentstore/views/assets.py:442
+#, python-brace-format
+msgid ""
+"File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
+msgstr ""
+"Файл {filename} максимально допустимый размер в {maximum_size_in_megabytes} "
+"МБ."
+
+#: cms/djangoapps/contentstore/views/transcript_settings.py:106
+msgid "The information you entered is incorrect."
+msgstr "Введенная информация некорректна"
+
+#. Translators: This is the status for a video that is having its
+#. transcription in progress on servers
+#: cms/djangoapps/contentstore/views/videos.py:115
+msgid "Transcription in Progress"
+msgstr "Транскрипция в процессе"
+
+#. Translators: This is the status for a video whose transcription is complete
+#: cms/djangoapps/contentstore/views/videos.py:117
+msgid "Transcript Ready"
+msgstr "Транскрипция готова"
+
+#: cms/djangoapps/contentstore/views/videos.py:198
+msgid "The image must have name, content type, and size information."
+msgstr "Изображение должно иметь имя, тип содержимого и размер о размере."
+
+#: cms/djangoapps/contentstore/views/videos.py:200
+#, python-brace-format
+msgid ""
+"This image file type is not supported. Supported file types are "
+"{supported_file_formats}."
+msgstr ""
+"Данный тип изображения не поддерживается. Поддерживаемые типы "
+"изображений:{supported_file_formats}."
+
+#: cms/djangoapps/contentstore/views/videos.py:204
+#, python-brace-format
+msgid "This image file must be smaller than {image_max_size}."
+msgstr "Это изображение должно быть не более чем {image_max_size}."
+
+#: cms/djangoapps/contentstore/views/videos.py:208
+#, python-brace-format
+msgid "This image file must be larger than {image_min_size}."
+msgstr "Это изображение должно быть не менее чем {image_min_size}."
+
+#: cms/djangoapps/contentstore/views/videos.py:215
+msgid ""
+"There is a problem with this image file. Try to upload a different file."
+msgstr "Проблема с файлом изображения. Попробуйте загрузить другой файл."
+
+#: cms/djangoapps/contentstore/views/videos.py:218
+#, python-brace-format
+msgid ""
+"Recommended image resolution is "
+"{image_file_max_width}x{image_file_max_height}. The minimum resolution is "
+"{image_file_min_width}x{image_file_min_height}."
+msgstr ""
+"Рекомендованное разрешение изображения: "
+"{image_file_max_width}x{image_file_max_height}. Минимальное разрешение: "
+"{image_file_min_width}x{image_file_min_height}."
+
+#: cms/djangoapps/contentstore/views/videos.py:226
+#, python-brace-format
+msgid ""
+"This image file must have an aspect ratio of "
+"{video_image_aspect_ratio_text}."
+msgstr ""
+"Это изображение должно быть с соотношением сторон: "
+"{video_image_aspect_ratio_text}."
+
+#: cms/djangoapps/contentstore/views/videos.py:233
+msgid ""
+"The image file name can only contain letters, numbers, hyphens (-), and "
+"underscores (_)."
+msgstr ""
+"Имя файла должно содержать буквы, цифры, дефисы (-) и подчеркивания (_)."
+
+#: cms/djangoapps/contentstore/views/videos.py:247
+msgid "An image file is required."
+msgstr "Необходим файл изображения."
+
+#: cms/envs/common.py:144
+msgid "Your Platform Studio"
+msgstr "Studio вашей платформы"
+
+#: cms/envs/common.py:145
+msgid "Studio"
+msgstr "Studio"
+
+#: cms/urls.py:17
+msgid "Studio Administration"
+msgstr "Управление Studio"
+
+#: cms/templates/js/course-outline.underscore:208
+#: cms/templates/js/highlights-editor.underscore:2
+msgid "Section Highlights"
+msgstr "Краткая сводка раздела"
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:3
+msgid "Press discard changes to discard your changes."
+msgstr "Нажмите Отменить изменения для отмены ваших изменений."
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:6
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:6
+msgid "Update Settings"
+msgstr "Обновление настроек"
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:7
+msgid "Press update settings to update the information for your organization."
+msgstr ""
+"Нажмите Обновить настройки для обновления информации о вашей организации."
+
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:3
+msgid "Press discard changes to discard changes."
+msgstr "Нажмите Отменить изменения для отмены изменений."
+
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
+msgid "Press update settings to update course video settings"
+msgstr ""
+"Нажмите Обновить настройки для обновления настроек видео в онлайн-курсе"
+
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:11
+msgid "Last updated"
+msgstr "Последнее обновление"
+
+#: cms/templates/js/course-video-settings.underscore:7
+msgid "Press close to hide course video settings"
+msgstr "Нажмите Закрыть, чтобы убрать настройки видео в онлайн-курсе"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:3
+msgid "Transcript Turnaround"
+msgstr "Время готовности транскрипций"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:8
+msgid "Transcript Fidelity"
+msgstr "Качество транскрипции"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:13
+msgid "Video Source Language"
+msgstr "Язык исходного видео"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:25
+msgid "Press Add to language"
+msgstr "Нажмите Добавить для добавки языка"
+
+#: cms/templates/js/course-video-transcript-provider-empty.underscore:1
+msgid "Automated Transcripts"
+msgstr "Автоматические транскрипции"
+
+#: cms/templates/js/course-video-transcript-provider-selected.underscore:1
+msgid "Transcript Provider"
+msgstr "Провайдер транскрипций"
+
+#: cms/templates/js/course-video-transcript-provider-selected.underscore:6
+msgid "Press change to change selected transcript provider."
+msgstr "Нажмите Изменить для замены выбранных провадеров транскрипций."
+
+#: cms/templates/js/highlights-editor.underscore:7
+msgid ""
+"This feature is currently in testing. Course teams can enter highlights, but"
+" learners will not receive email messages."
+msgstr ""
+"Данная возможность в настоящее время на тестировании. Команда курса может "
+"посмотреть краткую сводку,  но слушатели не получат email-оповещений."
+
+#: cms/templates/js/highlights-editor.underscore:11
+msgid ""
+"Enter 3-5 highlights to include in the email message that learners receive "
+"for this section (250 character limit)."
+msgstr ""
+"Введите 3-5 основных моментов для включения в письмо по данному разделу для "
+"слушателей   (лимит - 250 знаков)."
+
+#: cms/templates/js/highlights-editor.underscore:39
+#: cms/templates/js/highlights-editor.underscore:52
+msgid "Highlight {highlight_index}"
+msgstr "Основной момент {highlight_index}"
+
+#: cms/templates/js/highlights-editor.underscore:58
+msgid "A highlight to look forward to this week."
+msgstr "Основное на этой неделе."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:58
+msgid ""
+"Specify any rules or rule exceptions that the proctoring review team should "
+"enforce when reviewing the videos. For example, you could specify that "
+"calculators are allowed. These specified rules are visible to learners "
+"before the learners start the exam."
+msgstr ""
+"Укажите правила и исключения для команды прокторинга.Например, можно "
+"указать, что можно использовать калькуляторы. Данные правила доступны "
+"слушателям до запуска экзамена."
+
+#: cms/templates/js/transcript-organization-credentials.underscore:5
+msgid ""
+"This action updates the {provider} information for your entire organization."
+msgstr ""
+"Данное действие обновит {provider} информации для всей вашей организации."
+
+#: cms/templates/js/transcript-organization-credentials.underscore:7
+msgid "Enter the account information for your organization."
+msgstr "Введите информацию про аккаунт вашей организации."
+
+#: cms/templates/js/transcript-organization-credentials.underscore:11
+msgid "API Key"
+msgstr "Ключ API"
+
+#: cms/templates/js/transcript-organization-credentials.underscore:22
+msgid "API Secret"
+msgstr "Секрет API"
+
+msgid "{short_label} Avg"
+msgstr "{short_label} cрд"
+
+msgid "{section_type} Average = {percent:.0%}"
+msgstr "{section_type} среднее = {percent:.0%}"
+
+msgid "{0} = {1:.2%} of a possible {2:.2%}"
+msgstr "{0} = {1:.2%} из возможных {2:.2%}"
+
+msgid "Enter your response to the question."
+msgstr "Введите свой ответ на вопрос."
+
+msgid "Enter your response to the question above."
+msgstr "Введите свой ответ на приведённый выше вопрос."
+
+msgid ""
+"After the subsection\\'s due date has passed, learners can no longer access "
+"its content. The subsection remains included in grade calculations."
+msgstr ""
+"По истечении срока сдачи подраздела у слушателей нет доступа к его "
+"содержимому.  Подраздел учитывается при выводе итоговой оценки."
+
 #: common/djangoapps/student/forms.py
 msgid "Username must be minimum of two characters long"
 msgstr "Имя пользователя должно состоять минимум из двух знаков"
@@ -4335,30 +4000,359 @@ msgstr "Как добавить видеоматериалы в свой кур�
 msgid "A new revision of the article was succesfully added."
 msgstr "Новая версия статьи была успешно добавлена."
 
-msgid "{short_label} Avg"
-msgstr "{short_label} cрд"
+#: lms/templates/staff_problem_info.html:71
+msgid "Score (for override only)"
+msgstr "Балл (только для переопределенных)"
 
-msgid "{section_type} Average = {percent:.0%}"
-msgstr "{section_type} среднее = {percent:.0%}"
+#: lms/templates/staff_problem_info.html:92
+msgid "Override Score"
+msgstr "Переопределенные баллы"
 
-msgid "{0} = {1:.2%} of a possible {2:.2%}"
-msgstr "{0} = {1:.2%} из возможных {2:.2%}"
-
-msgid "Enter your response to the question."
-msgstr "Введите свой ответ на вопрос."
-
-msgid "Enter your response to the question above."
-msgstr "Введите свой ответ на приведённый выше вопрос."
-
+#: lms/templates/certificates/_edx-accomplishment-print-help.html:10
 msgid ""
-"After the subsection\\'s due date has passed, learners can no longer access "
-"its content. The subsection remains included in grade calculations."
+"For tips and tricks on printing your certificate, view the {link_start}Web "
+"Certificates help documentation{link_end}."
 msgstr ""
-"По истечении срока сдачи подраздела у слушателей нет доступа к его "
-"содержимому.  Подраздел учитывается при выводе итоговой оценки."
+"Для просмотра подсказок по тому, как распечатать сертификат, перейдите по "
+"ссылке {link_start} Документация по сертификатам{link_end}."
 
-msgid "Files &amp; Uploads"
-msgstr "Файлы и загрузки"
+#: lms/templates/courseware/course_navigation.html:47
+msgid "current location"
+msgstr "текущее местоположение"
 
-msgid "Details &amp; Schedule"
-msgstr "Подробности и расписание"
+#: lms/templates/courseware/program_marketing.html:110
+msgid "Frequenty Asked Questions"
+msgstr "Частые вопросы и ответы"
+
+#: lms/templates/courseware/program_marketing.html:138
+msgid "Real Career Impact"
+msgstr "Влияние на карьеру"
+
+#: lms/templates/courseware/program_marketing.html:174
+msgid "{weeks_to_complete} weeks per course"
+msgstr "Недель в курсе: {weeks_to_complete}"
+
+#: lms/templates/courseware/program_marketing.html:185
+msgid ""
+"{min_hours_effort_per_week}-{max_hours_effort_per_week} hours per week, per "
+"course"
+msgstr ""
+"Часов в неделю: {min_hours_effort_per_week}-{max_hours_effort_per_week} в "
+"течение онлайн-курса"
+
+#: lms/templates/courseware/program_marketing.html:211
+msgid "${oldPrice}"
+msgstr "${oldPrice}"
+
+#: lms/templates/courseware/program_marketing.html:245
+msgid "Courses in the {}"
+msgstr "Онлайн-курсов в {}"
+
+#: lms/templates/courseware/program_marketing.html:273
+msgid "Starts on {}"
+msgstr "Начинается {}"
+
+#: lms/templates/courseware/progress.html:189
+msgid "Section grade has been overridden."
+msgstr "Оценка раздела была переопределена."
+
+#: lms/templates/dashboard/_dashboard_certificate_information.html:39
+msgid "Your certificate will be available on or before {date}"
+msgstr "Ваш сертификат будет доступен до {date}"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html:169
+msgid "I'm taking {course_name} online with {facebook_brand}. Check it out!"
+msgstr ""
+"Я прохожу онлайн-курс {course_name} вместе с {facebook_brand}. Зацени!"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html:190
+msgid "I'm taking {course_name} online with {twitter_brand}. Check it out!"
+msgstr "Я прохожу онлайн-курс {course_name} вместе с {twitter_brand}. Зацени!"
+
+#: lms/templates/dashboard/_reason_survey.html:31
+msgid "Browse Courses"
+msgstr "Просмотр онлайн-курсов"
+
+#: lms/templates/header/navbar-authenticated.html:42
+msgid "Discover New"
+msgstr "Изучить новые"
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:98
+msgid ""
+"If this option is {em_start}checked{em_end}, users who have not enrolled in "
+"your course will be automatically enrolled."
+msgstr ""
+"Если данная опция {em_start}включена{em_end}, слушатели, не записанные на "
+"онлайн-курс, будут автоматически записаны."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:21
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:40
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:114
+msgid "Learner's {platform_name} email address or username"
+msgstr ""
+"Адрес электронной почты или имя пользователя слушателя {platform_name}"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:48
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:176
+msgid "Location of problem in course"
+msgstr "Расположение задачи в онлайн-курсе"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:75
+msgid "Score Override"
+msgstr "Баллы переопределены"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:76
+msgid "For the specified problem, override the learner's score."
+msgstr "Для определенной задачи переопределите балл слушателя."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:79
+msgid ""
+"New score for problem, out of the total points available for the problem"
+msgstr "Новый балл для задачи из числа возможных доступных для задачи"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:85
+msgid "Override Learner's Score"
+msgstr "Переопределенный балл слушателя"
+
+#: lms/templates/ux/reference/bootstrap/course-skeleton.html:39
+msgid "Skeleton Page"
+msgstr "Страница на Skeleton"
+
+#: lms/templates/widgets/cookie-consent.html:20
+msgid ""
+"This website uses cookies to ensure you get the best experience on our "
+"website. If you continue browsing this site, we understand that you accept "
+"the use of cookies."
+msgstr ""
+"Наш веб-сайт использует cookie для обеспечения наиболее эффевтивного и "
+"удобного взаимодействия с ним. Если Вы остаетесь на сайте, значит Вы "
+"соглашаетесь  с использованием механизма cookie."
+
+#: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html:27
+msgid "e.g. en for English"
+msgstr "например, ru для русского языка"
+
+#: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:17
+msgid "Theming Administration"
+msgstr "Управление темами"
+
+#: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:25
+msgid "Preview Theme"
+msgstr "Предпросмотр темы"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:69
+msgid "Show/Hide"
+msgstr "Показать/Убрать"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:70
+msgid "Show less"
+msgstr "Свернуть"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:75
+msgid ""
+"Sample verified certificate with your name, the course title, the logo of "
+"the institution and the signatures of the instructors for this course."
+msgstr ""
+"Пример подтвержденного сертификата с Вашим именем, названием онлайн-курса, "
+"логотипом университета и подписью уполномоченного лица."
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:79
+msgid "Official proof of completion"
+msgstr "Официальное подтверждение успешного завершения"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:80
+msgid "Easily shareable certificate"
+msgstr "Сертификат с возможностью легкого распространения"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:81
+msgid "Proven motivator to complete the course"
+msgstr "Серьезная мотивация для успешного завершения онлайн-курса"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:82
+msgid "Certificate purchases help us continue to offer free courses"
+msgstr ""
+"Покупка сертификата помогает нам продолжать развитие бесплатных онлайн-"
+"курсов"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:89
+msgid "Upgrade ({price})"
+msgstr "Перейти ({price})"
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:114
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:116
+msgid "Goal: "
+msgstr "Цель: "
+
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:127
+#: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:129
+msgid "Edit your course goal:"
+msgstr "Измените Вашу цель на данный курс:"
+
+#: openedx/features/course_experience/templates/course_experience/latest-update-fragment.html:19
+msgid "Latest Update"
+msgstr "Последнее обновление:"
+
+#: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:21
+msgid "Completed {completion_date_html}"
+msgstr "Завершен {completion_date_html}"
+
+#: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:42
+#: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:58
+msgid "{course_mode} certificate"
+msgstr "{course_mode} сертификат"
+
+#: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:33
+msgid ""
+"Build out your profile to personalize your identity on {platform_name}."
+msgstr ""
+"Заполните Ваш профиль для персонификации на платформе {platform_name}."
+
+#: themes/edx.org/lms/templates/certificates/_about-accomplishments.html:7
+msgid "About edX Verified Certificates"
+msgstr "О подтвержденных сертификатах edX"
+
+#: themes/edx.org/lms/templates/certificates/_about-accomplishments.html:8
+msgid ""
+"An edX Verified Certificate signifies that the learner has agreed to abide "
+"by the edX honor code and completed all of the required tasks of this course"
+" under its guidelines, as well as having their photo ID checked to verify "
+"their identity."
+msgstr ""
+"Подтвержденный сертификат edX подтверждает, что слушатель согласился "
+"придерживаться кодекса чести edX и завершил все необходимые задачи онлайн-"
+"курса с соблюдением их норм, а также предоставил информацию по "
+"удостоверяющему документу для подтверждения своей личности."
+
+#: themes/edx.org/lms/templates/certificates/_about-edx.html:9
+msgid ""
+"{link_start}edX{link_end} offers interactive online classes and MOOCs from "
+"the world's best universities, including MIT, Harvard, Berkeley, University "
+"of Texas, and many others. edX is a non-profit online initiative created by "
+"founding partners Harvard and MIT."
+msgstr ""
+"{link_start}edX{link_end} предлагает интерактивные онлайн-курсы и МООКи от "
+"лучших мировых университетов, включая Масачуссетский Технологический "
+"Институт, Гарвард, Беркли, Университет Техаса и др. edX - некоммерческая "
+"инициатива, созданная при участии Гарварда and МТИ."
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:17
+msgid "Congratulations, {user_name}!"
+msgstr "Поздравляем, {user_name}!"
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:22
+msgid ""
+"You worked hard to earn your certificate from "
+"{accomplishment_copy_course_org} {dash} share it with colleagues, friends, "
+"and family to get the word out about what you mastered in "
+"{accomplishment_course_title}."
+msgstr ""
+"Это было непросто - получить сертификат от {accomplishment_copy_course_org} "
+"{dash} поделитесь им с коллегами, друзьями и близкими, чтобы все узнали ваши"
+" успехи в освоение онлайн-курса {accomplishment_course_title}."
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:35
+msgid "Share this certificate on Facebook (opens a new tab/window)"
+msgstr "Поделиться сертификатом на Facebook (откроется в новом окне)"
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:42
+msgid "Tweet this certificate (opens a new tab/window)"
+msgstr "Поделиться сертификатом в Twitter (откроется в новом окне)"
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:48
+msgid "Add this certificate to your LinkedIn profile (opens a new tab/window)"
+msgstr "Добавить сертификат в профиль LinkedIn (откроется в новом окне)"
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:53
+msgid "Print this certificate"
+msgstr "Распечатать сертификат"
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-footer.html:22
+msgid "edX Inc."
+msgstr "edX Inc."
+
+#: themes/edx.org/lms/templates/certificates/_accomplishment-footer.html:24
+msgid ""
+"All rights reserved except where noted. edX, Open edX and the edX and Open "
+"edX logos are registered trademarks or trademarks of edX Inc."
+msgstr ""
+"Все права защищены за исключением отмеченных пунктов. edX, Open edX, "
+"логотипы edX и Open edX - зарегистрированные торговые марки компании edX "
+"Inc."
+
+#: cms/templates/asset_index.html:78
+msgid "Help adding Files and Uploads"
+msgstr "Помощь по загрузке и добавлению файлов"
+
+#: cms/templates/index.html:318
+msgid "Archived Courses"
+msgstr "Онлайн-курсы в архиве"
+
+#: cms/templates/settings.html:224
+msgid "By default, 48 hours after course end date"
+msgstr "По умолчанию, 48ч после даты окончания онлайн-курса"
+
+#: cms/templates/videos_index.html:64
+msgid "Course Video Settings"
+msgstr "Настройки видео в онлайн-курсе"
+
+#: cms/templates/visibility_editor.html:23
+msgid ""
+"Access to this unit is not restricted, but visibility might be affected by "
+"inherited settings."
+msgstr ""
+"Доступ к данному онлайн-курсу не ограничен, но на его видимость могут "
+"повлиять унаследованные настройки."
+
+#: cms/templates/visibility_editor.html:29
+msgid ""
+"You can restrict access to this unit to learners in specific enrollment "
+"tracks or content groups."
+msgstr ""
+"Вы можете ограничить доступ к данному юниту для слушателей в определенном "
+"зачислении или группах контента."
+
+#: cms/templates/visibility_editor.html:35
+msgid ""
+"You can restrict access to this unit to learners in specific content groups."
+msgstr ""
+"Вы можете ограничить доступ к данному юниту для слушателей в определенном "
+"группах контента."
+
+#: cms/templates/visibility_editor.html:115
+msgid ""
+"This group no longer exists.  Choose another group or remove the access "
+"restriction."
+msgstr ""
+"Данная группа больше не существует. Выберите другую или уберите настройки "
+"ограничения доступа."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:184
+msgid ""
+"In this assignment, you can include learner training, peer assessment, self "
+"assessment, and staff assessment steps. Select the steps that you want "
+"below, and then drag them into the order you want. If you include a learner "
+"training step, it must precede all other steps. If you include a staff "
+"assessment step, it must be the final step. After you release an ORA "
+"assignment, you cannot change the type and number of assessment steps."
+msgstr ""
+"В этом задании вы можете использовать «Обучение слушателей», «Взаимное "
+"оценивание», «Самооценивание», «Автоматизированное оценивание» и «Оценивание"
+" командой курса». Выберите действия, которые вы хотите, а затем перетащите "
+"их в нужном порядке. Если включить «Обучение слушателей», оно должно "
+"предшествовать всем другим шагам. Если включить «Оценивание командой курса»,"
+" оно должно быть последним шагом. После того, как вы выпустите задание, вы "
+"не сможете изменить тип и количество шагов оценки."
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:60
+msgid ""
+"Before you begin to assess your peers' responses, you'll learn how to "
+"complete peer assessments by reviewing responses that instructors have "
+"already assessed. If you select the same options for the response that the "
+"instructor selected, you'll move to the next step. If you don't select the "
+"same options, you'll review the response and try again."
+msgstr ""
+"Перед тем как начать оценивать работы своих однокурсников, вам необходимо "
+"научиться ставить оценки на примере ответов, уже оцененных преподавателями. "
+"Если вы выберете те же варианты оценок ответа, которые выбрал преподаватель,"
+" вы перейдёте к следующему ответу. Если вы выберете другие варианты, вам "
+"придётся перечитать ответ и попробовать снова."
