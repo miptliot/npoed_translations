@@ -4,6 +4,128 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "\n"
 
+#: templates/proctored_exam/confirm-decline.html:19
+msgid "Go Back"
+msgstr "Вернуться"
+
+#: cms/templates/js/course-outline.underscore:208
+#: cms/templates/js/highlights-editor.underscore:2
+msgid "Section Highlights"
+msgstr "Краткая сводка раздела"
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:3
+msgid "Press discard changes to discard your changes."
+msgstr "Нажмите Отменить изменения для отмены ваших изменений."
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:6
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:6
+msgid "Update Settings"
+msgstr "Обновление настроек"
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:7
+msgid "Press update settings to update the information for your organization."
+msgstr ""
+"Нажмите Обновить настройки для обновления информации о вашей организации."
+
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:3
+msgid "Press discard changes to discard changes."
+msgstr "Нажмите Отменить изменения для отмены изменений."
+
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
+msgid "Press update settings to update course video settings"
+msgstr ""
+"Нажмите Обновить настройки для обновления настроек видео в онлайн-курсе"
+
+#: cms/templates/js/course-video-settings.underscore:7
+msgid "Press close to hide course video settings"
+msgstr "Нажмите Закрыть, чтобы убрать настройки видео в онлайн-курсе"
+
+#: cms/templates/js/course-video-settings.underscore:13
+msgid "Course Video Settings"
+msgstr "Настройки видео в онлайн-курсе"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:3
+msgid "Transcript Turnaround"
+msgstr "Время готовности транскрипций"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:8
+msgid "Transcript Fidelity"
+msgstr "Качество транскрипции"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:13
+msgid "Video Source Language"
+msgstr "Язык исходного видео"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:25
+msgid "Press Add to language"
+msgstr "Нажмите Добавить для добавки языка"
+
+#: cms/templates/js/course-video-transcript-provider-empty.underscore:1
+msgid "Automated Transcripts"
+msgstr "Автоматические транскрипции"
+
+#: cms/templates/js/course-video-transcript-provider-selected.underscore:1
+msgid "Transcript Provider"
+msgstr "Провайдер транскрипций"
+
+#: cms/templates/js/course-video-transcript-provider-selected.underscore:6
+msgid "Press change to change selected transcript provider."
+msgstr "Нажмите Изменить для замены выбранных провадеров транскрипций."
+
+#: cms/templates/js/highlights-editor.underscore:7
+msgid ""
+"This feature is currently in testing. Course teams can enter highlights, but"
+" learners will not receive email messages."
+msgstr ""
+"Данная возможность в настоящее время на тестировании. Команда курса может "
+"посмотреть краткую сводку,  но слушатели не получат email-оповещений."
+
+#: cms/templates/js/highlights-editor.underscore:11
+msgid ""
+"Enter 3-5 highlights to include in the email message that learners receive "
+"for this section (250 character limit)."
+msgstr ""
+"Введите 3-5 основных моментов для включения в письмо по данному разделу для "
+"слушателей   (лимит - 250 знаков)."
+
+#: cms/templates/js/highlights-editor.underscore:39
+#: cms/templates/js/highlights-editor.underscore:52
+msgid "Highlight {highlight_index}"
+msgstr "Основной момент {highlight_index}"
+
+#: cms/templates/js/highlights-editor.underscore:58
+msgid "A highlight to look forward to this week."
+msgstr "Основное на этой неделе."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:58
+msgid ""
+"Specify any rules or rule exceptions that the proctoring review team should "
+"enforce when reviewing the videos. For example, you could specify that "
+"calculators are allowed. These specified rules are visible to learners "
+"before the learners start the exam."
+msgstr ""
+"Укажите правила и исключения для команды прокторинга.Например, можно "
+"указать, что можно использовать калькуляторы. Данные правила доступны "
+"слушателям до запуска экзамена."
+
+#: cms/templates/js/transcript-organization-credentials.underscore:5
+msgid ""
+"This action updates the {provider} information for your entire organization."
+msgstr ""
+"Данное действие обновит {provider} информации для всей вашей организации."
+
+#: cms/templates/js/transcript-organization-credentials.underscore:7
+msgid "Enter the account information for your organization."
+msgstr "Введите информацию про аккаунт вашей организации."
+
+#: cms/templates/js/transcript-organization-credentials.underscore:11
+msgid "API Key"
+msgstr "Ключ API"
+
+#: cms/templates/js/transcript-organization-credentials.underscore:22
+msgid "API Secret"
+msgstr "Секрет API"
+
 #: cms/static/js/models/xblock_validation.js:23
 msgid "This unit has validation issues."
 msgstr "Этот юнит имеет ошибки валидации."
@@ -184,6 +306,69 @@ msgstr "Не могу загрузить видео"
 #: cms/static/js/views/video_thumbnail.js:368
 msgid "Image upload failed. "
 msgstr "Загрузка изображения не удалась."
+
+msgid "Allowances"
+msgstr "Послабления"
+
+msgid "Add Allowance"
+msgstr "Добавить послабление"
+
+msgid "Exam Type"
+msgstr "Тип экзамена"
+
+msgid "Timed Exam"
+msgstr "Экзамен с ограничением по времени"
+
+msgid "Allowance Type"
+msgstr "Тип послабления"
+
+msgid "Additional Time (minutes)"
+msgstr "Дополнительное время (мин)"
+
+msgid "Value"
+msgstr "Величина"
+
+msgid "minutes"
+msgstr "минуты"
+
+msgid "Username or Email"
+msgstr "Имя или почта"
+
+msgid "Add a New Allowance"
+msgstr "Добавить новое послабление"
+
+msgid "Email"
+msgstr "Почта"
+
+msgid "First Name"
+msgstr "Имя"
+
+msgid "Last Name"
+msgstr "Фамилия"
+
+msgid "Provider Name"
+msgstr "Имя провайдера"
+
+msgid "Exam Name"
+msgstr "Название экзамена"
+
+msgid "Time Limit"
+msgstr "Длиельность"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Started At"
+msgstr "Начат в"
+
+msgid "Completed At"
+msgstr "Завершен в"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Actions"
+msgstr "Действия"
 
 #: lms/static/js/ajax-error.js
 msgid "You have been logged out of your edX account. "
@@ -430,68 +615,161 @@ msgstr "Файлы и загрузки"
 msgid "Details &amp; Schedule"
 msgstr "Подробности и расписание"
 
-msgid "Allowances"
-msgstr "Послабления"
+msgid "%(num_points)s points possible (ungraded, results hidden)"
+msgid_plural "%(num_points)s points possible (ungraded, results hidden)"
+msgstr[0] "%(num_points)s возможный балл (не оценивается, результат скрыт)"
+msgstr[1] "%(num_points)s возможных балла (не оценивается, результат скрыт)"
+msgstr[2] "%(num_points)s возможных баллов (не оценивается, результат скрыт)"
+msgstr[3] "%(num_points)s возможных баллов (не оценивается, результат скрыт)"
 
-msgid "Add Allowance"
-msgstr "Добавить послабление"
+#. Translators: %(num_points)s is the number of points possible (examples: 1,
+#. 3, 10).;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+msgid "%(num_points)s points possible (graded)"
+msgid_plural "%(num_points)s points possible (graded)"
+msgstr[0] "%(num_points)s возможный балл (оценивается)"
+msgstr[1] "%(num_points)s возможных балла (оценивается)"
+msgstr[2] "%(num_points)s возможных баллов (оценивается)"
+msgstr[3] "%(num_points)s возможных баллов (оценивается)"
 
-msgid "Exam Type"
-msgstr "Тип экзамена"
+#. Translators: %(num_points)s is the number of points possible (examples: 1,
+#. 3, 10).;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+msgid "%(num_points)s points possible (ungraded)"
+msgid_plural "%(num_points)s points possible (ungraded)"
+msgstr[0] "%(num_points)s возможный балл (не оценивается)"
+msgstr[1] "%(num_points)s возможных балла (не оценивается)"
+msgstr[2] "%(num_points)s возможных баллов (не оценивается)"
+msgstr[3] "%(num_points)s возможных баллов (не оценивается)"
 
-msgid "Timed Exam"
-msgstr "Экзамен с ограничением по времени"
+#. Translators: %(earned)s is the number of points earned. %(possible)s is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+msgid "%(earned)s/%(possible)s points (graded)"
+msgid_plural "%(earned)s/%(possible)s points (graded)"
+msgstr[0] "%(earned)s из %(possible)s балла (оценивается)"
+msgstr[1] "%(earned)s из %(possible)s баллов (оценивается)"
+msgstr[2] "%(earned)s из %(possible)s баллов (оценивается)"
+msgstr[3] "%(earned)s из %(possible)s баллов (оценивается)"
 
-msgid "Allowance Type"
-msgstr "Тип послабления"
+#. Translators: %(earned)s is the number of points earned. %(possible)s is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+msgid "%(earned)s/%(possible)s points (ungraded)"
+msgid_plural "%(earned)s/%(possible)s points (ungraded)"
+msgstr[0] "%(earned)s из %(possible)s балла (не оценивается)"
+msgstr[1] "%(earned)s из %(possible)s баллов (не оценивается)"
+msgstr[2] "%(earned)s из %(possible)s баллов (не оценивается)"
+msgstr[3] "%(earned)s из %(possible)s баллов (не оценивается)"
 
-msgid "Additional Time (minutes)"
-msgstr "Дополнительное время (мин)"
+msgid "Used in {count} units"
+msgid_plural "Used in {count} units"
+msgstr[0] "Используется в {count} блоке"
+msgstr[1] "Используется в {count} блоках"
+msgstr[2] "Используется в {count} блоках"
+msgstr[3] "Используется в {count} блоках"
 
-msgid "Value"
-msgstr "Величина"
+msgid "Passing Grade"
+msgstr "Проходной балл"
 
-msgid "minutes"
-msgstr "минуты"
+msgid "as a percent, e.g. 60"
+msgstr "в процентах, например, 60"
 
-msgid "Username or Email"
-msgstr "Имя или почта"
+msgid ""
+"Error deleting student '<%= student_id %>'s state on problem '<%= problem_id"
+" %>'. Make sure that the problem and student identifiers are complete and "
+"correct."
+msgstr ""
+"Ошибка при удалении состояния задания '<%= problem_id %>' для слушателя '<%="
+" student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
 
-msgid "Add a New Allowance"
-msgstr "Добавить новое послабление"
+msgid ""
+"Error getting task history for problem '<%= problem_id %>' and student '<%= "
+"student_id %>'. Make sure that the problem and student identifiers are "
+"complete and correct."
+msgstr ""
+"Ошибка при получении истории задания '<%= problem_id %>' для слушателя '<%= "
+"student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
 
-msgid "Email"
-msgstr "Почта"
+msgid "Reset attempts for all students on problem '<%= problem_id %>'?"
+msgstr ""
+"Сбросить попытки решения задания '<%= problem_id %>' для всех слушателей?"
 
-msgid "First Name"
-msgstr "Имя"
+msgid ""
+"Successfully started task to reset attempts for problem '<%= problem_id %>'."
+" Click the 'Show Task Status' button to see the status of the task."
+msgstr ""
+"Задача по сбросу всех попыток решения для задания '<%= problem_id %>' "
+"успешно начата. Нажмите кнопку 'Показать статус задач' чтобы узнать статус."
 
-msgid "Last Name"
-msgstr "Фамилия"
+msgid ""
+"Error starting a task to reset attempts for all students on problem '<%= "
+"problem_id %>'. Make sure that the problem identifier is complete and "
+"correct."
+msgstr ""
+"Ошибка при старте задачи сброса всех попыток решения задания '<%= problem_id"
+" %>'. Проверьте, что идентификатор задания верен."
 
-msgid "Provider Name"
-msgstr "Имя провайдера"
+msgid ""
+"Started rescore problem task for problem '<%= problem_id %>' and student "
+"'<%= student_id %>'. Click the 'Show Task Status' button to see the status "
+"of the task."
+msgstr ""
+"Задача по переоцениванию  задания '<%= problem_id %>' для слушателя '<%= "
+"student_id %>' успешно начата. Нажмите кнопку 'Показать статус задач' чтобы "
+"узнать статус."
 
-msgid "Exam Name"
-msgstr "Название экзамена"
+msgid ""
+"Error starting a task to rescore problem '<%= problem_id %>' for student "
+"'<%= student_id %>'. Make sure that the the problem and student identifiers "
+"are complete and correct."
+msgstr ""
+"Ошибка при старте задачи по переоцениванию задания '<%= problem_id %>' для "
+"слушателя '<%= student_id %>'. Проверьте, что идентификаторы слушателя и "
+"задания верны."
 
-msgid "Time Limit"
-msgstr "Длиельность"
+msgid "Rescore problem '<%= problem_id %>' for all students?"
+msgstr "Переоценить задание '<%= problem_id %>' для всех слушателей?"
 
-msgid "Type"
-msgstr "Тип"
+msgid ""
+"Successfully started task to rescore problem '<%= problem_id %>' for all "
+"students. Click the 'Show Task Status' button to see the status of the task."
+msgstr ""
+"Задача по переоцениванию задания '<%= problem_id %>' для всех слушателей "
+"успешно начата. Нажмите кнопку 'Показать статус задач' чтобы узнать статус."
 
-msgid "Started At"
-msgstr "Начат в"
+msgid ""
+"Error starting a task to rescore problem '<%= problem_id %>'. Make sure that"
+" the problem identifier is complete and correct"
+msgstr ""
+"Ошибка при старте задачи по переоцениванию для всех слушателей задания '<%= "
+"problem_id %>'. Проверьте, что идентификатор задания верен."
 
-msgid "Completed At"
-msgstr "Завершен в"
+msgid ""
+"Success! Problem attempts reset for problem '<%= problem_id %>' and student "
+"'<%= student_id %>'."
+msgstr ""
+"Попытки слушателя '<%= student_id %>' решения задания '<%= problem_id %>' "
+"были успешно сброшены."
 
-msgid "Status"
-msgstr "Статус"
+msgid ""
+"Error resetting problem attempts for problem '<%= problem_id %>' and student"
+" '<%= student_id %>'. Make sure that the problem and student identifiers are"
+" complete and correct."
+msgstr ""
+"Ошибка при сбросе попыток решения задания '<%= problem_id %>' для слушателя "
+"'<%= student_id %>'. Проверьте, что идентификаторы слушателя и задания "
+"верны."
 
-msgid "Actions"
-msgstr "Действия"
+msgid ""
+"Delete student '<%= student_id %>'s state on problem '<%= problem_id %>'?"
+msgstr ""
+"Удалить состояние задания '<%= problem_id %>' для слушателя '<%= student_id "
+"%>?"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Show Annotations"
@@ -2222,111 +2500,7 @@ msgstr "Присоединился"
 msgid "Joined Date"
 msgstr "Дата присоединения"
 
-msgid ""
-"Error deleting student '<%= student_id %>'s state on problem '<%= problem_id"
-" %>'. Make sure that the problem and student identifiers are complete and "
-"correct."
-msgstr ""
-"Ошибка при удалении состояния задания '<%= problem_id %>' для слушателя '<%="
-" student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
-
-msgid ""
-"Error getting task history for problem '<%= problem_id %>' and student '<%= "
-"student_id %>'. Make sure that the problem and student identifiers are "
-"complete and correct."
-msgstr ""
-"Ошибка при получении истории задания '<%= problem_id %>' для слушателя '<%= "
-"student_id %>'. Проверьте, что идентификаторы слушателя и задания верны."
-
-msgid "Reset attempts for all students on problem '<%= problem_id %>'?"
-msgstr ""
-"Сбросить попытки решения задания '<%= problem_id %>' для всех слушателей?"
-
-msgid ""
-"Successfully started task to reset attempts for problem '<%= problem_id %>'."
-" Click the 'Show Task Status' button to see the status of the task."
-msgstr ""
-"Задача по сбросу всех попыток решения для задания '<%= problem_id %>' "
-"успешно начата. Нажмите кнопку 'Показать статус задач' чтобы узнать статус."
-
-msgid ""
-"Error starting a task to reset attempts for all students on problem '<%= "
-"problem_id %>'. Make sure that the problem identifier is complete and "
-"correct."
-msgstr ""
-"Ошибка при старте задачи сброса всех попыток решения задания '<%= problem_id"
-" %>'. Проверьте, что идентификатор задания верен."
-
-msgid ""
-"Started rescore problem task for problem '<%= problem_id %>' and student "
-"'<%= student_id %>'. Click the 'Show Task Status' button to see the status "
-"of the task."
-msgstr ""
-"Задача по переоцениванию  задания '<%= problem_id %>' для слушателя '<%= "
-"student_id %>' успешно начата. Нажмите кнопку 'Показать статус задач' чтобы "
-"узнать статус."
-
-msgid ""
-"Error starting a task to rescore problem '<%= problem_id %>' for student "
-"'<%= student_id %>'. Make sure that the the problem and student identifiers "
-"are complete and correct."
-msgstr ""
-"Ошибка при старте задачи по переоцениванию задания '<%= problem_id %>' для "
-"слушателя '<%= student_id %>'. Проверьте, что идентификаторы слушателя и "
-"задания верны."
-
-msgid "Rescore problem '<%= problem_id %>' for all students?"
-msgstr "Переоценить задание '<%= problem_id %>' для всех слушателей?"
-
-msgid ""
-"Successfully started task to rescore problem '<%= problem_id %>' for all "
-"students. Click the 'Show Task Status' button to see the status of the task."
-msgstr ""
-"Задача по переоцениванию задания '<%= problem_id %>' для всех слушателей "
-"успешно начата. Нажмите кнопку 'Показать статус задач' чтобы узнать статус."
-
-msgid ""
-"Error starting a task to rescore problem '<%= problem_id %>'. Make sure that"
-" the problem identifier is complete and correct"
-msgstr ""
-"Ошибка при старте задачи по переоцениванию для всех слушателей задания '<%= "
-"problem_id %>'. Проверьте, что идентификатор задания верен."
-
-msgid ""
-"Success! Problem attempts reset for problem '<%= problem_id %>' and student "
-"'<%= student_id %>'."
-msgstr ""
-"Попытки слушателя '<%= student_id %>' решения задания '<%= problem_id %>' "
-"были успешно сброшены."
-
-msgid ""
-"Error resetting problem attempts for problem '<%= problem_id %>' and student"
-" '<%= student_id %>'. Make sure that the problem and student identifiers are"
-" complete and correct."
-msgstr ""
-"Ошибка при сбросе попыток решения задания '<%= problem_id %>' для слушателя "
-"'<%= student_id %>'. Проверьте, что идентификаторы слушателя и задания "
-"верны."
-
-msgid ""
-"Delete student '<%= student_id %>'s state on problem '<%= problem_id %>'?"
-msgstr ""
-"Удалить состояние задания '<%= problem_id %>' для слушателя '<%= student_id "
-"%>?"
-
 #: openassessment/xblock/static/js/openassessment-lms.min.js:2
 #: openassessment/xblock/static/js/src/lms/oa_response.js:485
 msgid "File size must be 5MB or less."
 msgstr "Файл должен быть 5Мб или меньше"
-
-#: models.py:700
-msgid "Additional Time (minutes)"
-msgstr "Дополнительное Время (минуты)"
-
-#: templates/proctored_exam/confirm-decline.html:19
-msgid "Go Back"
-msgstr "Вернуться"
-
-#: views.py:536
-msgid "timed"
-msgstr "приурочен"
