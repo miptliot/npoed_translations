@@ -1,0 +1,140 @@
+#
+msgid ""
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:106
+msgid "Allow File Upload"
+msgstr "Разрешить загрузить файл"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:109
+msgid "Image File"
+msgstr "Изображение"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:110
+msgid "PDF or Image File"
+msgstr "PDF или изображение"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:115
+msgid ""
+"Specify whether learners can submit a file along with their text response. "
+"Select Image to allow JPG, GIF, or PNG files. Select PDF or Image to allow "
+"PDF files and images. Select Custom File Types to allow files with "
+"extensions that you specify below. (Use this option with caution.)"
+msgstr ""
+"Уточните, могут ли слушатели отправлять файлы вместе с текстовыми ответами "
+"Изображение позволяет посылать JPG, GIF и PNG файлы. PDF или изображение позволяет "
+"посылать PDF и изображения. Выберите Дополнительные типы файлов чтобы позволить "
+"добавлять файлы с расширениями, которые вы укажете. (Используйте эту опцию с осторожностью) "
+
+
+""
+#: openassessment/templates/openassessmentblock/message/oa_message_open.html:7
+#, python-format
+msgid ""
+"\n"
+"                    Assignment submissions will close soon. To receive a grade, first provide a response to the question, then complete the steps below the %(start_tag)sYour Response%(end_tag)s field.\n"
+"                "
+msgstr ""
+"\n"
+"                    Сдача задания вскоре будет закрыта. Чтобы получить оценку, сначала дайте ответ на вопрос, затем выполните шаги под полем %(start_tag)sВаш ответ%(end_tag)s.\n"
+"                "
+
+#: openassessment/templates/openassessmentblock/message/oa_message_open.html:11
+#, python-format
+msgid ""
+"\n"
+"                    This assignment has several steps. In the first step, you'll provide a response to the question. The other steps appear below the %(start_tag)sYour Response%(end_tag)s field.\n"
+"                "
+msgstr ""
+"\n"
+"                   В этом задании несколько шагов. На первом шаге вам нужно ответить на вопрос. Следующие шаги появятся под полем %(start_tag)sВаш ответ%(end_tag)s.\n"
+"                "
+
+#: openassessment/templates/openassessmentblock/oa_base.html:15
+msgid ""
+"This assignment has several steps. In the first step, you'll provide a "
+"response to the question. The other steps appear below the Your Response "
+"field."
+msgstr ""
+"В этом задании несколько шагов. На первом шаге вам нужно ответить на вопрос. "
+"Следующие шаги появятся под полем %(start_tag)sВаш ответ%(end_tag)s."
+
+#: openassessment/templates/openassessmentblock/oa_uploaded_file.html:16
+msgid "The image associated with this submission."
+msgstr "Связанное с заданием изображение"
+
+#: openassessment/templates/openassessmentblock/oa_uploaded_file.html:20
+msgid "View the file associated with this submission."
+msgstr "Показаться связанный с этим заданием файл"
+
+#: openassessment/templates/openassessmentblock/oa_uploaded_file.html:23
+msgid ""
+"(Caution: This file was uploaded by another course learner and has not been "
+"verified, screened, approved, reviewed, or endorsed by the site "
+"administrator. If you decide to access it, you do so at your own risk.)"
+msgstr ""
+"(Осторожно: этот файл был загружен другим слушателем курса и не было проверен,"
+"просмотрен, одобрен или подтвержден администратором сайта. "
+"Риск за скачивание файла ложится на вас.)"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:71
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:54
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:54
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:28
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:27
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:49
+msgid "Associated File"
+msgstr "Связанный файл"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:88
+msgid "Enter your response to the question above."
+msgstr "Введите ваш ответ на вопрос ниже"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:98
+msgid "We could not upload this file"
+msgstr "Мы не смогли загрузить этот файл"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:104
+msgid "Upload your file"
+msgstr "Загрузите фаш файл"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_graded.html:31
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:52
+msgid "Your Uploaded File"
+msgstr "Ваш загруженный файл"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:42
+msgid "Field"
+msgstr "Поле"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:43
+msgid "Value"
+msgstr "Значение"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:47
+msgid "Created at"
+msgstr "Создан в"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:51
+msgid "Algorithm ID"
+msgstr "ID алгоритма"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:55
+msgid "Course ID"
+msgstr "ID курса"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:59
+msgid "Item ID"
+msgstr "ID элемента"
+
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:25
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:24
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:46
+msgid "The learner's response to the question above"
+msgstr "Ответ слушателя на вопрос выше"
+
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:75
+msgid "The response to the question above:"
+msgstr "Ответ на вопрос выше:"
