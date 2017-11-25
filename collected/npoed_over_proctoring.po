@@ -11,7 +11,3 @@ msgstr "Дополнительное Время (минуты)"
 #: templates/proctored_exam/confirm-decline.html:19
 msgid "Go Back"
 msgstr "Вернуться"
-
-#: views.py:536
-msgid "timed"
-msgstr "приурочен"

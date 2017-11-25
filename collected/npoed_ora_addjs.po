@@ -6,3 +6,6 @@ msgstr ""
 #: openassessment/xblock/static/js/src/lms/oa_response.js:485
 msgid "File size must be 5MB or less."
 msgstr "Файл должен быть 5Мб или меньше"
+
+msgid "due {date} (in {{ time_until }})"
+msgstr "к {date} (через {{ time_until }})"

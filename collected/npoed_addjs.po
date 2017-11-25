@@ -102,6 +102,11 @@ msgstr "Файлы и загрузки"
 msgid "Details & Schedule"
 msgstr "Подробности и расписание"
 
+msgid "Files \& Uploads"
+msgstr "Файлы и загрузки"
+
+msgid "Details \& Schedule"
+msgstr "Подробности и расписание"
 
 msgid "%(num_points)s points possible (ungraded, results hidden)"
 msgid_plural "%(num_points)s points possible (ungraded, results hidden)"

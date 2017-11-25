@@ -1593,3 +1593,33 @@ msgstr "Виден: {list_of_groups}"
 
 msgid "user can\'t be banned"
 msgstr "пользователя нельзя отчислить"
+
+msgid "Files &amp; Uploads"
+msgstr "Файлы и загрузки"
+
+msgid "Details &amp; Schedule"
+msgstr "Подробности и расписание"
+
+msgid "Files & Uploads"
+msgstr "Файлы и загрузки"
+
+msgid "Details & Schedule"
+msgstr "Подробности и расписание"
+
+msgid "Files \& Uploads"
+msgstr "Файлы и загрузки"
+
+msgid "Details \& Schedule"
+msgstr "Подробности и расписание"
+
+msgid "Course Video ID"
+msgstr "Видео ID для курса"
+
+msgid "List of known Video IDs for this course. Updates automatically. To set Video ID from other course go to 'Advanced' and use 'Video ID'
+msgstr "Список известных ID видео для этого курса. Обновляется автоматически. Чтобы задать ID видео из другого курса во вкладке 'Дополнительно' используйте поле 'Идентификатор видео'"
+
+msgid "Use this ID when you create links to this unit from other course content. You enter the ID in the URL field."
+msgstr "Используйте этот идентификатор для создания ссылок на этот блок из других мест в курсе. ID надо вводить в поле URL."
+
+msgid "Choose One"
+msgstr "Выберите один"
