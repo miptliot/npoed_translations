@@ -13,19 +13,12 @@ msgstr "{section_type} среднее = {percent:.0%}"
 msgid "{0} = {1:.2%} of a possible {2:.2%}"
 msgstr "{0} = {1:.2%} из возможных {2:.2%}"
 
-msgid "Enter your response to the question."
-msgstr "Введите свой ответ на вопрос."
-
-msgid "Enter your response to the question above."
-msgstr "Введите свой ответ на приведённый выше вопрос."
-
 msgid ""
 "After the subsection\\'s due date has passed, learners can no longer access "
 "its content. The subsection remains included in grade calculations."
 msgstr ""
 "По истечении срока сдачи подраздела у слушателей нет доступа к его "
 "содержимому.  Подраздел учитывается при выводе итоговой оценки."
-
 
 #: lms/templates/courseware/info.html
 msgid "Welcome to '{course_name}'!"
@@ -1582,3 +1575,21 @@ msgid ""
 msgstr ""
 "Прохождение данного экзамена будет доступно после того, как команда курса "
 "выберет для него прокторинговую систему"
+
+msgid "Available Proctoring services"
+msgstr "Доступные прокторинговые сервисы"
+
+msgid "Comma-separated list of services available for this course."
+msgstr "Список доступных для курса сервисов через запятую"
+
+msgid "Currently visible to:"
+msgstr "В данный момент видим для:"
+
+msgid "Change visibility to:"
+msgstr "Сделать видимым для:"
+
+msgid "Visible to: {list_of_groups}"
+msgstr "Виден: {list_of_groups}"
+
+msgid "user can\'t be banned"
+msgstr "пользователя нельзя отчислить"

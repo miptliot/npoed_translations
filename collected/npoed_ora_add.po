@@ -138,3 +138,12 @@ msgstr "Ответ слушателя на вопрос выше"
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:75
 msgid "The response to the question above:"
 msgstr "Ответ на вопрос выше:"
+
+msgid ""
+"\n"
+"                        <span class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"                        "
+msgstr ""
+"\n"
+"                        <span class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"к {date} (в %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"                        "

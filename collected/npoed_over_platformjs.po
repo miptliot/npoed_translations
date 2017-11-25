@@ -110,7 +110,7 @@ msgid ""
 "before you select \"End My Exam\"."
 msgstr ""
 "Для того, чтобы ваши ответы были оценены, нажмите \"Отправить\" в каждом "
-"заданиидо нажатия \"Завершить сдачу экзамена\"."
+"задании до нажатия \"Завершить сдачу экзамена\"."
 
 #: cms/templates/js/certificate-details.underscore
 #: cms/templates/js/certificate-editor.underscore

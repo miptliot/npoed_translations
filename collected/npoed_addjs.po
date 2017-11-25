@@ -25,7 +25,7 @@ msgid "There was an error processing:"
 msgstr "При обработке произошла ошибка"
 
 msgid  "You are taking \"{exam_link}\" as a {exam_type} exam. The timer on the right shows the time remaining in the exam."
-msgstr "Вы проходите \"{exam_link}\" как {exam_type}. Справа отображается оставшееся время док конца экзамена"
+msgstr "Вы проходите \"{exam_link}\" как {exam_type}. Справа отображается оставшееся время док конца экзамена."
 
 msgid "discussion posted %(time_ago)s by %(author)s'"
 msgstr "опубликовано %(time_ago)s пользователем %(author)s'"
@@ -94,6 +94,12 @@ msgid "Files &amp; Uploads"
 msgstr "Файлы и загрузки"
 
 msgid "Details &amp; Schedule"
+msgstr "Подробности и расписание"
+
+msgid "Files & Uploads"
+msgstr "Файлы и загрузки"
+
+msgid "Details & Schedule"
 msgstr "Подробности и расписание"
 
 
