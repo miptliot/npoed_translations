@@ -90,24 +90,6 @@ msgstr ""
 "По истечении срока сдачи подраздела у слушателей нет доступа к его "
 "содержимому.  Подраздел учитывается при выводе итоговой оценки."
 
-msgid "Files &amp; Uploads"
-msgstr "Файлы и загрузки"
-
-msgid "Details &amp; Schedule"
-msgstr "Подробности и расписание"
-
-msgid "Files & Uploads"
-msgstr "Файлы и загрузки"
-
-msgid "Details & Schedule"
-msgstr "Подробности и расписание"
-
-msgid "Files \& Uploads"
-msgstr "Файлы и загрузки"
-
-msgid "Details \& Schedule"
-msgstr "Подробности и расписание"
-
 msgid "%(num_points)s points possible (ungraded, results hidden)"
 msgid_plural "%(num_points)s points possible (ungraded, results hidden)"
 msgstr[0] "%(num_points)s возможный балл (не оценивается, результат скрыт)"
@@ -171,3 +153,9 @@ msgstr "Проходной балл"
 
 msgid "as a percent, e.g. 60"
 msgstr "в процентах, например, 60"
+
+msgid "Fail"
+msgstr "Провалено"
+
+msgid "Pass"
+msgstr "Пройдено"

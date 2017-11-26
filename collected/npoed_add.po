@@ -1594,23 +1594,11 @@ msgstr "Виден: {list_of_groups}"
 msgid "user can\'t be banned"
 msgstr "пользователя нельзя отчислить"
 
-msgid "Files &amp; Uploads"
-msgstr "Файлы и загрузки"
-
-msgid "Details &amp; Schedule"
-msgstr "Подробности и расписание"
-
 msgid "Files & Uploads"
 msgstr "Файлы и загрузки"
 
-msgid "Details & Schedule"
-msgstr "Подробности и расписание"
-
-msgid "Files \& Uploads"
-msgstr "Файлы и загрузки"
-
-msgid "Details \& Schedule"
-msgstr "Подробности и расписание"
+msgid "Schedule & Details"
+msgstr "Расписание и подробности"
 
 msgid "Course Video ID"
 msgstr "Видео ID для курса"
@@ -1623,3 +1611,9 @@ msgstr "Используйте этот идентификатор для соз
 
 msgid "Choose One"
 msgstr "Выберите один"
+
+msgid "Cannot find user against {user_info}"
+msgstr "Пользователь {user_info} не найден"
+
+msgid "allowance_value \"{value}\" should be non-negative integer value."
+msgstr "Величина послабления '{value}' должна быть неотрицательным целым числом"
