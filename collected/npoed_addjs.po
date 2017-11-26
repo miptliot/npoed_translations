@@ -162,3 +162,6 @@ msgstr "Пройдено"
 
 msgid "Weight"
 msgstr "Вес"
+
+msgid "Content Group Configuration"
+msgstr "Настройка групп по изучаемым материалам"
