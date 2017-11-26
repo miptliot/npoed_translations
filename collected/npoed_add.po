@@ -1633,5 +1633,5 @@ msgstr "Величина послабления '{value}' должна быть 
 msgid "Content Group Configuration"
 msgstr "Настройка групп по изучаемым материалам"
 
-msgid "Weight"
-msgstr "Вес"
+msgid "Weight:"
+msgstr "Вес:"

@@ -160,8 +160,11 @@ msgstr "Провалено"
 msgid "Pass"
 msgstr "Пройдено"
 
-msgid "Weight"
-msgstr "Вес"
+msgid "Weight:"
+msgstr "Вес:"
 
 msgid "Content Group Configuration"
 msgstr "Настройка групп по изучаемым материалам"
+
+msgid "Are you sure you want to take this exam without proctoring? You will no longer be eligible to use this course for academic credit."
+msgstr "Вы уверены, что вы хотите пройти экзамен без прокторинга? После этого вы не сможете получить сертификат за курс."
