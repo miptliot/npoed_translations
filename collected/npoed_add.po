@@ -1597,7 +1597,19 @@ msgstr "пользователя нельзя отчислить"
 msgid "Files & Uploads"
 msgstr "Файлы и загрузки"
 
+msgid "Files &amp; Uploads"
+msgstr "Файлы и загрузки"
+
+msgid "Files \& Uploads"
+msgstr "Файлы и загрузки"
+
 msgid "Schedule & Details"
+msgstr "Расписание и подробности"
+
+msgid "Schedule &amp; Details"
+msgstr "Расписание и подробности"
+
+msgid "Schedule \& Details"
 msgstr "Расписание и подробности"
 
 msgid "Course Video ID"
@@ -1609,7 +1621,7 @@ msgstr "Список известных ID видео для этого курс
 msgid "Use this ID when you create links to this unit from other course content. You enter the ID in the URL field."
 msgstr "Используйте этот идентификатор для создания ссылок на этот блок из других мест в курсе. ID надо вводить в поле URL."
 
-msgid "Choose One"
+msgid "Choose one"
 msgstr "Выберите один"
 
 msgid "Cannot find user against {user_info}"
