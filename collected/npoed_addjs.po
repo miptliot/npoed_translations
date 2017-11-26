@@ -159,3 +159,6 @@ msgstr "Провалено"
 
 msgid "Pass"
 msgstr "Пройдено"
+
+msgid "Weight"
+msgstr "Вес"

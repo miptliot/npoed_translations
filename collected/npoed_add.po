@@ -1629,3 +1629,6 @@ msgstr "Пользователь {user_info} не найден"
 
 msgid "allowance_value \"{value}\" should be non-negative integer value."
 msgstr "Величина послабления '{value}' должна быть неотрицательным целым числом"
+
+msgid "Content Group Configuration"
+msgstr "Настройка групп по изучаемым материалам"
