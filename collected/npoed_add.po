@@ -1658,3 +1658,24 @@ msgstr ""
 "В значениях \"id\", "
 "помимо букв и цифр латинского алфавита поддерживаются символы подчеркивания,"
 " дефис и точка."
+
+msgid "No visibility settings"
+msgstr "Нет настроек видимости"
+
+#: cms/templates/visibility_editor.html
+msgid ""
+"No visibility settings are defined for this component, but visibility might "
+"be affected by inherited settings."
+msgstr ""
+"Настройки видимости не определены для этого элемента, но на видимость может "
+"влиять настройки элемента-родителя."
+
+#: cms/templates/visibility_editor.html
+msgid ""
+"You can make this component visible only to specific groups of learners "
+"based either on their enrollment track, or by content groups that you "
+"create."
+msgstr ""
+"Вы можете сделать этот элемент видимым для определенной группы слушателей "
+"на основе их режима записи, или на основе созданных вами "
+"групп по изучаемым материалам."
