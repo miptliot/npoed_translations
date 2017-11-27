@@ -1612,10 +1612,10 @@ msgstr "Расписание и подробности"
 msgid "Schedule \& Details"
 msgstr "Расписание и подробности"
 
-msgid "Course Video ID"
-msgstr "Видео ID для курса"
+msgid " Course Video ID"
+msgstr " Видео ID для курса"
 
-msgid "List of known Video IDs for this course. Updates automatically. To set Video ID from other course go to 'Advanced' and use 'Video ID'
+msgid "List of known Video IDs for this course. Updates automatically. To set Video ID from other course go to 'Advanced' and use 'Video ID'"
 msgstr "Список известных ID видео для этого курса. Обновляется автоматически. Чтобы задать ID видео из другого курса во вкладке 'Дополнительно' используйте поле 'Идентификатор видео'"
 
 msgid "Use this ID when you create links to this unit from other course content. You enter the ID in the URL field."
@@ -1679,3 +1679,10 @@ msgstr ""
 "Вы можете сделать этот элемент видимым для определенной группы слушателей "
 "на основе их режима записи, или на основе созданных вами "
 "групп по изучаемым материалам."
+
+msgid ""
+"You can make this component visible only to specific groups of learners "
+"based on content groups that you create."
+msgstr ""
+"Вы можете сделать этот элемент видимым для определенной группы слушателей "
+" на основе созданных вами групп по изучаемым материалам."
