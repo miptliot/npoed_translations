@@ -45,13 +45,12 @@
 Добавление в edx
 ----------------
 
-1. Создаем в /edx/app/edxapp/edx-platform папку с любым названием, напрмиер, "npoed". В ней создаем ``ru/LC_MESSAGES/``.
-2. Кладем в npoed/ru/LC_MESSAGES/ файлы ``collected/django.po`` и ``collected/djangojs.po``.
-3. Добавляем путь до "npoed" в LOCALE_PATHS первым:
+1. В /edx/app/edxapp/edx-platform выполняем git clone репозитория
+3. Добавляем путь до "npoed_translations" в LOCALE_PATHS первым:
 
     ::
 
-        LOCALE_PATHS = (REPO_ROOT + "/npoed", ) + LOCALE_PATHS
+        LOCALE_PATHS = (REPO_ROOT + "/npoed_translations", ) + LOCALE_PATHS
 
-4. Вызываем ``python manage.py lms compilemessages --settings=ENV``. В выводе команды отображаются все файлы, которые были использованы для составления переводов, смотрим, что там есть наша папка.
-5. Вызываем ``python manage.py lms compilejsi18n --settings=ENV``. Повторяем команду для cms (т.к. два одинаковых djangojs.js храятся для lms и cms).
+4. (Опционально, т.к. переводы уже собраны)Вызываем ``python manage.py lms compilemessages --settings=ENV``. В выводе команды отображаются все файлы, которые были использованы для составления переводов, смотрим, что там есть наша папка.
+5. (Опционально, т.к. djangojs.js уже собраны в edx-platform)Вызываем ``python manage.py lms compilejsi18n --settings=ENV``. Повторяем команду для cms (т.к. два одинаковых djangojs.js храятся для lms и cms).
