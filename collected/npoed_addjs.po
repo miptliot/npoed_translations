@@ -177,3 +177,18 @@ msgstr " ID видео из курса"
 
 msgid "EdX doesn't have a timed transcript for this video. Please upload an .srt file."
 msgstr "Не найдены синхронизированные по времени субтитры. Пожалуйста, загрухите .srt файл"
+
+msgid "Some content in this unit is visible only to specific groups of learners"
+msgstr "Часть изучаемых материалов в блоке видна только определенной группе слушателей"
+
+msgid "Some content in this unit is visible only to specific groups of learners."
+msgstr "Часть изучаемых материалов в блоке видна только определенной группе слушателей."
+
+msgid "Error getting due dates"
+msgstr "Не удалось получить сроки сдачи"
+
+msgid "Error changing due date"
+msgstr "Не удалось изменить срок сдачи"
+
+msgid "Error reseting due date"
+msgstr "Не удалось сбросить срок сдачи"
