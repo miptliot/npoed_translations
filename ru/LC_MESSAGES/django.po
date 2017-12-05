@@ -4,99 +4,721 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "\n"
 
-#: cms/djangoapps/contentstore/views/assets.py:442
-#, python-brace-format
-msgid ""
-"File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
+#: common/djangoapps/student/forms.py
+msgid "Username must be minimum of two characters long"
+msgstr "Имя пользователя должно состоять минимум из двух знаков"
+
+#: common/djangoapps/student/forms.py
+#, python-format
+msgid "Username cannot be more than %(limit_value)s characters long"
 msgstr ""
-"Файл {filename} максимально допустимый размер в {maximum_size_in_megabytes} "
-"МБ."
+"Максимальное количество символов в имени пользователя – %(limit_value)s"
 
-#: cms/djangoapps/contentstore/views/transcript_settings.py:106
-msgid "The information you entered is incorrect."
-msgstr "Введенная информация некорректна"
-
-#. Translators: This is the status for a video that is having its
-#. transcription in progress on servers
-#: cms/djangoapps/contentstore/views/videos.py:115
-msgid "Transcription in Progress"
-msgstr "Транскрипция в процессе"
-
-#. Translators: This is the status for a video whose transcription is complete
-#: cms/djangoapps/contentstore/views/videos.py:117
-msgid "Transcript Ready"
-msgstr "Транскрипция готова"
-
-#: cms/djangoapps/contentstore/views/videos.py:198
-msgid "The image must have name, content type, and size information."
-msgstr "Изображение должно иметь имя, тип содержимого и размер о размере."
-
-#: cms/djangoapps/contentstore/views/videos.py:200
-#, python-brace-format
-msgid ""
-"This image file type is not supported. Supported file types are "
-"{supported_file_formats}."
+#: common/djangoapps/student/views.py
+msgid "Unknown error. Please e-mail us to let us know how it happened."
 msgstr ""
-"Данный тип изображения не поддерживается. Поддерживаемые типы "
-"изображений:{supported_file_formats}."
+"Неизвестная ошибка. Пожалуйста, сообщите нам о её возникновении по "
+"электронной почте."
 
-#: cms/djangoapps/contentstore/views/videos.py:204
-#, python-brace-format
-msgid "This image file must be smaller than {image_max_size}."
-msgstr "Это изображение должно быть не более чем {image_max_size}."
-
-#: cms/djangoapps/contentstore/views/videos.py:208
-#, python-brace-format
-msgid "This image file must be larger than {image_min_size}."
-msgstr "Это изображение должно быть не менее чем {image_min_size}."
-
-#: cms/djangoapps/contentstore/views/videos.py:215
-msgid ""
-"There is a problem with this image file. Try to upload a different file."
-msgstr "Проблема с файлом изображения. Попробуйте загрузить другой файл."
-
-#: cms/djangoapps/contentstore/views/videos.py:218
-#, python-brace-format
-msgid ""
-"Recommended image resolution is "
-"{image_file_max_width}x{image_file_max_height}. The minimum resolution is "
-"{image_file_min_width}x{image_file_min_height}."
+#: common/lib/capa/capa/responsetypes.py
+msgid "factorial function evaluated outside its domain:'{student_answer}'"
 msgstr ""
-"Рекомендованное разрешение изображения: "
-"{image_file_max_width}x{image_file_max_height}. Минимальное разрешение: "
-"{image_file_min_width}x{image_file_min_height}."
+"Значение факториала находится за пределами его области определения: "
+"{student_answer}"
 
-#: cms/djangoapps/contentstore/views/videos.py:226
-#, python-brace-format
+#: common/lib/capa/capa/responsetypes.py
 msgid ""
-"This image file must have an aspect ratio of "
-"{video_image_aspect_ratio_text}."
+"factorial function not permitted in answer for this problem. Provided answer"
+" was: {bad_input}"
 msgstr ""
-"Это изображение должно быть с соотношением сторон: "
-"{video_image_aspect_ratio_text}."
+"в ответе на это задание не разрешается использовать факториал. Ответ, данный"
+" вами: {bad_input}"
 
-#: cms/djangoapps/contentstore/views/videos.py:233
+#. Translators: {msg} will be replaced with a problem's error message.
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Error: {msg}"
+msgstr "Ошибка: {msg}"
+
+#: common/lib/xmodule/xmodule/course_module.py
 msgid ""
-"The image file name can only contain letters, numbers, hyphens (-), and "
-"underscores (_)."
+"Enter discussion categories in the following format: \"CategoryName\": "
+"{\"id\": \"i4x-InstitutionName-CourseNumber-course-CourseRun\"}. For "
+"example, one discussion category may be \"Lydian Mode\": {\"id\": "
+"\"i4x-UniversityX-MUS101-course-2015_T1\"}. The \"id\" value for each "
+"category must be unique. In \"id\" values, the only special characters that "
+"are supported are underscore, hyphen, and period."
 msgstr ""
-"Имя файла должно содержать буквы, цифры, дефисы (-) и подчеркивания (_)."
+"Введите категории обсуждений в следующем формате: \"НазваниеКатегории\": "
+"{\"id\": \"i4x-InstitutionName-CourseNumber-course-CourseRun\"}. Например, "
+"одна из категорий обсуждения может выглядеть так: \"Лидийский лад\": "
+"{\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\"}.  Значение \"id\" должно"
+" быть уникальным для каждой категории. Значения \"id\" могут содержать "
+"следующие специальные символы: знак подчёркивания, дефис и точка."
 
-#: cms/djangoapps/contentstore/views/videos.py:247
-msgid "An image file is required."
-msgstr "Необходим файл изображения."
+#. Translators: 'EdX', 'edX', and 'Open edX' are trademarks of 'edX Inc.'.
+#. Please do not translate any of these trademarks and company names.
+#: lms/djangoapps/branding/api.py
+msgid ""
+"© {org_name}.  All rights reserved except where noted.  EdX, Open edX and "
+"the edX and Open EdX logos are registered trademarks or trademarks of edX "
+"Inc."
+msgstr ""
+"© {org_name}.  Все права защищены.  EdX, Open edX и логотипы edX и Open EdX "
+"являются зарегистрированными торговыми марками или торговыми марками edX "
+"Inc."
 
-#: cms/envs/common.py:144
-msgid "Your Platform Studio"
-msgstr "Studio вашей платформы"
+#: lms/djangoapps/instructor/views/api.py
+msgid "Task is already running."
+msgstr "Задание уже выполняется."
 
-#: cms/envs/common.py:145
-msgid "Studio"
-msgstr "Studio"
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"The problem responses report is being created. To view the status of the "
+"report, see Pending Tasks below."
+msgstr ""
+"Отчёт по ответам на задание в настоящее время на стадии подготовки. Статус "
+"создания отчёта отображается ниже, в списке текущих задач преподавателя. "
 
-#: cms/urls.py:17
-msgid "Studio Administration"
-msgstr "Управление Studio"
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"A problem responses report generation task is already in progress. Check the"
+" 'Pending Tasks' table for the status of the task. When completed, the "
+"report will be available for download in the table below."
+msgstr ""
+"Отчёт по ответам на задание уже составляется. Его статус можно посмотреть в "
+"разделе «Текущие задачи». Когда отчёт будет готов, вы сможете скачать его в "
+"таблице ниже."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"The enrolled learner profile report is being created. To view the status of "
+"the report, see Pending Tasks below."
+msgstr ""
+"Отчёт по личным данным записанных слушателей на стадии подготовки. Чтобы "
+"просмотреть статус отчёта, см. ниже «Текущие задачи»."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"This enrollment report is currently being created. To view the status of the"
+" report, see Pending Tasks below. You will be able to download the report "
+"when it is complete."
+msgstr ""
+"Отчёт о записи на курс на стадии подготовки. Чтобы просмотреть статус "
+"отчёта, см. ниже «Текущие задачи». Вы сможете загрузить отчет, когда он "
+"будет завершён."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"The enrollment report is being created. This report contains information "
+"about learners who can enroll in the course. To view the status of the "
+"report, see Pending Tasks below."
+msgstr ""
+"Отчёт о записи на курс на стадии подготовки. Данный отчёт содержит "
+"информацию о слушателях, которые могут записаться на курс. Чтобы просмотреть"
+" статус отчёта, см. ниже «Текущие задачи»."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"The detailed enrollment report is being created. To view the status of the "
+"report, see Pending Tasks below."
+msgstr ""
+"Подробный отчёт о записи на курс на стадии подготовки. Чтобы просмотреть "
+"статус отчёта, см. ниже «Текущие задачи»."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"The detailed enrollment report is being created. To view the status of the "
+"report, see Pending Tasks below. You will be able to download the report "
+"when it is complete."
+msgstr ""
+"Подробный отчёт о записи на курс на стадии подготовки. Чтобы просмотреть "
+"статус отчёта, см. ниже «Текущие задачи». Вы сможете загрузить отчет, когда "
+"он будет завершен."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"The executive summary report is being created. To view the status of the "
+"report, see Pending Tasks below."
+msgstr ""
+"Административный итоговый отчёт на стадии подготовки. Чтобы просмотреть "
+"статус отчета, см. ниже «Текущие задачи»."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"The executive summary report is currently being created. To view the status "
+"of the report, see Pending Tasks below. You will be able to download the "
+"report when it is complete."
+msgstr ""
+"Административный итоговый отчёт в настоящее время на стадии подготовки. "
+"Чтобы просмотреть статус отчёта, см. ниже «Текущие задачи». Вы сможете "
+"загрузить отчёт, когда он будет завершён."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"The survey report is being created. To view the status of the report, see "
+"Pending Tasks below."
+msgstr ""
+"Отчёт по опросу на стадии подготовки. Чтобы просмотреть статус отчёта, см. "
+"ниже «Текущие задачи»."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"The survey report is currently being created. To view the status of the "
+"report, see Pending Tasks below. You will be able to download the report "
+"when it is complete."
+msgstr ""
+"Отчёт по опросу в настоящее время на стадии подготовки. Чтобы просмотреть "
+"статус отчёта, см. ниже «Текущие задачи». Вы сможете загрузить отчёт, когда "
+"он будет завершён."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"The proctored exam results report is being created. To view the status of "
+"the report, see Pending Tasks below."
+msgstr ""
+"Отчёт о результатах наблюдаемого задания на стадии подготовки. Статус "
+"создания отчёта отображается ниже, в списке «Текущие задачи»."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"The proctored exam results report is currently being created. To view the "
+"status of the report, see Pending Tasks below. You will be able to download "
+"the report when it is complete."
+msgstr ""
+"Отчёт о результатах наблюдаемого задания в настоящий момент на стадии "
+"подготовки. Статус создания отчёта отображается ниже, в списке «Текущие "
+"задачи». Вы сможете загрузить отчёт, когда он будет завершён."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid "The ORA data report is being generated."
+msgstr "Отчёт по заданиям с ответами в свободной форме на стадии подготовки."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"An ORA data report generation task is already in progress. Check the "
+"'Pending Tasks' table for the status of the task. When completed, the report"
+" will be available for download in the table below."
+msgstr ""
+"Отчёт по заданиям с ответами в свободной форме уже составляется. Его статус "
+"можно посмотреть в разделе «Текущие задачи». Когда отчёт будет готов, вы "
+"сможете скачать его в таблице ниже."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"The grade report is being created. To view the status of the report, see "
+"Pending Tasks below."
+msgstr ""
+"Оценочный лист на стадии подготовки. Состояние отчёта отображается ниже, в "
+"списке «Текущие задачи»."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"The grade report is currently being created. To view the status of the "
+"report, see Pending Tasks below. You will be able to download the report "
+"when it is complete."
+msgstr ""
+"Оценочный лист в настоящее время на стадии подготовки. Состояние отчёта "
+"отображается ниже, в списке «Текущие задачи». Вы сможете загрузить отчёт, "
+"когда он будет завершен."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"The problem grade report is being created. To view the status of the report,"
+" see Pending Tasks below."
+msgstr ""
+"Подробный оценочный лист на стадии подготовки. Состояние отчёта отображается"
+" ниже, в списке «Текущие задачи»."
+
+#: lms/djangoapps/instructor/views/api.py
+msgid ""
+"A problem grade report is already being generated. To view the status of the"
+" report, see Pending Tasks below. You will be able to download the report "
+"when it is complete."
+msgstr ""
+"Подробный оценочный лист на стадии подготовки. Состояние отчёта отображается"
+" ниже, в списке «Текущие задачи». Вы сможете загрузить отчёт, когда он будет"
+" завершён."
+
+#: lms/djangoapps/verify_student/models.py
+msgid "No photo ID was provided."
+msgstr "Документ с фотографией не загружен."
+
+#: lms/djangoapps/verify_student/models.py
+msgid "We couldn't read your name from your photo ID image."
+msgstr "Не удалось прочитать имя на изображеннии вашего документа."
+
+#: lms/djangoapps/verify_student/models.py
+msgid ""
+"The name associated with your account and the name on your ID do not match."
+msgstr ""
+"Имя, указанное в вашей учётной записи, не совпадает с именем на вашем "
+"документе."
+
+#: lms/djangoapps/verify_student/models.py
+msgid "The image of your face was not clear."
+msgstr "Изображение вашего лица недостаточно чёткое"
+
+#: lms/djangoapps/verify_student/models.py
+msgid "Your face was not visible in your self-photo."
+msgstr "На снимке не было видно вашего лица."
+
+#: lms/djangoapps/verify_student/models.py
+msgid "There was an error verifying your ID photos."
+msgstr "Произошла ошибка при проверке фотографий вашего документа"
+
+#: lms/djangoapps/verify_student/views.py
+msgid "Invalid checkpoint location"
+msgstr "Неверное местоположение контрольной точки"
+
+#: lms/templates/registration/password_reset_email.html
+#, python-format
+msgid ""
+"You're receiving this e-mail because you requested a password reset for your"
+" user account at %(site_name)s."
+msgstr ""
+"Вы получили это сообщение, потому что запросили смену пароля своей учётной "
+"записи на %(site_name)s."
+
+#: openedx/core/djangoapps/coursetalk/models.py
+msgid ""
+"The platform key associates CourseTalk widgets with your platform. "
+"Generally, it is the domain name for your platform. For example, if your "
+"platform is http://edx.org, the platform key is \"edx\"."
+msgstr ""
+"Ключ платформы связывает виджет CourseTalk с вашей платформой. Чаще всего "
+"это доменное имя вашей платформы. Например, если вы работаете с "
+"http://edx.org, ключом платформы будет «edx»."
+
+#: openedx/core/djangoapps/dark_lang/views.py
+msgid "Language code not provided"
+msgstr "Код языка не указан"
+
+#: openedx/core/djangoapps/dark_lang/views.py
+msgid "Language reset to the default language code"
+msgstr "Возврат к языковым настройкам по умолчанию"
+
+#: openedx/core/djangoapps/dark_lang/views.py
+msgid "Language reset to user's preference: {preview_language_code}"
+msgstr "Смена языка по предпочтению пользователя: {preview_language_code}"
+
+#. Translators: This label appears above a field on the registration form
+#. meant to hold the user's full name.
+#: openedx/core/djangoapps/user_api/views.py
+msgid "Full name"
+msgstr "Полное имя"
+
+#. Translators: This example name is used as a placeholder in
+#. a field on the registration form meant to hold the user's name.
+#: openedx/core/djangoapps/user_api/views.py
+msgid "Jane Doe"
+msgstr "Мария Иванова"
+
+#. Translators: This label appears above a field on the registration form
+#. meant to hold the user's public username.
+#: openedx/core/djangoapps/user_api/views.py
+msgid "Public username"
+msgstr "Имя пользователя"
+
+#. Translators: These instructions appear on the registration form,
+#. immediately
+#. below a field meant to hold the user's public username.
+#: openedx/core/djangoapps/user_api/views.py
+msgid ""
+"The name that will identify you in your courses - {bold_start}(cannot be "
+"changed later){bold_end}"
+msgstr ""
+"Ваше имя, под которым вы будете проходить курс - {bold_start}(не может быть "
+"впоследствии изменено){bold_end}"
+
+#. Translators: This example username is used as a placeholder in
+#. a field on the registration form meant to hold the user's username.
+#: openedx/core/djangoapps/user_api/views.py
+msgid "JaneDoe"
+msgstr "maria_ivanova"
+
+#: openedx/core/djangoapps/user_api/views.py
+msgid "Please select your Country."
+msgstr "Пожалуйста, выберите свою страну."
+
+#: cms/djangoapps/contentstore/views/assets.py
+msgid ""
+"File {filename} exceeds maximum size of {size_mb} MB. Please follow the "
+"instructions here to upload a file elsewhere and link to it instead: "
+"{faq_url}"
+msgstr ""
+"Размер файла {filename} превышает предельно допустимое значение {size_mb} "
+"МБ. Чтобы загрузить файл в другое место или вставить ссылку на файл, "
+"следуйте инструкциям: {faq_url}"
+
+#: lms/templates/staff_problem_info.html
+msgid "Staff Debug"
+msgstr "Отладка для сотрудников"
+
+#: lms/templates/courseware/info.html
+msgid ""
+"You are not currently enrolled in this course. {link_start}Sign up "
+"now!{link_end}"
+msgstr ""
+"Пока вы не записаны на этот курс. {link_start}Записаться сейчас!{link_end}"
+
+#: lms/templates/dashboard/_dashboard_certificate_information.html
+msgid ""
+"Final course details are being wrapped up at this time. Your final standing "
+"will be available shortly."
+msgstr ""
+"Сейчас идёт заключительный этап работы над курсом. ваша финальная оценка "
+"скоро будет доступна."
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "I'm learning on {platform_name}:"
+msgstr "Я учусь на {platform_name}:"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+#, python-format
+msgid ""
+"Are you sure you want to unenroll from the purchased course %(course_name)s "
+"(%(course_number)s)?"
+msgstr ""
+"Вы уверены, что хотите отменить запись на оплаченный Вами курс "
+"%(course_name)s (%(course_number)s)?"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "You will be refunded the amount you paid."
+msgstr "Вам будут возвращена сумма, которую вы заплатили."
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "You will not be refunded the amount you paid."
+msgstr "Вам не будет возвращена сумма которую вы заплатили."
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+#, python-format
+msgid ""
+"Are you sure you want to unenroll from %(course_name)s (%(course_number)s)?"
+msgstr ""
+"Вы уверены, что хотите отменить запись на курс %(course_name)s "
+"(%(course_number)s)?"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+#, python-format
+msgid ""
+"Are you sure you want to unenroll from the verified %(cert_name_long)s track"
+" of %(course_name)s (%(course_number)s)?"
+msgstr ""
+"Вы уверены, что хотите отписаться от подтверждённого %(cert_name_long)s "
+"трека %(course_name)s (%(course_number)s)?"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid ""
+"The refund deadline for this course has passed, so you will not receive a "
+"refund."
+msgstr ""
+"Срок возврата денег для этого курса прошёл, так что вы не сможете получить "
+"возмещение."
+
+#. Translators: This labels a cohort menu in forum navigation
+#: lms/templates/discussion/_thread_list_template.html
+msgid "Cohort:"
+msgstr "Группа:"
+
+#: lms/templates/discussion/_thread_list_template.html
+msgid "in all cohorts"
+msgstr "во всех группах"
+
+#: lms/templates/emails/activation_email.txt
+#: themes/edx.org/lms/templates/emails/activation_email.txt
+msgid "Thank you for creating an account with {platform_name}!"
+msgstr "Благодарим Вас за создание учётной записи на {platform_name}!"
+
+#: lms/templates/emails/activation_email.txt
+msgid ""
+"There's just one more step before you can enroll in a course: you need to "
+"activate your {platform_name} account. To activate your account, click the "
+"following link. If that doesn't work, copy and paste the link into your "
+"browser's address bar."
+msgstr ""
+"Остался всего ещё один шаг, и Вы сможете записаться на курс: Вам нужно "
+"активировать свою учётную запись на {platform_name}. Для активации нажмите "
+"на нижеследующую ссылку. Если ссылка не работает, скопируйте и вставьте её в"
+" адресную строку своего браузера."
+
+#: lms/templates/emails/activation_email.txt
+msgid ""
+"If you didn't create an account, you don't need to do anything; you won't "
+"receive any more email from us. If you need assistance, please do not reply "
+"to this email message. Check the help section of the {platform_name} "
+"website."
+msgstr ""
+"Если Вы не создавали учётную запись, дальнейших действий не требуется; Вы "
+"больше не будете получать от нас сообщения.  Если Вам потребуется помощь, "
+"пожалуйста, не отвечайте на это сообщение.  Обратитесь к разделу \"Помощь\" "
+"на веб-сайте {platform_name}."
+
+#: lms/templates/emails/activation_email_subject.txt
+msgid "Activate Your {platform_name} Account"
+msgstr "Активация учётной записи {platform_name} "
+
+#: lms/templates/enrollment/course_enrollment_message.html
+msgid ""
+"Thank you for enrolling in {enrolled_course}. We hope you enjoy the course."
+msgstr ""
+"Спасибо за регистрацию на курс  {enrolled_course}. Надеемся, что вы получите"
+" от него удовольствие."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html
+msgid ""
+"If this option is <em>checked</em>, users who have not yet registered for "
+"{platform_name} will be automatically enrolled."
+msgstr ""
+"Если эта опция <em>отмечена</em>, пользователи, не зарегистрированные в "
+"{platform_name}, будут автоматически зачислены на курс."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html
+msgid ""
+"If this option is left <em>unchecked</em>, users who have not yet registered"
+" for {platform_name} will not be enrolled, but will be allowed to enroll "
+"once they make an account."
+msgstr ""
+"Если эта опция <em>не отмечена</em>, пользователи, не зарегистрированные в "
+"{platform_name} не будут зачислены на курс. Однако они смогут записать на "
+"него, создав учетную запись."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html
+msgid ""
+"If this option is <em>checked</em>, users will receive an email "
+"notification."
+msgstr ""
+"Если эта опция <em>отмечена</em>, пользователи будут получать уведомления по"
+" электронной почте."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html
+msgid ""
+"If this option is <em>checked</em>, users who have not enrolled in your "
+"course will be automatically enrolled."
+msgstr ""
+"Если эта опция <em>отмечена</em>, то пользователи, которые не записаны на "
+"ваш курс, будут автоматически записаны."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html
+msgid ""
+"Discussion Admins can edit or delete any post, clear misuse flags, close and"
+" re-open threads, endorse responses, and see posts from all cohorts. Their "
+"posts are marked as 'staff'. They can also add and remove the discussion "
+"moderation roles to manage course team membership. You can only give course "
+"team roles to enrolled users."
+msgstr ""
+"Администраторы обсуждений могут просматривать обсуждения всех групп, "
+"изменять и удалять любые сообщения, снимать жалобы, закрывать и снова "
+"открывать темы, а также рекомендовать полезные ответы. Их сообщения помечены"
+" словом «Сотрудник». Кроме того, они могут назначать модераторов. "
+"Присваивать эту и другие роли можно только зарегистрированным пользователям."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html
+msgid ""
+"Discussion Moderators can edit or delete any post, clear misuse flags, close"
+" and re-open threads, endorse responses, and see posts from all cohorts. "
+"Their posts are marked as 'staff'. They cannot manage course team membership"
+" by adding or removing discussion moderation roles. You can only give course"
+" team roles to enrolled users."
+msgstr ""
+"Модераторы могут просматривать обсуждения всех групп, изменять и удалять "
+"любые сообщения, снимать жалобы, закрывать и снова открывать темы, а также "
+"рекомендовать полезные ответы. Их сообщения помечены словом «Сотрудник». "
+"Однако они не могут назначать других модераторов. Присваивать эту и другие "
+"роли можно только зарегистрированным пользователям."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html
+msgid "Discussion Community TAs"
+msgstr "Старосты сообщества"
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html
+msgid ""
+"Community TA's are members of the community whom you deem particularly "
+"helpful on the discussion boards. They can edit or delete any post, clear "
+"misuse flags, close and re-open threads, endorse responses, and see posts "
+"from all cohorts. Their posts are marked as 'Community TA'. You can only "
+"give course team roles to enrolled users."
+msgstr ""
+"Старосты – это члены сообщества, которые активно участвуют в обсуждениях и "
+"помогают другим. Они могут просматривать дискуссии всех групп, изменять и "
+"удалять любые сообщения, снимать жалобы, закрывать и снова открывать темы, а"
+" также рекомендовать полезные ответы. Их сообщения помечены словом "
+"«староста»."
+
+#: lms/templates/modal/accessible_confirm.html
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#. Translators: this text gives status on if the modal interface (a menu or
+#. piece of UI that takes the full focus of the screen) is open or not
+#: lms/templates/modal/accessible_confirm.html
+msgid "modal open"
+msgstr "открыто модальное окно"
+
+#: lms/templates/modal/accessible_confirm.html
+msgid "OK"
+msgstr "ОК"
+
+#: lms/templates/modal/accessible_confirm.html
+msgid "open"
+msgstr "открыть"
+
+#: lms/templates/registration/activation_complete.html
+msgid "Account Activated"
+msgstr "Учётная запись активирована"
+
+#: lms/templates/registration/activation_complete.html
+msgid "Account already active"
+msgstr "Учётная запись уже активирована"
+
+#: themes/red-theme/lms/templates/header.html
+msgid "More options dropdown"
+msgstr "Меню с дополнительными опциями"
+
+#: themes/red-theme/lms/templates/header.html
+msgid "Register Now"
+msgstr "Зарегистрируйтесь прямо сейчас"
+
+#: cms/templates/group_configurations.html
+msgid ""
+"Each content group that you create can be associated with one or more "
+"cohorts. In addition to course content that is intended for all students, "
+"you can designate some content as visible only to specified content groups. "
+"Only learners in the cohorts that are associated with the specified content "
+"groups see the additional content."
+msgstr ""
+"Каждая созданная группа по изучаемым материалам должна быть связана не менее"
+" чем с одной группой в курсе. В дополнение к материалам курса, "
+"предназначенным для всех слушателей, вы можете указать, что некоторые "
+"материалы доступны только определённым группам. Только члены этих групп, "
+"получат доступ к дополнительным материалам."
+
+#: cms/templates/group_configurations.html
+msgid ""
+"Use experiment group configurations if you are conducting content "
+"experiments, also known as A/B testing, in your course. Experiment group "
+"configurations define how many groups of students are in a content "
+"experiment. When you create a content experiment for a course, you select "
+"the group configuration to use."
+msgstr ""
+"Используйте настройку экспериментальных групп если вы хотите провести "
+"А/Б-тестирование материалов вашего курса. Данная настройка определяет, "
+"сколько групп слушателей будет участвовать в эксперименте.  Когда вы "
+"создаёте экспериментальный материал, укажите группы, которые будут его "
+"использовать."
+
+#: cms/templates/index.html
+msgid "Re-run Course"
+msgstr "Перезапустить курс"
+
+#: cms/templates/index.html
+msgid "(Read-only)"
+msgstr "(Только для чтения)"
+
+#: cms/templates/settings.html
+msgid ""
+"Identify the course language here. This is used to assist users find courses"
+" that are taught in a specific language."
+msgstr ""
+"Укажите здесь язык обучения на курсе.  Это поможет пользователям найти "
+"курсы, которые преподаются на определённом языке."
+
+#: cms/templates/studio_xblock_wrapper.html
+msgid "Visibility Settings"
+msgstr "Настройки видимости"
+
+#: cms/templates/studio_xblock_wrapper.html
+msgid "Visibility"
+msgstr "Видимость"
+
+#: cms/templates/videos_index.html
+msgid "Why upload video files?"
+msgstr "Зачем загружать видео?"
+
+#: cms/templates/videos_index.html
+msgid "Maximum Video File Size"
+msgstr "Максимальный размер видео файла"
+
+#: cms/templates/videos_index.html
+msgid "Monitoring files as they upload"
+msgstr "Контроль загрузки файлов"
+
+#: cms/templates/videos_index.html
+msgid ""
+"Each video file that you upload needs to reach the video processing servers "
+"successfully before additional work can begin. You can monitor the progress "
+"of files as they upload, and try again if the upload fails."
+msgstr ""
+"Каждый видео файл, который вы загружаете, должен пройти обработку нашим "
+"видеосервером прежде чем вы сможете продолжить. Вы можете следить за ходом "
+"загрузки файлов, и попробовать снова, если в процессе загрузки произошла "
+"ошибка."
+
+#: cms/templates/videos_index.html
+msgid "Managing uploaded files"
+msgstr "Управление загруженными файлами"
+
+#: cms/templates/videos_index.html
+msgid ""
+"After a file uploads successfully, automated processing begins. The file is "
+"then listed under Previous Uploads as {em_start}In Progress{em_end}. You can"
+" add the video to your course as soon as it has a unique video ID and the "
+"status is {em_start}Ready{em_end}. Allow 24 hours for file processing at the"
+" external video hosting sites to complete."
+msgstr ""
+"После успешной загрузки файла начинается его автоматическая обработка. Затем"
+" файл попадает в список  «Предыдущие загрузки» со статусом "
+"{em_start}Выполняется{em_end}. Вы сможете добавить видео в ваш курс, как "
+"только оно получит уникальный идентификатор и статус "
+"{em_start}Готово{em_end}. Для успешного завершения процесса на сторонних "
+"видеохостингах разрешите обработку видео в течение 24 часов."
+
+#: cms/templates/videos_index.html
+msgid ""
+"If something goes wrong, the {em_start}Failed{em_end} status message "
+"appears. Check for problems in your original file and upload a replacement."
+msgstr ""
+"Если что-то пойдет не так, то будет отображён статус "
+"{em_start}Неудачно{em_end}. В этом случае рекомендуется проверить ваш файл "
+"на наличие ошибок и загрузить его повторно."
+
+#: cms/templates/videos_index.html
+msgid "How do I get the videos into my course?"
+msgstr "Как добавить видеоматериалы в свой курс?"
+
+#: wiki/views/article.py
+msgid "A new revision of the article was succesfully added."
+msgstr "Новая версия статьи была успешно добавлена."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:184
+msgid ""
+"In this assignment, you can include learner training, peer assessment, self "
+"assessment, and staff assessment steps. Select the steps that you want "
+"below, and then drag them into the order you want. If you include a learner "
+"training step, it must precede all other steps. If you include a staff "
+"assessment step, it must be the final step. After you release an ORA "
+"assignment, you cannot change the type and number of assessment steps."
+msgstr ""
+"В этом задании вы можете использовать «Обучение слушателей», «Взаимное "
+"оценивание», «Самооценивание», «Автоматизированное оценивание» и «Оценивание"
+" командой курса». Выберите действия, которые вы хотите, а затем перетащите "
+"их в нужном порядке. Если включить «Обучение слушателей», оно должно "
+"предшествовать всем другим шагам. Если включить «Оценивание командой курса»,"
+" оно должно быть последним шагом. После того, как вы выпустите задание, вы "
+"не сможете изменить тип и количество шагов оценки."
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:60
+msgid ""
+"Before you begin to assess your peers' responses, you'll learn how to "
+"complete peer assessments by reviewing responses that instructors have "
+"already assessed. If you select the same options for the response that the "
+"instructor selected, you'll move to the next step. If you don't select the "
+"same options, you'll review the response and try again."
+msgstr ""
+"Перед тем как начать оценивать работы своих однокурсников, вам необходимо "
+"научиться ставить оценки на примере ответов, уже оцененных преподавателями. "
+"Если вы выберете те же варианты оценок ответа, которые выбрал преподаватель,"
+" вы перейдёте к следующему ответу. Если вы выберете другие варианты, вам "
+"придётся перечитать ответ и попробовать снова."
 
 msgid "{short_label} Avg"
 msgstr "{short_label} cрд"
@@ -1789,53 +2411,6 @@ msgstr ""
 "Вы можете сделать этот элемент видимым для определенной группы слушателей  "
 "на основе созданных вами групп по изучаемым материалам."
 
-#: cms/templates/asset_index.html:78
-msgid "Help adding Files and Uploads"
-msgstr "Помощь по загрузке и добавлению файлов"
-
-#: cms/templates/index.html:318
-msgid "Archived Courses"
-msgstr "Онлайн-курсы в архиве"
-
-#: cms/templates/settings.html:224
-msgid "By default, 48 hours after course end date"
-msgstr "По умолчанию, 48ч после даты окончания онлайн-курса"
-
-#: cms/templates/videos_index.html:64
-msgid "Course Video Settings"
-msgstr "Настройки видео в онлайн-курсе"
-
-#: cms/templates/visibility_editor.html:23
-msgid ""
-"Access to this unit is not restricted, but visibility might be affected by "
-"inherited settings."
-msgstr ""
-"Доступ к данному онлайн-курсу не ограничен, но на его видимость могут "
-"повлиять унаследованные настройки."
-
-#: cms/templates/visibility_editor.html:29
-msgid ""
-"You can restrict access to this unit to learners in specific enrollment "
-"tracks or content groups."
-msgstr ""
-"Вы можете ограничить доступ к данному юниту для слушателей в определенном "
-"зачислении или группах контента."
-
-#: cms/templates/visibility_editor.html:35
-msgid ""
-"You can restrict access to this unit to learners in specific content groups."
-msgstr ""
-"Вы можете ограничить доступ к данному юниту для слушателей в определенном "
-"группах контента."
-
-#: cms/templates/visibility_editor.html:115
-msgid ""
-"This group no longer exists.  Choose another group or remove the access "
-"restriction."
-msgstr ""
-"Данная группа больше не существует. Выберите другую или уберите настройки "
-"ограничения доступа."
-
 #: lms/templates/staff_problem_info.html:71
 msgid "Score (for override only)"
 msgstr "Балл (только для переопределенных)"
@@ -2111,881 +2686,99 @@ msgstr ""
 "логотипы edX и Open edX - зарегистрированные торговые марки компании edX "
 "Inc."
 
-#: openassessment/templates/openassessmentblock/edit/oa_edit.html:106
-msgid "Allow File Upload"
-msgstr "Разрешить загрузить файл"
-
-#: openassessment/templates/openassessmentblock/edit/oa_edit.html:109
-msgid "Image File"
-msgstr "Изображение"
-
-#: openassessment/templates/openassessmentblock/edit/oa_edit.html:110
-msgid "PDF or Image File"
-msgstr "PDF или изображение"
-
-#: openassessment/templates/openassessmentblock/edit/oa_edit.html:115
+#: cms/djangoapps/contentstore/views/assets.py:442
+#, python-brace-format
 msgid ""
-"Specify whether learners can submit a file along with their text response. "
-"Select Image to allow JPG, GIF, or PNG files. Select PDF or Image to allow "
-"PDF files and images. Select Custom File Types to allow files with "
-"extensions that you specify below. (Use this option with caution.)"
+"File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
 msgstr ""
-"Уточните, могут ли слушатели отправлять файлы вместе с текстовыми ответами "
-"Изображение позволяет посылать JPG, GIF и PNG файлы. PDF или изображение "
-"позволяет посылать PDF и изображения. Выберите Дополнительные типы файлов "
-"чтобы позволить добавлять файлы с расширениями, которые вы укажете. "
-"(Используйте эту опцию с осторожностью) "
+"Файл {filename} максимально допустимый размер в {maximum_size_in_megabytes} "
+"МБ."
 
-#: openassessment/templates/openassessmentblock/message/oa_message_open.html:7
-#, python-format
+#: cms/djangoapps/contentstore/views/transcript_settings.py:106
+msgid "The information you entered is incorrect."
+msgstr "Введенная информация некорректна"
+
+#. Translators: This is the status for a video that is having its
+#. transcription in progress on servers
+#: cms/djangoapps/contentstore/views/videos.py:115
+msgid "Transcription in Progress"
+msgstr "Транскрипция в процессе"
+
+#. Translators: This is the status for a video whose transcription is complete
+#: cms/djangoapps/contentstore/views/videos.py:117
+msgid "Transcript Ready"
+msgstr "Транскрипция готова"
+
+#: cms/djangoapps/contentstore/views/videos.py:198
+msgid "The image must have name, content type, and size information."
+msgstr "Изображение должно иметь имя, тип содержимого и размер о размере."
+
+#: cms/djangoapps/contentstore/views/videos.py:200
+#, python-brace-format
 msgid ""
-"\n"
-"                    Assignment submissions will close soon. To receive a grade, first provide a response to the question, then complete the steps below the %(start_tag)sYour Response%(end_tag)s field.\n"
-"                "
+"This image file type is not supported. Supported file types are "
+"{supported_file_formats}."
 msgstr ""
-"\n"
-"                    Сдача задания вскоре будет закрыта. Чтобы получить оценку, сначала дайте ответ на вопрос, затем выполните шаги под полем %(start_tag)sВаш ответ%(end_tag)s.\n"
-"                "
+"Данный тип изображения не поддерживается. Поддерживаемые типы "
+"изображений:{supported_file_formats}."
 
-#: openassessment/templates/openassessmentblock/message/oa_message_open.html:11
-#, python-format
+#: cms/djangoapps/contentstore/views/videos.py:204
+#, python-brace-format
+msgid "This image file must be smaller than {image_max_size}."
+msgstr "Это изображение должно быть не более чем {image_max_size}."
+
+#: cms/djangoapps/contentstore/views/videos.py:208
+#, python-brace-format
+msgid "This image file must be larger than {image_min_size}."
+msgstr "Это изображение должно быть не менее чем {image_min_size}."
+
+#: cms/djangoapps/contentstore/views/videos.py:215
 msgid ""
-"\n"
-"                    This assignment has several steps. In the first step, you'll provide a response to the question. The other steps appear below the %(start_tag)sYour Response%(end_tag)s field.\n"
-"                "
-msgstr ""
-"\n"
-"                   В этом задании несколько шагов. На первом шаге вам нужно ответить на вопрос. Следующие шаги появятся под полем %(start_tag)sВаш ответ%(end_tag)s.\n"
-"                "
+"There is a problem with this image file. Try to upload a different file."
+msgstr "Проблема с файлом изображения. Попробуйте загрузить другой файл."
 
-#: openassessment/templates/openassessmentblock/oa_base.html:15
+#: cms/djangoapps/contentstore/views/videos.py:218
+#, python-brace-format
 msgid ""
-"This assignment has several steps. In the first step, you'll provide a "
-"response to the question. The other steps appear below the Your Response "
-"field."
+"Recommended image resolution is "
+"{image_file_max_width}x{image_file_max_height}. The minimum resolution is "
+"{image_file_min_width}x{image_file_min_height}."
 msgstr ""
-"В этом задании несколько шагов. На первом шаге вам нужно ответить на вопрос."
-" Следующие шаги появятся под полем %(start_tag)sВаш ответ%(end_tag)s."
+"Рекомендованное разрешение изображения: "
+"{image_file_max_width}x{image_file_max_height}. Минимальное разрешение: "
+"{image_file_min_width}x{image_file_min_height}."
 
-#: openassessment/templates/openassessmentblock/oa_uploaded_file.html:16
-msgid "The image associated with this submission."
-msgstr "Связанное с заданием изображение"
-
-#: openassessment/templates/openassessmentblock/oa_uploaded_file.html:20
-msgid "View the file associated with this submission."
-msgstr "Показаться связанный с этим заданием файл"
-
-#: openassessment/templates/openassessmentblock/oa_uploaded_file.html:23
+#: cms/djangoapps/contentstore/views/videos.py:226
+#, python-brace-format
 msgid ""
-"(Caution: This file was uploaded by another course learner and has not been "
-"verified, screened, approved, reviewed, or endorsed by the site "
-"administrator. If you decide to access it, you do so at your own risk.)"
+"This image file must have an aspect ratio of "
+"{video_image_aspect_ratio_text}."
 msgstr ""
-"(Осторожно: этот файл был загружен другим слушателем курса и не было "
-"проверен,просмотрен, одобрен или подтвержден администратором сайта. Риск за "
-"скачивание файла ложится на вас.)"
+"Это изображение должно быть с соотношением сторон: "
+"{video_image_aspect_ratio_text}."
 
-#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:71
-#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:54
-#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:54
-#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:28
-#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:27
-#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:49
-msgid "Associated File"
-msgstr "Связанный файл"
-
-#: openassessment/templates/openassessmentblock/response/oa_response.html:88
-msgid "Enter your response to the question above."
-msgstr "Введите ваш ответ на вопрос ниже"
-
-#: openassessment/templates/openassessmentblock/response/oa_response.html:98
-msgid "We could not upload this file"
-msgstr "Мы не смогли загрузить этот файл"
-
-#: openassessment/templates/openassessmentblock/response/oa_response.html:104
-msgid "Upload your file"
-msgstr "Загрузите фаш файл"
-
-#: openassessment/templates/openassessmentblock/response/oa_response_graded.html:31
-#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:52
-msgid "Your Uploaded File"
-msgstr "Ваш загруженный файл"
-
-#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:42
-msgid "Field"
-msgstr "Поле"
-
-#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:43
-msgid "Value"
-msgstr "Значение"
-
-#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:47
-msgid "Created at"
-msgstr "Создан в"
-
-#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:51
-msgid "Algorithm ID"
-msgstr "ID алгоритма"
-
-#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:55
-msgid "Course ID"
-msgstr "ID курса"
-
-#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:59
-msgid "Item ID"
-msgstr "ID элемента"
-
-#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:25
-#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:24
-#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:46
-msgid "The learner's response to the question above"
-msgstr "Ответ слушателя на вопрос выше"
-
-#: openassessment/templates/openassessmentblock/student_training/student_training.html:75
-msgid "The response to the question above:"
-msgstr "Ответ на вопрос выше:"
-
+#: cms/djangoapps/contentstore/views/videos.py:233
 msgid ""
-"\n"
-"                            <span class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
-"                        "
+"The image file name can only contain letters, numbers, hyphens (-), and "
+"underscores (_)."
 msgstr ""
-"\n"
-"                            <span class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"к {date} (через %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
-"                        "
-
-msgid ""
-"\n"
-"                        <span class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
-"                        "
-msgstr ""
-"\n"
-"                        <span class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"к {date} (через %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
-"                        "
-
-#: openassessment/templates/openassessmentblock/edit/oa_edit.html:184
-msgid ""
-"In this assignment, you can include learner training, peer assessment, self "
-"assessment, and staff assessment steps. Select the steps that you want "
-"below, and then drag them into the order you want. If you include a learner "
-"training step, it must precede all other steps. If you include a staff "
-"assessment step, it must be the final step. After you release an ORA "
-"assignment, you cannot change the type and number of assessment steps."
-msgstr ""
-"В этом задании вы можете использовать «Обучение слушателей», «Взаимное "
-"оценивание», «Самооценивание», «Автоматизированное оценивание» и «Оценивание"
-" командой курса». Выберите действия, которые вы хотите, а затем перетащите "
-"их в нужном порядке. Если включить «Обучение слушателей», оно должно "
-"предшествовать всем другим шагам. Если включить «Оценивание командой курса»,"
-" оно должно быть последним шагом. После того, как вы выпустите задание, вы "
-"не сможете изменить тип и количество шагов оценки."
-
-#: openassessment/templates/openassessmentblock/student_training/student_training.html:60
-msgid ""
-"Before you begin to assess your peers' responses, you'll learn how to "
-"complete peer assessments by reviewing responses that instructors have "
-"already assessed. If you select the same options for the response that the "
-"instructor selected, you'll move to the next step. If you don't select the "
-"same options, you'll review the response and try again."
-msgstr ""
-"Перед тем как начать оценивать работы своих однокурсников, вам необходимо "
-"научиться ставить оценки на примере ответов, уже оцененных преподавателями. "
-"Если вы выберете те же варианты оценок ответа, которые выбрал преподаватель,"
-" вы перейдёте к следующему ответу. Если вы выберете другие варианты, вам "
-"придётся перечитать ответ и попробовать снова."
-
-#: common/djangoapps/student/forms.py
-msgid "Username must be minimum of two characters long"
-msgstr "Имя пользователя должно состоять минимум из двух знаков"
-
-#: common/djangoapps/student/forms.py
-#, python-format
-msgid "Username cannot be more than %(limit_value)s characters long"
-msgstr ""
-"Максимальное количество символов в имени пользователя – %(limit_value)s"
-
-#: common/djangoapps/student/views.py
-msgid "Unknown error. Please e-mail us to let us know how it happened."
-msgstr ""
-"Неизвестная ошибка. Пожалуйста, сообщите нам о её возникновении по "
-"электронной почте."
-
-#: common/lib/capa/capa/responsetypes.py
-msgid "factorial function evaluated outside its domain:'{student_answer}'"
-msgstr ""
-"Значение факториала находится за пределами его области определения: "
-"{student_answer}"
-
-#: common/lib/capa/capa/responsetypes.py
-msgid ""
-"factorial function not permitted in answer for this problem. Provided answer"
-" was: {bad_input}"
-msgstr ""
-"в ответе на это задание не разрешается использовать факториал. Ответ, данный"
-" вами: {bad_input}"
-
-#. Translators: {msg} will be replaced with a problem's error message.
-#: common/lib/xmodule/xmodule/capa_base.py
-msgid "Error: {msg}"
-msgstr "Ошибка: {msg}"
-
-#: common/lib/xmodule/xmodule/course_module.py
-msgid ""
-"Enter discussion categories in the following format: \"CategoryName\": "
-"{\"id\": \"i4x-InstitutionName-CourseNumber-course-CourseRun\"}. For "
-"example, one discussion category may be \"Lydian Mode\": {\"id\": "
-"\"i4x-UniversityX-MUS101-course-2015_T1\"}. The \"id\" value for each "
-"category must be unique. In \"id\" values, the only special characters that "
-"are supported are underscore, hyphen, and period."
-msgstr ""
-"Введите категории обсуждений в следующем формате: \"НазваниеКатегории\": "
-"{\"id\": \"i4x-InstitutionName-CourseNumber-course-CourseRun\"}. Например, "
-"одна из категорий обсуждения может выглядеть так: \"Лидийский лад\": "
-"{\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\"}.  Значение \"id\" должно"
-" быть уникальным для каждой категории. Значения \"id\" могут содержать "
-"следующие специальные символы: знак подчёркивания, дефис и точка."
-
-#. Translators: 'EdX', 'edX', and 'Open edX' are trademarks of 'edX Inc.'.
-#. Please do not translate any of these trademarks and company names.
-#: lms/djangoapps/branding/api.py
-msgid ""
-"© {org_name}.  All rights reserved except where noted.  EdX, Open edX and "
-"the edX and Open EdX logos are registered trademarks or trademarks of edX "
-"Inc."
-msgstr ""
-"© {org_name}.  Все права защищены.  EdX, Open edX и логотипы edX и Open EdX "
-"являются зарегистрированными торговыми марками или торговыми марками edX "
-"Inc."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid "Task is already running."
-msgstr "Задание уже выполняется."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"The problem responses report is being created. To view the status of the "
-"report, see Pending Tasks below."
-msgstr ""
-"Отчёт по ответам на задание в настоящее время на стадии подготовки. Статус "
-"создания отчёта отображается ниже, в списке текущих задач преподавателя. "
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"A problem responses report generation task is already in progress. Check the"
-" 'Pending Tasks' table for the status of the task. When completed, the "
-"report will be available for download in the table below."
-msgstr ""
-"Отчёт по ответам на задание уже составляется. Его статус можно посмотреть в "
-"разделе «Текущие задачи». Когда отчёт будет готов, вы сможете скачать его в "
-"таблице ниже."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"The enrolled learner profile report is being created. To view the status of "
-"the report, see Pending Tasks below."
-msgstr ""
-"Отчёт по личным данным записанных слушателей на стадии подготовки. Чтобы "
-"просмотреть статус отчёта, см. ниже «Текущие задачи»."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"This enrollment report is currently being created. To view the status of the"
-" report, see Pending Tasks below. You will be able to download the report "
-"when it is complete."
-msgstr ""
-"Отчёт о записи на курс на стадии подготовки. Чтобы просмотреть статус "
-"отчёта, см. ниже «Текущие задачи». Вы сможете загрузить отчет, когда он "
-"будет завершён."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"The enrollment report is being created. This report contains information "
-"about learners who can enroll in the course. To view the status of the "
-"report, see Pending Tasks below."
-msgstr ""
-"Отчёт о записи на курс на стадии подготовки. Данный отчёт содержит "
-"информацию о слушателях, которые могут записаться на курс. Чтобы просмотреть"
-" статус отчёта, см. ниже «Текущие задачи»."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"The detailed enrollment report is being created. To view the status of the "
-"report, see Pending Tasks below."
-msgstr ""
-"Подробный отчёт о записи на курс на стадии подготовки. Чтобы просмотреть "
-"статус отчёта, см. ниже «Текущие задачи»."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"The detailed enrollment report is being created. To view the status of the "
-"report, see Pending Tasks below. You will be able to download the report "
-"when it is complete."
-msgstr ""
-"Подробный отчёт о записи на курс на стадии подготовки. Чтобы просмотреть "
-"статус отчёта, см. ниже «Текущие задачи». Вы сможете загрузить отчет, когда "
-"он будет завершен."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"The executive summary report is being created. To view the status of the "
-"report, see Pending Tasks below."
-msgstr ""
-"Административный итоговый отчёт на стадии подготовки. Чтобы просмотреть "
-"статус отчета, см. ниже «Текущие задачи»."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"The executive summary report is currently being created. To view the status "
-"of the report, see Pending Tasks below. You will be able to download the "
-"report when it is complete."
-msgstr ""
-"Административный итоговый отчёт в настоящее время на стадии подготовки. "
-"Чтобы просмотреть статус отчёта, см. ниже «Текущие задачи». Вы сможете "
-"загрузить отчёт, когда он будет завершён."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"The survey report is being created. To view the status of the report, see "
-"Pending Tasks below."
-msgstr ""
-"Отчёт по опросу на стадии подготовки. Чтобы просмотреть статус отчёта, см. "
-"ниже «Текущие задачи»."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"The survey report is currently being created. To view the status of the "
-"report, see Pending Tasks below. You will be able to download the report "
-"when it is complete."
-msgstr ""
-"Отчёт по опросу в настоящее время на стадии подготовки. Чтобы просмотреть "
-"статус отчёта, см. ниже «Текущие задачи». Вы сможете загрузить отчёт, когда "
-"он будет завершён."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"The proctored exam results report is being created. To view the status of "
-"the report, see Pending Tasks below."
-msgstr ""
-"Отчёт о результатах наблюдаемого задания на стадии подготовки. Статус "
-"создания отчёта отображается ниже, в списке «Текущие задачи»."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"The proctored exam results report is currently being created. To view the "
-"status of the report, see Pending Tasks below. You will be able to download "
-"the report when it is complete."
-msgstr ""
-"Отчёт о результатах наблюдаемого задания в настоящий момент на стадии "
-"подготовки. Статус создания отчёта отображается ниже, в списке «Текущие "
-"задачи». Вы сможете загрузить отчёт, когда он будет завершён."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid "The ORA data report is being generated."
-msgstr "Отчёт по заданиям с ответами в свободной форме на стадии подготовки."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"An ORA data report generation task is already in progress. Check the "
-"'Pending Tasks' table for the status of the task. When completed, the report"
-" will be available for download in the table below."
-msgstr ""
-"Отчёт по заданиям с ответами в свободной форме уже составляется. Его статус "
-"можно посмотреть в разделе «Текущие задачи». Когда отчёт будет готов, вы "
-"сможете скачать его в таблице ниже."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"The grade report is being created. To view the status of the report, see "
-"Pending Tasks below."
-msgstr ""
-"Оценочный лист на стадии подготовки. Состояние отчёта отображается ниже, в "
-"списке «Текущие задачи»."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"The grade report is currently being created. To view the status of the "
-"report, see Pending Tasks below. You will be able to download the report "
-"when it is complete."
-msgstr ""
-"Оценочный лист в настоящее время на стадии подготовки. Состояние отчёта "
-"отображается ниже, в списке «Текущие задачи». Вы сможете загрузить отчёт, "
-"когда он будет завершен."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"The problem grade report is being created. To view the status of the report,"
-" see Pending Tasks below."
-msgstr ""
-"Подробный оценочный лист на стадии подготовки. Состояние отчёта отображается"
-" ниже, в списке «Текущие задачи»."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid ""
-"A problem grade report is already being generated. To view the status of the"
-" report, see Pending Tasks below. You will be able to download the report "
-"when it is complete."
-msgstr ""
-"Подробный оценочный лист на стадии подготовки. Состояние отчёта отображается"
-" ниже, в списке «Текущие задачи». Вы сможете загрузить отчёт, когда он будет"
-" завершён."
-
-#: lms/djangoapps/verify_student/models.py
-msgid "No photo ID was provided."
-msgstr "Документ с фотографией не загружен."
-
-#: lms/djangoapps/verify_student/models.py
-msgid "We couldn't read your name from your photo ID image."
-msgstr "Не удалось прочитать имя на изображеннии вашего документа."
-
-#: lms/djangoapps/verify_student/models.py
-msgid ""
-"The name associated with your account and the name on your ID do not match."
-msgstr ""
-"Имя, указанное в вашей учётной записи, не совпадает с именем на вашем "
-"документе."
-
-#: lms/djangoapps/verify_student/models.py
-msgid "The image of your face was not clear."
-msgstr "Изображение вашего лица недостаточно чёткое"
-
-#: lms/djangoapps/verify_student/models.py
-msgid "Your face was not visible in your self-photo."
-msgstr "На снимке не было видно вашего лица."
-
-#: lms/djangoapps/verify_student/models.py
-msgid "There was an error verifying your ID photos."
-msgstr "Произошла ошибка при проверке фотографий вашего документа"
-
-#: lms/djangoapps/verify_student/views.py
-msgid "Invalid checkpoint location"
-msgstr "Неверное местоположение контрольной точки"
-
-#: lms/templates/registration/password_reset_email.html
-#, python-format
-msgid ""
-"You're receiving this e-mail because you requested a password reset for your"
-" user account at %(site_name)s."
-msgstr ""
-"Вы получили это сообщение, потому что запросили смену пароля своей учётной "
-"записи на %(site_name)s."
-
-#: openedx/core/djangoapps/coursetalk/models.py
-msgid ""
-"The platform key associates CourseTalk widgets with your platform. "
-"Generally, it is the domain name for your platform. For example, if your "
-"platform is http://edx.org, the platform key is \"edx\"."
-msgstr ""
-"Ключ платформы связывает виджет CourseTalk с вашей платформой. Чаще всего "
-"это доменное имя вашей платформы. Например, если вы работаете с "
-"http://edx.org, ключом платформы будет «edx»."
-
-#: openedx/core/djangoapps/dark_lang/views.py
-msgid "Language code not provided"
-msgstr "Код языка не указан"
-
-#: openedx/core/djangoapps/dark_lang/views.py
-msgid "Language reset to the default language code"
-msgstr "Возврат к языковым настройкам по умолчанию"
-
-#: openedx/core/djangoapps/dark_lang/views.py
-msgid "Language reset to user's preference: {preview_language_code}"
-msgstr "Смена языка по предпочтению пользователя: {preview_language_code}"
-
-#. Translators: This label appears above a field on the registration form
-#. meant to hold the user's full name.
-#: openedx/core/djangoapps/user_api/views.py
-msgid "Full name"
-msgstr "Полное имя"
-
-#. Translators: This example name is used as a placeholder in
-#. a field on the registration form meant to hold the user's name.
-#: openedx/core/djangoapps/user_api/views.py
-msgid "Jane Doe"
-msgstr "Мария Иванова"
-
-#. Translators: This label appears above a field on the registration form
-#. meant to hold the user's public username.
-#: openedx/core/djangoapps/user_api/views.py
-msgid "Public username"
-msgstr "Имя пользователя"
-
-#. Translators: These instructions appear on the registration form,
-#. immediately
-#. below a field meant to hold the user's public username.
-#: openedx/core/djangoapps/user_api/views.py
-msgid ""
-"The name that will identify you in your courses - {bold_start}(cannot be "
-"changed later){bold_end}"
-msgstr ""
-"Ваше имя, под которым вы будете проходить курс - {bold_start}(не может быть "
-"впоследствии изменено){bold_end}"
-
-#. Translators: This example username is used as a placeholder in
-#. a field on the registration form meant to hold the user's username.
-#: openedx/core/djangoapps/user_api/views.py
-msgid "JaneDoe"
-msgstr "maria_ivanova"
-
-#: openedx/core/djangoapps/user_api/views.py
-msgid "Please select your Country."
-msgstr "Пожалуйста, выберите свою страну."
-
-#: cms/djangoapps/contentstore/views/assets.py
-msgid ""
-"File {filename} exceeds maximum size of {size_mb} MB. Please follow the "
-"instructions here to upload a file elsewhere and link to it instead: "
-"{faq_url}"
-msgstr ""
-"Размер файла {filename} превышает предельно допустимое значение {size_mb} "
-"МБ. Чтобы загрузить файл в другое место или вставить ссылку на файл, "
-"следуйте инструкциям: {faq_url}"
-
-#: lms/templates/staff_problem_info.html
-msgid "Staff Debug"
-msgstr "Отладка для сотрудников"
-
-#: lms/templates/courseware/info.html
-msgid ""
-"You are not currently enrolled in this course. {link_start}Sign up "
-"now!{link_end}"
-msgstr ""
-"Пока вы не записаны на этот курс. {link_start}Записаться сейчас!{link_end}"
-
-#: lms/templates/dashboard/_dashboard_certificate_information.html
-msgid ""
-"Final course details are being wrapped up at this time. Your final standing "
-"will be available shortly."
-msgstr ""
-"Сейчас идёт заключительный этап работы над курсом. ваша финальная оценка "
-"скоро будет доступна."
-
-#: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "I'm learning on {platform_name}:"
-msgstr "Я учусь на {platform_name}:"
-
-#: lms/templates/dashboard/_dashboard_course_listing.html
-#, python-format
-msgid ""
-"Are you sure you want to unenroll from the purchased course %(course_name)s "
-"(%(course_number)s)?"
-msgstr ""
-"Вы уверены, что хотите отменить запись на оплаченный Вами курс "
-"%(course_name)s (%(course_number)s)?"
-
-#: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "You will be refunded the amount you paid."
-msgstr "Вам будут возвращена сумма, которую вы заплатили."
-
-#: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "You will not be refunded the amount you paid."
-msgstr "Вам не будет возвращена сумма которую вы заплатили."
-
-#: lms/templates/dashboard/_dashboard_course_listing.html
-#, python-format
-msgid ""
-"Are you sure you want to unenroll from %(course_name)s (%(course_number)s)?"
-msgstr ""
-"Вы уверены, что хотите отменить запись на курс %(course_name)s "
-"(%(course_number)s)?"
-
-#: lms/templates/dashboard/_dashboard_course_listing.html
-#, python-format
-msgid ""
-"Are you sure you want to unenroll from the verified %(cert_name_long)s track"
-" of %(course_name)s (%(course_number)s)?"
-msgstr ""
-"Вы уверены, что хотите отписаться от подтверждённого %(cert_name_long)s "
-"трека %(course_name)s (%(course_number)s)?"
-
-#: lms/templates/dashboard/_dashboard_course_listing.html
-msgid ""
-"The refund deadline for this course has passed, so you will not receive a "
-"refund."
-msgstr ""
-"Срок возврата денег для этого курса прошёл, так что вы не сможете получить "
-"возмещение."
-
-#. Translators: This labels a cohort menu in forum navigation
-#: lms/templates/discussion/_thread_list_template.html
-msgid "Cohort:"
-msgstr "Группа:"
-
-#: lms/templates/discussion/_thread_list_template.html
-msgid "in all cohorts"
-msgstr "во всех группах"
-
-#: lms/templates/emails/activation_email.txt
-#: themes/edx.org/lms/templates/emails/activation_email.txt
-msgid "Thank you for creating an account with {platform_name}!"
-msgstr "Благодарим Вас за создание учётной записи на {platform_name}!"
-
-#: lms/templates/emails/activation_email.txt
-msgid ""
-"There's just one more step before you can enroll in a course: you need to "
-"activate your {platform_name} account. To activate your account, click the "
-"following link. If that doesn't work, copy and paste the link into your "
-"browser's address bar."
-msgstr ""
-"Остался всего ещё один шаг, и Вы сможете записаться на курс: Вам нужно "
-"активировать свою учётную запись на {platform_name}. Для активации нажмите "
-"на нижеследующую ссылку. Если ссылка не работает, скопируйте и вставьте её в"
-" адресную строку своего браузера."
-
-#: lms/templates/emails/activation_email.txt
-msgid ""
-"If you didn't create an account, you don't need to do anything; you won't "
-"receive any more email from us. If you need assistance, please do not reply "
-"to this email message. Check the help section of the {platform_name} "
-"website."
-msgstr ""
-"Если Вы не создавали учётную запись, дальнейших действий не требуется; Вы "
-"больше не будете получать от нас сообщения.  Если Вам потребуется помощь, "
-"пожалуйста, не отвечайте на это сообщение.  Обратитесь к разделу \"Помощь\" "
-"на веб-сайте {platform_name}."
-
-#: lms/templates/emails/activation_email_subject.txt
-msgid "Activate Your {platform_name} Account"
-msgstr "Активация учётной записи {platform_name} "
-
-#: lms/templates/enrollment/course_enrollment_message.html
-msgid ""
-"Thank you for enrolling in {enrolled_course}. We hope you enjoy the course."
-msgstr ""
-"Спасибо за регистрацию на курс  {enrolled_course}. Надеемся, что вы получите"
-" от него удовольствие."
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html
-msgid ""
-"If this option is <em>checked</em>, users who have not yet registered for "
-"{platform_name} will be automatically enrolled."
-msgstr ""
-"Если эта опция <em>отмечена</em>, пользователи, не зарегистрированные в "
-"{platform_name}, будут автоматически зачислены на курс."
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html
-msgid ""
-"If this option is left <em>unchecked</em>, users who have not yet registered"
-" for {platform_name} will not be enrolled, but will be allowed to enroll "
-"once they make an account."
-msgstr ""
-"Если эта опция <em>не отмечена</em>, пользователи, не зарегистрированные в "
-"{platform_name} не будут зачислены на курс. Однако они смогут записать на "
-"него, создав учетную запись."
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html
-msgid ""
-"If this option is <em>checked</em>, users will receive an email "
-"notification."
-msgstr ""
-"Если эта опция <em>отмечена</em>, пользователи будут получать уведомления по"
-" электронной почте."
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html
-msgid ""
-"If this option is <em>checked</em>, users who have not enrolled in your "
-"course will be automatically enrolled."
-msgstr ""
-"Если эта опция <em>отмечена</em>, то пользователи, которые не записаны на "
-"ваш курс, будут автоматически записаны."
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html
-msgid ""
-"Discussion Admins can edit or delete any post, clear misuse flags, close and"
-" re-open threads, endorse responses, and see posts from all cohorts. Their "
-"posts are marked as 'staff'. They can also add and remove the discussion "
-"moderation roles to manage course team membership. You can only give course "
-"team roles to enrolled users."
-msgstr ""
-"Администраторы обсуждений могут просматривать обсуждения всех групп, "
-"изменять и удалять любые сообщения, снимать жалобы, закрывать и снова "
-"открывать темы, а также рекомендовать полезные ответы. Их сообщения помечены"
-" словом «Сотрудник». Кроме того, они могут назначать модераторов. "
-"Присваивать эту и другие роли можно только зарегистрированным пользователям."
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html
-msgid ""
-"Discussion Moderators can edit or delete any post, clear misuse flags, close"
-" and re-open threads, endorse responses, and see posts from all cohorts. "
-"Their posts are marked as 'staff'. They cannot manage course team membership"
-" by adding or removing discussion moderation roles. You can only give course"
-" team roles to enrolled users."
-msgstr ""
-"Модераторы могут просматривать обсуждения всех групп, изменять и удалять "
-"любые сообщения, снимать жалобы, закрывать и снова открывать темы, а также "
-"рекомендовать полезные ответы. Их сообщения помечены словом «Сотрудник». "
-"Однако они не могут назначать других модераторов. Присваивать эту и другие "
-"роли можно только зарегистрированным пользователям."
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html
-msgid "Discussion Community TAs"
-msgstr "Старосты сообщества"
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html
-msgid ""
-"Community TA's are members of the community whom you deem particularly "
-"helpful on the discussion boards. They can edit or delete any post, clear "
-"misuse flags, close and re-open threads, endorse responses, and see posts "
-"from all cohorts. Their posts are marked as 'Community TA'. You can only "
-"give course team roles to enrolled users."
-msgstr ""
-"Старосты – это члены сообщества, которые активно участвуют в обсуждениях и "
-"помогают другим. Они могут просматривать дискуссии всех групп, изменять и "
-"удалять любые сообщения, снимать жалобы, закрывать и снова открывать темы, а"
-" также рекомендовать полезные ответы. Их сообщения помечены словом "
-"«староста»."
-
-#: lms/templates/modal/accessible_confirm.html
-msgid "Confirm"
-msgstr "Подтвердить"
-
-#. Translators: this text gives status on if the modal interface (a menu or
-#. piece of UI that takes the full focus of the screen) is open or not
-#: lms/templates/modal/accessible_confirm.html
-msgid "modal open"
-msgstr "открыто модальное окно"
-
-#: lms/templates/modal/accessible_confirm.html
-msgid "OK"
-msgstr "ОК"
-
-#: lms/templates/modal/accessible_confirm.html
-msgid "open"
-msgstr "открыть"
-
-#: lms/templates/registration/activation_complete.html
-msgid "Account Activated"
-msgstr "Учётная запись активирована"
-
-#: lms/templates/registration/activation_complete.html
-msgid "Account already active"
-msgstr "Учётная запись уже активирована"
-
-#: themes/red-theme/lms/templates/header.html
-msgid "More options dropdown"
-msgstr "Меню с дополнительными опциями"
-
-#: themes/red-theme/lms/templates/header.html
-msgid "Register Now"
-msgstr "Зарегистрируйтесь прямо сейчас"
-
-#: cms/templates/group_configurations.html
-msgid ""
-"Each content group that you create can be associated with one or more "
-"cohorts. In addition to course content that is intended for all students, "
-"you can designate some content as visible only to specified content groups. "
-"Only learners in the cohorts that are associated with the specified content "
-"groups see the additional content."
-msgstr ""
-"Каждая созданная группа по изучаемым материалам должна быть связана не менее"
-" чем с одной группой в курсе. В дополнение к материалам курса, "
-"предназначенным для всех слушателей, вы можете указать, что некоторые "
-"материалы доступны только определённым группам. Только члены этих групп, "
-"получат доступ к дополнительным материалам."
-
-#: cms/templates/group_configurations.html
-msgid ""
-"Use experiment group configurations if you are conducting content "
-"experiments, also known as A/B testing, in your course. Experiment group "
-"configurations define how many groups of students are in a content "
-"experiment. When you create a content experiment for a course, you select "
-"the group configuration to use."
-msgstr ""
-"Используйте настройку экспериментальных групп если вы хотите провести "
-"А/Б-тестирование материалов вашего курса. Данная настройка определяет, "
-"сколько групп слушателей будет участвовать в эксперименте.  Когда вы "
-"создаёте экспериментальный материал, укажите группы, которые будут его "
-"использовать."
-
-#: cms/templates/index.html
-msgid "Re-run Course"
-msgstr "Перезапустить курс"
-
-#: cms/templates/index.html
-msgid "(Read-only)"
-msgstr "(Только для чтения)"
-
-#: cms/templates/settings.html
-msgid ""
-"Identify the course language here. This is used to assist users find courses"
-" that are taught in a specific language."
-msgstr ""
-"Укажите здесь язык обучения на курсе.  Это поможет пользователям найти "
-"курсы, которые преподаются на определённом языке."
-
-#: cms/templates/studio_xblock_wrapper.html
-msgid "Visibility Settings"
-msgstr "Настройки видимости"
-
-#: cms/templates/studio_xblock_wrapper.html
-msgid "Visibility"
-msgstr "Видимость"
-
-#: cms/templates/videos_index.html
-msgid "Why upload video files?"
-msgstr "Зачем загружать видео?"
-
-#: cms/templates/videos_index.html
-msgid "Maximum Video File Size"
-msgstr "Максимальный размер видео файла"
-
-#: cms/templates/videos_index.html
-msgid "Monitoring files as they upload"
-msgstr "Контроль загрузки файлов"
-
-#: cms/templates/videos_index.html
-msgid ""
-"Each video file that you upload needs to reach the video processing servers "
-"successfully before additional work can begin. You can monitor the progress "
-"of files as they upload, and try again if the upload fails."
-msgstr ""
-"Каждый видео файл, который вы загружаете, должен пройти обработку нашим "
-"видеосервером прежде чем вы сможете продолжить. Вы можете следить за ходом "
-"загрузки файлов, и попробовать снова, если в процессе загрузки произошла "
-"ошибка."
-
-#: cms/templates/videos_index.html
-msgid "Managing uploaded files"
-msgstr "Управление загруженными файлами"
-
-#: cms/templates/videos_index.html
-msgid ""
-"After a file uploads successfully, automated processing begins. The file is "
-"then listed under Previous Uploads as {em_start}In Progress{em_end}. You can"
-" add the video to your course as soon as it has a unique video ID and the "
-"status is {em_start}Ready{em_end}. Allow 24 hours for file processing at the"
-" external video hosting sites to complete."
-msgstr ""
-"После успешной загрузки файла начинается его автоматическая обработка. Затем"
-" файл попадает в список  «Предыдущие загрузки» со статусом "
-"{em_start}Выполняется{em_end}. Вы сможете добавить видео в ваш курс, как "
-"только оно получит уникальный идентификатор и статус "
-"{em_start}Готово{em_end}. Для успешного завершения процесса на сторонних "
-"видеохостингах разрешите обработку видео в течение 24 часов."
-
-#: cms/templates/videos_index.html
-msgid ""
-"If something goes wrong, the {em_start}Failed{em_end} status message "
-"appears. Check for problems in your original file and upload a replacement."
-msgstr ""
-"Если что-то пойдет не так, то будет отображён статус "
-"{em_start}Неудачно{em_end}. В этом случае рекомендуется проверить ваш файл "
-"на наличие ошибок и загрузить его повторно."
-
-#: cms/templates/videos_index.html
-msgid "How do I get the videos into my course?"
-msgstr "Как добавить видеоматериалы в свой курс?"
-
-#: wiki/views/article.py
-msgid "A new revision of the article was succesfully added."
-msgstr "Новая версия статьи была успешно добавлена."
-
-#: models.py:700
-msgid "Additional Time (minutes)"
-msgstr "Дополнительное Время (минуты)"
-
-#: templates/proctored_exam/confirm-decline.html:19
-msgid "Go Back"
-msgstr "Вернуться"
+"Имя файла должно содержать буквы, цифры, дефисы (-) и подчеркивания (_)."
+
+#: cms/djangoapps/contentstore/views/videos.py:247
+msgid "An image file is required."
+msgstr "Необходим файл изображения."
+
+#: cms/envs/common.py:144
+msgid "Your Platform Studio"
+msgstr "Studio вашей платформы"
+
+#: cms/envs/common.py:145
+msgid "Studio"
+msgstr "Studio"
+
+#: cms/urls.py:17
+msgid "Studio Administration"
+msgstr "Управление Studio"
 
 #: common/djangoapps/course_modes/views.py
 msgid "Congratulations!  You are now enrolled in {course_name}"
@@ -3229,7 +3022,7 @@ msgstr "Все темы"
 #. Translators: This is a menu option for showing only unread forum threads
 #: lms/templates/discussion/_thread_list_template.html
 msgid "Unread posts"
-msgstr "Непроочитанные темы"
+msgstr "Непрочитанные темы"
 
 #. Translators: This is a menu option for showing only unanswered forum
 #. question threads
@@ -4507,3 +4300,210 @@ msgstr ""
 "Добро пожаловать на страницу профиля. Ваш полный профиль покажет больше "
 "информации  для других слушателей. Вы также можете выбрать сокращенный  "
 "профиль. {learn_more_link_start}Узнать больше{learn_more_link_end}"
+
+#: cms/templates/asset_index.html:78
+msgid "Help adding Files and Uploads"
+msgstr "Помощь по загрузке и добавлению файлов"
+
+#: cms/templates/index.html:318
+msgid "Archived Courses"
+msgstr "Онлайн-курсы в архиве"
+
+#: cms/templates/settings.html:224
+msgid "By default, 48 hours after course end date"
+msgstr "По умолчанию, 48ч после даты окончания онлайн-курса"
+
+#: cms/templates/videos_index.html:64
+msgid "Course Video Settings"
+msgstr "Настройки видео в онлайн-курсе"
+
+#: cms/templates/visibility_editor.html:23
+msgid ""
+"Access to this unit is not restricted, but visibility might be affected by "
+"inherited settings."
+msgstr ""
+"Доступ к данному онлайн-курсу не ограничен, но на его видимость могут "
+"повлиять унаследованные настройки."
+
+#: cms/templates/visibility_editor.html:29
+msgid ""
+"You can restrict access to this unit to learners in specific enrollment "
+"tracks or content groups."
+msgstr ""
+"Вы можете ограничить доступ к данному юниту для слушателей в определенном "
+"зачислении или группах контента."
+
+#: cms/templates/visibility_editor.html:35
+msgid ""
+"You can restrict access to this unit to learners in specific content groups."
+msgstr ""
+"Вы можете ограничить доступ к данному юниту для слушателей в определенном "
+"группах контента."
+
+#: cms/templates/visibility_editor.html:115
+msgid ""
+"This group no longer exists.  Choose another group or remove the access "
+"restriction."
+msgstr ""
+"Данная группа больше не существует. Выберите другую или уберите настройки "
+"ограничения доступа."
+
+#: models.py:700
+msgid "Additional Time (minutes)"
+msgstr "Дополнительное Время (минуты)"
+
+#: templates/proctored_exam/confirm-decline.html:19
+msgid "Go Back"
+msgstr "Вернуться"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:106
+msgid "Allow File Upload"
+msgstr "Разрешить загрузить файл"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:109
+msgid "Image File"
+msgstr "Изображение"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:110
+msgid "PDF or Image File"
+msgstr "PDF или изображение"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:115
+msgid ""
+"Specify whether learners can submit a file along with their text response. "
+"Select Image to allow JPG, GIF, or PNG files. Select PDF or Image to allow "
+"PDF files and images. Select Custom File Types to allow files with "
+"extensions that you specify below. (Use this option with caution.)"
+msgstr ""
+"Уточните, могут ли слушатели отправлять файлы вместе с текстовыми ответами "
+"Изображение позволяет посылать JPG, GIF и PNG файлы. PDF или изображение "
+"позволяет посылать PDF и изображения. Выберите Дополнительные типы файлов "
+"чтобы позволить добавлять файлы с расширениями, которые вы укажете. "
+"(Используйте эту опцию с осторожностью) "
+
+#: openassessment/templates/openassessmentblock/message/oa_message_open.html:7
+#, python-format
+msgid ""
+"\n"
+"                    Assignment submissions will close soon. To receive a grade, first provide a response to the question, then complete the steps below the %(start_tag)sYour Response%(end_tag)s field.\n"
+"                "
+msgstr ""
+"\n"
+"                    Сдача задания вскоре будет закрыта. Чтобы получить оценку, сначала дайте ответ на вопрос, затем выполните шаги под полем %(start_tag)sВаш ответ%(end_tag)s.\n"
+"                "
+
+#: openassessment/templates/openassessmentblock/message/oa_message_open.html:11
+#, python-format
+msgid ""
+"\n"
+"                    This assignment has several steps. In the first step, you'll provide a response to the question. The other steps appear below the %(start_tag)sYour Response%(end_tag)s field.\n"
+"                "
+msgstr ""
+"\n"
+"                   В этом задании несколько шагов. На первом шаге вам нужно ответить на вопрос. Следующие шаги появятся под полем %(start_tag)sВаш ответ%(end_tag)s.\n"
+"                "
+
+#: openassessment/templates/openassessmentblock/oa_base.html:15
+msgid ""
+"This assignment has several steps. In the first step, you'll provide a "
+"response to the question. The other steps appear below the Your Response "
+"field."
+msgstr ""
+"В этом задании несколько шагов. На первом шаге вам нужно ответить на вопрос."
+" Следующие шаги появятся под полем %(start_tag)sВаш ответ%(end_tag)s."
+
+#: openassessment/templates/openassessmentblock/oa_uploaded_file.html:16
+msgid "The image associated with this submission."
+msgstr "Связанное с заданием изображение"
+
+#: openassessment/templates/openassessmentblock/oa_uploaded_file.html:20
+msgid "View the file associated with this submission."
+msgstr "Показаться связанный с этим заданием файл"
+
+#: openassessment/templates/openassessmentblock/oa_uploaded_file.html:23
+msgid ""
+"(Caution: This file was uploaded by another course learner and has not been "
+"verified, screened, approved, reviewed, or endorsed by the site "
+"administrator. If you decide to access it, you do so at your own risk.)"
+msgstr ""
+"(Осторожно: этот файл был загружен другим слушателем курса и не было "
+"проверен,просмотрен, одобрен или подтвержден администратором сайта. Риск за "
+"скачивание файла ложится на вас.)"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:71
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:54
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:54
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:28
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:27
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:49
+msgid "Associated File"
+msgstr "Связанный файл"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:88
+msgid "Enter your response to the question above."
+msgstr "Введите ваш ответ на вопрос ниже"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:98
+msgid "We could not upload this file"
+msgstr "Мы не смогли загрузить этот файл"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:104
+msgid "Upload your file"
+msgstr "Загрузите фаш файл"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_graded.html:31
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:52
+msgid "Your Uploaded File"
+msgstr "Ваш загруженный файл"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:42
+msgid "Field"
+msgstr "Поле"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:43
+msgid "Value"
+msgstr "Значение"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:47
+msgid "Created at"
+msgstr "Создан в"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:51
+msgid "Algorithm ID"
+msgstr "ID алгоритма"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:55
+msgid "Course ID"
+msgstr "ID курса"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:59
+msgid "Item ID"
+msgstr "ID элемента"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:25
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:24
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:46
+msgid "The learner's response to the question above"
+msgstr "Ответ слушателя на вопрос выше"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:75
+msgid "The response to the question above:"
+msgstr "Ответ на вопрос выше:"
+
+msgid ""
+"\n"
+"                            <span class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"                        "
+msgstr ""
+"\n"
+"                            <span class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"к {date} (через %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"                        "
+
+msgid ""
+"\n"
+"                        <span class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"                        "
+msgstr ""
+"\n"
+"                        <span class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"к {date} (через %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"                        "
