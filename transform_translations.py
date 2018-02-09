@@ -183,7 +183,7 @@ def compile(directory="collected/", directory_out="ru/LC_MESSAGES/"):
         for f,p in po_objs_py.items():
             found_entry = get_entry(p, key)
             if found_entry:
-                print("\t {} : {}".format(f, found_entry.msgstr))
+                print(u"\t {} : {}".format(f, found_entry.msgstr))
 
     if fuzzy_js:
         print("In js({}):".format(len(fuzzy_js)))
@@ -193,7 +193,7 @@ def compile(directory="collected/", directory_out="ru/LC_MESSAGES/"):
         for f,p in po_objs_js.items():
             found_entry = get_entry(p, key)
             if found_entry:
-                print("\t {} : {}".format(f, found_entry.msgstr))
+                print(u"\t {} : {}".format(f, found_entry.msgstr))
     print("="*len(fuzzy_mes))
     """
     empty_py = dict((key, value) for key,value in npoed_py.items() if value == "")
@@ -240,6 +240,15 @@ def fix_total(directory="ru/LC_MESSAGES/"):
     npoed_py.save(directory + FINAL_PO_NAME)
     npoed_js.save(directory + FINAL_JS_PO_NAME)
 
+
+def to_mofile(directory="ru/LC_MESSAGES/"):
+    django = polib.pofile(directory + "django.po")
+    django.save_as_mofile(directory + "django.mo")
+
+    django_js = polib.pofile(directory + "djangojs.po")
+    django_js.save_as_mofile(directory + "djangojs.mo")
+
+
 if __name__ == "__main__":
     err = ValueError("You must give 1 arg: 'separate', 'compile' or 'fix'")
     if len(sys.argv) < 2:
@@ -250,5 +259,7 @@ if __name__ == "__main__":
         compile()
     elif sys.argv[1] == "fix":
         fix_total()
+    elif sys.argv[1] == "to_mofile":
+        to_mofile()
     else:
         raise err
