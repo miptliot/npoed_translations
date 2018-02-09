@@ -108,3 +108,9 @@ msgstr "Studio"
 #: cms/urls.py:17
 msgid "Studio Administration"
 msgstr "Управление Studio"
+
+msgid "You can not save proctored exam without due date. Please set due date."
+msgstr "Нельзя сохранить экзамен с прокторингом, не указав срок сдачи. Пожалуйста, укажите срок сдачи"
+
+msgid "Exam '{}' doesn't have due date. It may lead to the proctoring problems, please add due date."
+msgstr "У экзамена '{}' не указан срок сдачи. Это может привести к ошибкам во время прохождения прокторинга, пожалуйста, укажите срок сдачи."
