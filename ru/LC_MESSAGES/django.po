@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4519,3 +4519,12 @@ msgid ""
 msgstr ""
 "Вы можете сделать этот элемент видимым для определенной группы слушателей  "
 "на основе созданных вами групп по изучаемым материалам."
+
+msgid "Instructor Student Attempt Resets"
+msgstr "Сброс ответов студентов преподавателями"
+
+msgid "Apply Username Filter"
+msgstr "Фильтровать по имени пользователя"
+
+msgid "Leave blank to turn filter off"
+msgstr "Оставьте пустым чтобы отключить"
