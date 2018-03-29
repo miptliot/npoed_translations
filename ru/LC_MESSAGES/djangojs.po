@@ -2560,3 +2560,9 @@ msgstr "Дополнительное Время (минуты)"
 #: templates/proctored_exam/confirm-decline.html:19
 msgid "Go Back"
 msgstr "Вернуться"
+
+msgid "Bookmark this page"
+msgstr "Добавить в закладки"
+
+msgid "Bookmarked"
+msgstr "Добавлено в закладки"

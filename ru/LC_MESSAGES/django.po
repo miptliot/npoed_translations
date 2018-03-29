@@ -4528,3 +4528,6 @@ msgstr "Фильтровать по имени пользователя"
 
 msgid "Leave blank to turn filter off"
 msgstr "Оставьте пустым чтобы отключить"
+
+msgid "{subsection_format} due {{date}}"
+msgstr "{subsection_format} до {{date}}"
