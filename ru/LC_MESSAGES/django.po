@@ -4531,3 +4531,13 @@ msgstr "Оставьте пустым чтобы отключить"
 
 msgid "{subsection_format} due {{date}}"
 msgstr "{subsection_format} до {{date}}"
+
+msgid "You must earn {threshold_percent}% (got {student_percent}%) for {category}."
+msgstr "За {category} необходимо набрать {threshold_percent}% (набрано {student_percent}%)."
+
+msgid "Requirements for Course Credit"
+msgstr "Требования для получения сертификата"
+
+# bad hack to remove text from certificate requirements
+msgid "Upcoming"
+msgstr " "
