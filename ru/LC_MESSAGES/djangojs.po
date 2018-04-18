@@ -2569,3 +2569,6 @@ msgstr "Добавлено в закладки"
 
 msgid "Minimum required percent for this category to get course credit."
 msgstr "Минимальный процент, необходимый для получения сертификата."
+
+msgid "Allowance Value"
+msgstr "Величина послабления"
