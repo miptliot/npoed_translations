@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4541,3 +4541,20 @@ msgstr "Требования для получения сертификата"
 # bad hack to remove text from certificate requirements
 msgid "Upcoming"
 msgstr " "
+
+msgid "by"
+msgstr " "
+
+msgid "Up one level"
+msgstr "Подняться на уровень вверх"
+
+msgid ""
+"\n"
+"        There %(articles_plur_verb)s %(cnt)s %(articles_plur)s in this "
+"level.\n"
+"      "
+msgstr ""
+"\n"
+"        Статей на этом уровне:  "
+"%(cnt)s.\n"
+"    "
