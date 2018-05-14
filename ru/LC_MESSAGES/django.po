@@ -4538,10 +4538,6 @@ msgstr "За {category} необходимо набрать {threshold_percent}%
 msgid "Requirements for Course Credit"
 msgstr "Требования для получения сертификата"
 
-# bad hack to remove text from certificate requirements
-msgid "Upcoming"
-msgstr " "
-
 msgid "by"
 msgstr " "
 
@@ -4558,3 +4554,9 @@ msgstr ""
 "        Статей на этом уровне:  "
 "%(cnt)s.\n"
 "    "
+
+msgid "Verification Failed"
+msgstr "Проверка не пройдена"
+
+msgid "Completed by {date}"
+msgstr "Выполнено {date}"
