@@ -4560,3 +4560,18 @@ msgstr "Проверка не пройдена"
 
 msgid "Completed by {date}"
 msgstr "Выполнено {date}"
+
+msgid "Your submission ID is:"
+msgstr "ID вашего задания:"
+
+msgid "Enter submission ID"
+msgstr "ID задания"
+
+msgid "To check specific submission enter it's ID."
+msgstr "Если вы хотите проверить конкретное задание, введите его ID."
+
+msgid "You will get this submission if it is possible."
+msgstr "Вы получите его на проверку, если это возможно."
+
+msgid "Sumbission ID:"
+msgstr "ID задания:"
