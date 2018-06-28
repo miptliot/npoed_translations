@@ -4562,16 +4562,16 @@ msgid "Completed by {date}"
 msgstr "Выполнено {date}"
 
 msgid "Your submission ID is:"
-msgstr "ID вашего задания:"
+msgstr "ID вашей работы:"
 
 msgid "Enter submission ID"
-msgstr "ID задания"
+msgstr "ID работы"
 
 msgid "To check specific submission enter it's ID."
-msgstr "Если вы хотите проверить конкретное задание, введите его ID."
+msgstr "Если вы хотите проверить конкретную работу, введите ее ID."
 
 msgid "You will get this submission if it is possible."
-msgstr "Вы получите его на проверку, если это возможно."
+msgstr "Вы получите ее на проверку, если это возможно."
 
 msgid "Sumbission ID:"
-msgstr "ID задания:"
+msgstr "ID работы:"
