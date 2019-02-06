@@ -133,10 +133,6 @@ msgstr ""
 msgid "e.g. en for English"
 msgstr "например, ru для русского языка"
 
-#: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:17
-msgid "Theming Administration"
-msgstr "Управление темами"
-
 #: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:25
 msgid "Preview Theme"
 msgstr "Предпросмотр темы"

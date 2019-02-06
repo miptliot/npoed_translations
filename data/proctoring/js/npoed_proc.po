@@ -163,10 +163,6 @@ msgstr ""
 msgid "Is Sample Attempt"
 msgstr ""
 
-#: models.py:700
-msgid "Additional Time (minutes)"
-msgstr "Дополнительное Время (минуты)"
-
 #: models.py:701
 msgid "Review Policy Exception"
 msgstr ""

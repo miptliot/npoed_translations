@@ -4,10 +4,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "\n"
 
-#: models.py:700
-msgid "Additional Time (minutes)"
-msgstr "Дополнительное Время (минуты)"
-
 #: templates/proctored_exam/confirm-decline.html:19
 msgid "Go Back"
 msgstr "Вернуться"

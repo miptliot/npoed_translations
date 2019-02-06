@@ -58,10 +58,6 @@ msgstr "Нажмите Удалить для удаления языка"
 msgid "Settings updated"
 msgstr "Настройки обновлены"
 
-#: cms/static/js/views/course_video_settings.js:491
-msgid "Last updated"
-msgstr "Последнее обновление"
-
 #: cms/static/js/views/course_video_settings.js:681
 msgid "Automatic transcripts are disabled."
 msgstr "Автоматические транскрипции отключены."

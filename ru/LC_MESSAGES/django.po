@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4528,50 +4528,3 @@ msgstr "Фильтровать по имени пользователя"
 
 msgid "Leave blank to turn filter off"
 msgstr "Оставьте пустым чтобы отключить"
-
-msgid "{subsection_format} due {{date}}"
-msgstr "{subsection_format} до {{date}}"
-
-msgid "You must earn {threshold_percent}% (got {student_percent}%) for {category}."
-msgstr "За {category} необходимо набрать {threshold_percent}% (набрано {student_percent}%)."
-
-msgid "Requirements for Course Credit"
-msgstr "Требования для получения сертификата"
-
-msgid "by"
-msgstr " "
-
-msgid "Up one level"
-msgstr "Подняться на уровень вверх"
-
-msgid ""
-"\n"
-"        There %(articles_plur_verb)s %(cnt)s %(articles_plur)s in this "
-"level.\n"
-"      "
-msgstr ""
-"\n"
-"        Статей на этом уровне:  "
-"%(cnt)s.\n"
-"    "
-
-msgid "Verification Failed"
-msgstr "Проверка не пройдена"
-
-msgid "Completed by {date}"
-msgstr "Выполнено {date}"
-
-msgid "Your submission ID is:"
-msgstr "ID вашей работы:"
-
-msgid "Enter submission ID"
-msgstr "ID работы"
-
-msgid "To check specific submission enter it's ID."
-msgstr "Если вы хотите проверить конкретную работу, введите ее ID."
-
-msgid "You will get this submission if it is possible."
-msgstr "Вы получите ее на проверку, если это возможно."
-
-msgid "Sumbission ID:"
-msgstr "ID работы:"
